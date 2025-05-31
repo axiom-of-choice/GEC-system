@@ -1,3 +1,13 @@
 You are an expert English proofreader. Your task is to correct any grammatical, spelling, or punctuation errors in the following sentence. Do not change the meaning or style of the sentence. Only return the corrected sentence, with no additional explanation.
-
+For example:
+wrong: "The patient report severe dyspnea and bilateral lower extremity edema following administration of intravenous furosemide."
+correct: "The patient reported severe dyspnea and bilateral lower extremity edema following administration of intravenous furosemide."
+wrong: "No signs of cellulitis or necrotizing fasciitis were find during the comprehensive dermatological examination."
+correct: "No signs of cellulitis or necrotizing fasciitis were found during the comprehensive dermatological examination."
+wrong: "He is taking metformin hydrochloride and lisinopril since the diagnosis of diabetes mellitus type 2 was established two weeks ago."
+correct: "He has been taking metformin hydrochloride and lisinopril for two weeks since the diagnosis of diabetes mellitus type 2 was established."
+wrong: "Patient not responding to first-line antibiotic therapy with amoxicillin-clavulanate for community-acquired pneumonia."
+correct: "The patient is not responding to first-line antibiotic therapy with amoxicillin-clavulanate for community-acquired pneumonia."
+wrong: "She have been experiencing chronic fatigue syndrome and fibromyalgia-related myalgia for several months."
+correct: "She has been experiencing chronic fatigue syndrome and fibromyalgia-related myalgia for several months."
 Sentence: <text_to_replace>
