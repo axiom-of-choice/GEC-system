@@ -3,35 +3,20 @@ import logging
 import sys
 import os
 import requests
-from typing import Dict, Union
+from typing import Dict, Union, Optional
 import asyncio
 import aiohttp
-
-# constants, ideally defined in other file and imported if done in a github repo
-
-FCE_URL = "https://www.cl.cam.ac.uk/research/nl/bea2019st/data/fce_v2.1.bea19.tar.gz"
-FCE_DEV_NAME = "fce.dev.gold.bea19.m2"
-FCE_TRAIN_NAME = "fce.train.gold.bea19.m2"
-FCE_TEST_NAME = "fce.test.gold.bea19.m2"
-FCE_DOWNLOAD_DATASET_DIR = os.path.join(os.getcwd(), "data")
-FCE_DATASET_DIR = os.path.join(os.getcwd(), "data/fce/m2")
-SENTENCE_TAG = "S "
-ANNOTATION_TAG = "A "
-NO_EDIT_TAG = "noop"
-SEP = "|||"
-## We're gonna use T5 small for this task because we're just correcting spelling and we don't wait to wait hours for training.
-MODEL_NAME = "t5-small"
-FINETUNED_MODEL_OUTPUT_DIR = "./t5_finetuned"
-PROMPT_PATH = os.path.join(os.getcwd(), "config/prompt.txt")
-LLAMA3_ENDPOINT = "http://127.0.0.1:11434/api/generate"
-TEXT_TO_REPLACE_IN_PROMPT = "<text_to_replace>"
-
+from transformers import T5ForConditionalGeneration, T5Tokenizer
+from config.constants import *
 
 class BaseInferenceEngine(ABC):
     def __init__(self):
         self.logger = logging.getLogger(self.__class__.__name__)
     @abstractmethod
     def correct_sentence(self, sentence: str) -> str:
+        pass
+    @abstractmethod
+    def batch_correct(self, sentences: list, batch_size: int = 16) -> list:
         pass
     
     
@@ -99,6 +84,19 @@ class Llama3InferenceEngine(BaseInferenceEngine):
             return corrected_sentence
         else:
             return ""
+        
+    def batch_correct(self, sentences: list, batch_size: int = 16) -> list:
+        """Not implemented for Llama3InferenceEngine as it does not support full batch inference yet.
+        This method is a placeholder to maintain interface consistency with BaseInferenceEngine.
+
+        Args:
+            sentences (list): _description_
+            batch_size (int, optional): _description_. Defaults to 16.
+
+        Returns:
+            list: _description_
+        """
+        return super().batch_correct(sentences, batch_size)
 
     # --- ASYNC BATCH INFERENCE ---
     async def async_correct_sentence(self, session, sentence: str) -> str:
@@ -109,6 +107,7 @@ class Llama3InferenceEngine(BaseInferenceEngine):
             "stream": self.stream,
             "format": self.response_format
         }
+        self.logger.info(f"Sending async request for sentence: {sentence}")
         async with session.post(self.model_endpoint, json=payload) as resp:
             response_data = await resp.json()
             if not response_data:
@@ -116,10 +115,72 @@ class Llama3InferenceEngine(BaseInferenceEngine):
             if "response" in response_data and isinstance(response_data["response"], str):
                 import json as _json
                 response_data["response"] = _json.loads(response_data["response"])
-            return response_data.get("response", {}).get("corrected_text", "")
+                corrected_text = response_data.get("response", {}).get("corrected_text", "")
+                self.logger.info(f"Async corrected sentence: {corrected_text}")
+            
+                return corrected_text if corrected_text else ""
+            else:
+                self.logger.error("Response format is not as expected.")
+                return ""
 
-    async def async_batch_correct(self, sentences):
-        async with aiohttp.ClientSession() as session:
-            tasks = [self.async_correct_sentence(session, s) for s in sentences]
+    async def async_batch_correct(self, sentences, max_concurrent=5):
+        timeout = aiohttp.ClientTimeout(total=60)
+        semaphore = asyncio.Semaphore(max_concurrent)
+        async with aiohttp.ClientSession(timeout=timeout) as session:
+            async def sem_task(sentence):
+                async with semaphore:
+                    return await self.async_correct_sentence(session, sentence)
+            tasks = [sem_task(s) for s in sentences]
             return await asyncio.gather(*tasks)
 
+
+
+class T5InferenceEngine(BaseInferenceEngine):
+    def __init__(self, model_dir: str, max_length: Optional[int] = None):
+        self.logger = logging.getLogger(self.__class__.__name__)
+        self.t5_model = T5ForConditionalGeneration.from_pretrained(model_dir)
+        self.tokenizer = T5Tokenizer.from_pretrained(model_dir)
+        self.max_length = max_length if max_length is not None else self.tokenizer.model_max_length
+        self.logger.info(f"T5 model loaded from {model_dir} with max length {self.max_length}")
+        
+
+    def correct_sentence(self, sentence:str) -> str:
+        """
+        Corrects a sentence using the T5 model.
+        Args:
+            sentence (str): The sentence to correct.
+        Returns:
+            str: The corrected sentence.
+        """
+        self.logger.info(f"Correcting sentence: {sentence}")
+        inputs = self.tokenizer("correct grammar: " + sentence, return_tensors="pt", padding=True, truncation=True, max_length=self.max_length)
+        outputs = self.t5_model.generate(**inputs, max_length=self.max_length)
+        corrected_sentence = self.tokenizer.decode(outputs[0], skip_special_tokens=True)
+        self.logger.info(f"Corrected sentence: {corrected_sentence}")
+        return corrected_sentence
+    
+    def batch_correct(self, sentences: list, batch_size: int = 16) -> list:
+        """
+        Corrects a batch of sentences using the T5 model.
+        Args:
+            sentences (list): List of sentences to correct.
+            batch_size (int): Number of sentences per batch.
+        Returns:
+            list: List of corrected sentences.
+        """
+        corrected = []
+        for i in range(0, len(sentences), batch_size):
+            self.logger.info(f"Processing batch {i // batch_size + 1} with size {min(batch_size, len(sentences) - i)}")
+            batch = sentences[i:i+batch_size]
+            inputs = self.tokenizer(
+                ["correct grammar: " + s for s in batch],
+                return_tensors="pt",
+                padding=True,
+                truncation=True,
+                max_length=self.max_length
+            )
+            outputs = self.t5_model.generate(**inputs, max_length=self.max_length)
+            batch_corrected = [self.tokenizer.decode(o, skip_special_tokens=True) for o in outputs]
+            corrected.extend(batch_corrected)
+        self.logger.info(f"Batch correction completed. Total corrected sentences: {len(corrected)}")
+        return corrected
