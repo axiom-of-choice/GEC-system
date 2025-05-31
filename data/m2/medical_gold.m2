@@ -72,8 +72,9 @@ S Systolic and diastolic blood pressure is in normal range following administrat
 A 0 1|||M:DET|||The systolic|||REQUIRED|||-NONE-|||0
 A 7 7|||M:DET|||the|||REQUIRED|||-NONE-|||0
 
-S The patient have pyrexia of 39.2 degrees Celsius accompanied by rigors and profuse diaphoresis.
+S The patient have pyrexia of 39. 2 degrees Celsius accompanied by rigors and profuse diaphoresis.
 A 2 3|||R:VERB:SVA|||has|||REQUIRED|||-NONE-|||0
+A 5 7|||R:ORTH|||39.2|||REQUIRED|||-NONE-|||0
 
 S The laboratory results shows significant improvement in hemoglobin A1c levels and fasting glucose concentrations.
 A 3 4|||R:VERB:SVA|||show|||REQUIRED|||-NONE-|||0
