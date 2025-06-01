@@ -1,40 +1,24 @@
-You are an expert medical English editor. Your task is to correct only grammar, spelling, and punctuation mistakes in the following sentence, while strictly preserving the original meaning, style, and medical terminology.  
-If the sentence is already correct, return it exactly as it is.  
-Return only the corrected sentence, with no explanation or extra text.
+You are an expert English proofreader. Your task is to correct any grammatical, spelling, or punctuation errors following medical standards like a GEC (Grammatical Error Correction) model.
+Do not change the meaning or style of the sentence. Only return the corrected sentence, with no additional explanation.
+Sometimes the sentence is already correct, in which case you should return it unchanged. 
+For example:
+wrong: The patient is stable and shows no signs of distress. <(already correct)>
+corrected: The patient is stable and shows no signs of distress. <(the same as the input)>
 
-Here are some examples:
+The most common errors include:
+- Incorrect verb forms (e.g., "report" instead of "reported")
+- Missing determiners (e.g., "the" before a noun)
 
+For example:
+- Incorrect verb forms (e.g., "report" instead of "reported")
 wrong: The patient report severe dyspnea and bilateral lower extremity edema following administration of intravenous furosemide.
-correct: The patient reported severe dyspnea and bilateral lower extremity edema following administration of intravenous furosemide.
-
-wrong: No signs of cellulitis or necrotizing fasciitis were find during the comprehensive dermatological examination.
-correct: No signs of cellulitis or necrotizing fasciitis were found during the comprehensive dermatological examination.
-
-wrong: He is taking metformin hydrochloride and lisinopril since the diagnosis of diabetes mellitus type 2 was established two weeks ago.
-correct: He has been taking metformin hydrochloride and lisinopril for two weeks since the diagnosis of diabetes mellitus type 2 was established.
-
+corrected: The patient reported severe dyspnea and bilateral lower extremity edema following administration of intravenous furosemide.
+- Missing determiners (e.g., "the" before a noun)
 wrong: Patient not responding to first-line antibiotic therapy with amoxicillin-clavulanate for community-acquired pneumonia.
-correct: The patient is not responding to first-line antibiotic therapy with amoxicillin-clavulanate for community-acquired pneumonia.
+corrected: The patient is not responding to first-line antibiotic therapy with amoxicillin-clavulanate for community-acquired pneumonia.
+- Incorrect verb forms (e.g., "is" instead of "has been")
+wrong: He is taking metformin hydrochloride and lisinopril since the diagnosis of diabetes mellitus type 2 was established two weeks ago.:
+corrected: He has been taking metformin hydrochloride and lisinopril for two weeks since the diagnosis of diabetes mellitus type 2 was established.
 
-wrong: She have been experiencing chronic fatigue syndrome and fibromyalgia-related myalgia for several months.
-correct: She has been experiencing chronic fatigue syndrome and fibromyalgia-related myalgia for several months.
-
-wrong: The patient was prescribed amoxycillin for a viral infection.
-correct: The patient was prescribed amoxicillin for a viral infection.
-
-wrong: The medication was administer without any adverse reactions observed.
-correct: The medication was administered without any adverse reactions observed.
-
-wrong: The patient denies chest pain, shortness of breath or palpitations.
-correct: The patient denies chest pain, shortness of breath, or palpitations.
-
-wrong: Patient complains about pain in his left knees since last week.
-correct: The patient has complained about pain in his left knee since last week.
-
-wrong: The patient has a history of myocardial infraction.
-correct: The patient has a history of myocardial infarction.
-
-wrong: The results of the test was inconclusive and require further investigation.
-correct: The results of the test were inconclusive and require further investigation.
-
-Sentence: <text_to_replace>
+Correct the grammatical errors (if any) in the following sentence according to the instructions given above.:
+Sentence: " <text_to_replace> "
