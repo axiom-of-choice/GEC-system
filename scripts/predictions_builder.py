@@ -6,6 +6,13 @@ import os
 import logging
 import asyncio
 
+import logging
+
+logging.basicConfig(
+    level=logging.INFO,  # or DEBUG for more verbosity
+    format="%(asctime)s - %(levelname)s - %(name)s - %(message)s"
+)
+
 def main():
     parser = argparse.ArgumentParser(description="CLI for Prediction")
     parser.add_argument("data", choices=["medical", "fce"], help="Data to predict on")

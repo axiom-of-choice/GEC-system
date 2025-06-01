@@ -34,12 +34,19 @@ class Llama3InferenceEngine(BaseInferenceEngine):
         },
         "required": ["original_text", "corrected_text"]
     }
+    options: Dict[str, Union[str, int, float]] = {
+        "temperature": 0.0,
+        "seed": 123,
+        "top_k": 10,
+        "top_p": 0.5
+    }
     
     def __init__(self, model_endpoint: str, prompt_path: str):
         self.logger = logging.getLogger(self.__class__.__name__)
         self.model_endpoint = model_endpoint
         self.prompt_path = prompt_path
         self.prompt = self._parse_prompt()
+        self.logger.info(f"Llama3InferenceEngine initialized with model endpoint: {self.model_endpoint} and prompt path: {self.prompt_path}, options: {self.options}")
         
     def _parse_prompt(self) -> str:
         with open(self.prompt_path, 'r') as file:
@@ -61,7 +68,8 @@ class Llama3InferenceEngine(BaseInferenceEngine):
                     "model": self.model_name,
                     "prompt": str(prompt),
                     "stream": self.stream,
-                    "format": self.response_format
+                    "format": self.response_format,
+                    "options": self.options
                 }
             )
             response_data = response.json()
@@ -105,7 +113,8 @@ class Llama3InferenceEngine(BaseInferenceEngine):
             "model": self.model_name,
             "prompt": str(prompt),
             "stream": self.stream,
-            "format": self.response_format
+            "format": self.response_format,
+            "options": self.options
         }
         self.logger.info(f"Sending async request for sentence: {sentence}")
         async with session.post(self.model_endpoint, json=payload) as resp:
