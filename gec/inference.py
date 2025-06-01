@@ -35,9 +35,8 @@ class Llama3InferenceEngine(BaseInferenceEngine):
         "required": ["original_text", "corrected_text"]
     }
     options: Dict[str, Union[str, int, float]] = {
-        "temperature": 0.0,
-        "seed": 123,
-        "top_k": 10,
+        "temperature": 0.2,
+        "top_k": 20,
         "top_p": 0.5
     }
     
@@ -117,6 +116,7 @@ class Llama3InferenceEngine(BaseInferenceEngine):
             "options": self.options
         }
         self.logger.info(f"Sending async request for sentence: {sentence}")
+        self.logger.debug(f"Payload: {payload}")
         async with session.post(self.model_endpoint, json=payload) as resp:
             response_data = await resp.json()
             if not response_data:

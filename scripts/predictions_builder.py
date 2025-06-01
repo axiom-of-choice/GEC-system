@@ -5,12 +5,16 @@ from datasets import load_from_disk, Dataset, DatasetDict
 import os
 import logging
 import asyncio
-
+import sys
 import logging
 
 logging.basicConfig(
-    level=logging.INFO,  # or DEBUG for more verbosity
-    format="%(asctime)s - %(levelname)s - %(name)s - %(message)s"
+    level=logging.DEBUG,  # or DEBUG for more verbosity
+    format="%(asctime)s - %(levelname)s - %(name)s - %(message)s",
+    handlers=[
+        logging.StreamHandler(sys.stdout),  # Output to console
+        logging.FileHandler("predictions_builder.log")  # Output to a file
+    ]
 )
 
 def main():
@@ -59,6 +63,7 @@ def main():
         'target': preprocessed_dataset['test']['target'],
         'prediction': prediction
     }).to_pandas()
+    logging.info(f"Saving predictions to {args.save_to}")
     prediction_df.to_csv(args.save_to, index=False)
 
 if __name__ == "__main__":
