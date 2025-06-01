@@ -69,10 +69,9 @@ A 4 4|||M:DET|||a|||REQUIRED|||-NONE-|||0
 S Systolic and diastolic blood pressure is in normal range following administration of antihypertensive medication regimen.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
-S The patient have pyrexia of 39.2 degrees Celsius accompanied by rigors and profuse diaphoresis.
+S The patient have pyrexia of 39. 2 degrees Celsius accompanied by rigors and profuse diaphoresis.
 A 2 3|||R:VERB:SVA|||has|||REQUIRED|||-NONE-|||0
-A 5 6|||R:ORTH|||39. 2|||REQUIRED|||-NONE-|||0
-A 10 11|||R:SPELL|||rigorous|||REQUIRED|||-NONE-|||0
+A 11 12|||R:SPELL|||rigorous|||REQUIRED|||-NONE-|||0
 
 S The laboratory results shows significant improvement in hemoglobin A1c levels and fasting glucose concentrations.
 A 3 4|||R:VERB:SVA|||show|||REQUIRED|||-NONE-|||0

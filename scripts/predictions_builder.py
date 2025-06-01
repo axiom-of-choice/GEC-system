@@ -1,12 +1,10 @@
 from gec.inference import T5InferenceEngine, Llama3InferenceEngine
-from config.constants import PROMPT_PATH, LLAMA3_ENDPOINT, FINAL_MODEL_DIR, FCE_DOWNLOAD_DATASET_DIR
+from config.constants import MEDICAL_PROMPT_PATH, GENERAL_PROMPT_PATH, LLAMA3_ENDPOINT, FINAL_MODEL_DIR, FCE_DOWNLOAD_DATASET_DIR
 import argparse
 from datasets import load_from_disk, Dataset, DatasetDict
 import os
 import logging
 import asyncio
-
-logger = logging.getLogger(__name__)
 
 def main():
     parser = argparse.ArgumentParser(description="CLI for Prediction")
@@ -18,14 +16,15 @@ def main():
     if args.engine == "t5":
         prediction_engine = T5InferenceEngine(model_dir=FINAL_MODEL_DIR, max_length=650)
     elif args.engine == "llama":
-        prediction_engine = Llama3InferenceEngine(model_endpoint=LLAMA3_ENDPOINT, prompt_path=PROMPT_PATH)
+        prompt_path = MEDICAL_PROMPT_PATH if args.data == "medical" else GENERAL_PROMPT_PATH
+        prediction_engine = Llama3InferenceEngine(model_endpoint=LLAMA3_ENDPOINT, prompt_path=prompt_path)
         # prediction_engine.logger.error("LLAMA3 endpoint does not support full batch inference yet. Please use T5 for batch predictions.")
     else:
         raise ValueError("Unsupported engine type. Choose 't5' or 'llama'.")
         
         
     if args.data == "fce":
-        preprocessed_dataset = load_from_disk(os.path.join(FCE_DOWNLOAD_DATASET_DIR, "preprocessed_fce_dataset"))
+        preprocessed_dataset = load_from_disk(os.path.join(FCE_DOWNLOAD_DATASET_DIR, "fce/preprocessed_fce_dataset"))
     elif args.data == "medical":
         import pandas as pd
         medical_df = pd.read_csv("/Users/isaac/Developer/GEC-system/data/data.csv")  # columns should be ['source', 'target']

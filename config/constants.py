@@ -14,7 +14,8 @@ SEP = "|||"
 ## We're gonna use T5 small for this task because we're just correcting spelling and we don't wait to wait hours for training.
 MODEL_NAME = "t5-small"
 FINETUNED_MODEL_OUTPUT_DIR = "./t5_finetuned"
-PROMPT_PATH = os.path.join(os.getcwd(), "config/prompt.txt")
+MEDICAL_PROMPT_PATH = os.path.join(os.getcwd(), "config/prompt_medical.txt")
+GENERAL_PROMPT_PATH = os.path.join(os.getcwd(), "config/prompt_general.txt")
 LLAMA3_ENDPOINT = "http://127.0.0.1:11434/api/generate"
 TEXT_TO_REPLACE_IN_PROMPT = "<text_to_replace>"
 FINAL_MODEL_DIR = os.path.join(os.getcwd(), "models/finished")

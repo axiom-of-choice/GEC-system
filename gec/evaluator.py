@@ -61,8 +61,8 @@ class Evaluator:
             float: The exact match accuracy.
         """
         self._get_samples_if_not_available()
-        norm_refs = [self.normalize_text(ref) for ref in self.references]
-        norm_preds = [self.normalize_text(pred) for pred in self.predictions]
+        norm_refs = [self.normalize_text(str(ref)) for ref in self.references]
+        norm_preds = [self.normalize_text(str(pred)) for pred in self.predictions]
         accuracy = accuracy_score(norm_refs, norm_preds)
         self.logger.info(f"Exact match accuracy on test set: {accuracy:.4f}")
         return accuracy
@@ -78,8 +78,8 @@ class Evaluator:
         self._get_samples_if_not_available()
         gleu_scores = []
         for pred, ref in zip(self.predictions, self.references):
-            ref_tokens = self.normalize_text(ref).split()
-            pred_tokens = self.normalize_text(pred).split()
+            ref_tokens = self.normalize_text(str(ref)).split()
+            pred_tokens = self.normalize_text(str(pred)).split()
             gleu = sentence_gleu([ref_tokens], pred_tokens)
             gleu_scores.append(gleu)
         avg_gleu = sum(gleu_scores) / len(gleu_scores) if gleu_scores else 0.0
@@ -105,8 +105,8 @@ class Evaluator:
         if hasattr(self.engine, "async_batch_correct"):
             predictions = await self.engine.async_batch_correct(sample_sentences)
             self.test_data, self.references, self.predictions = sample_sentences, references, predictions
-            norm_refs = [self.normalize_text(ref) for ref in self.references]
-            norm_preds = [self.normalize_text(pred) for pred in self.predictions]
+            norm_refs = [self.normalize_text(str(ref)) for ref in self.references]
+            norm_preds = [self.normalize_text(str(pred)) for pred in self.predictions]
             accuracy = accuracy_score(norm_refs, norm_preds)
             self.logger.info(f"Exact match accuracy on test set: {accuracy:.4f}")
             return accuracy
@@ -134,8 +134,8 @@ class Evaluator:
             self.test_data, self.references, self.predictions = sample_sentences, references, predictions
             gleu_scores = []
             for pred, ref in zip(self.predictions, self.references):
-                ref_tokens = self.normalize_text(ref).split()
-                pred_tokens = self.normalize_text(pred).split()
+                ref_tokens = self.normalize_text(str(ref)).split()
+                pred_tokens = self.normalize_text(str(pred)).split()
                 gleu = sentence_gleu([ref_tokens], pred_tokens)
                 gleu_scores.append(gleu)
             avg_gleu = sum(gleu_scores) / len(gleu_scores) if gleu_scores else 0.0

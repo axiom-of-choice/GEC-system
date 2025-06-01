@@ -6,6 +6,9 @@ A 8 9|||R:VERB:FORM|||found|||REQUIRED|||-NONE-|||0
 
 S He is taking metformin hydrochloride and lisinopril since the diagnosis of diabetes mellitus type 2 was established two weeks ago.
 A 1 2|||R:VERB:TENSE|||has been|||REQUIRED|||-NONE-|||0
+A 7 7|||M:OTHER|||for two weeks|||REQUIRED|||-NONE-|||0
+A 16 17|||R:OTHER|||established.|||REQUIRED|||-NONE-|||0
+A 17 20|||U:OTHER||||||REQUIRED|||-NONE-|||0
 
 S Patient not responding to first-line antibiotic therapy with amoxicillin-clavulanate for community-acquired pneumonia.
 A 0 1|||M:DET|||The patient|||REQUIRED|||-NONE-|||0
@@ -35,55 +38,52 @@ S The pulmonologist examine the patient for suspected idiopathic pulmonary fibro
 A 2 3|||R:VERB:TENSE|||examined|||REQUIRED|||-NONE-|||0
 
 S He complained from retrosternal chest pain radiating to the left shoulder and associated with diaphoresis.
+A 1 2|||R:VERB:TENSE|||complains|||REQUIRED|||-NONE-|||0
 A 2 3|||R:PREP|||of|||REQUIRED|||-NONE-|||0
-A 6 7|||R:OTHER|||that radiated|||REQUIRED|||-NONE-|||0
-A 12 12|||M:VERB:TENSE|||was|||REQUIRED|||-NONE-|||0
+A 6 7|||R:OTHER|||that radiates|||REQUIRED|||-NONE-|||0
+A 10 11|||R:NOUN|||shoulder,|||REQUIRED|||-NONE-|||0
+A 12 12|||M:VERB:TENSE|||is|||REQUIRED|||-NONE-|||0
 
 S The contrast-enhanced magnetic resonance imaging scan show a herniated nucleus pulposus at the L4-L5 vertebral level.
 A 6 7|||R:VERB:SVA|||shows|||REQUIRED|||-NONE-|||0
 
 S Magnetic resonance angiography scan was done to evaluate for cerebral aneurysm and arteriovenous malformation.
-A 3 4|||R:NOUN:NUM|||scans|||REQUIRED|||-NONE-|||0
-A 4 5|||R:VERB:SVA|||were|||REQUIRED|||-NONE-|||0
-A 10 11|||R:NOUN:NUM|||aneurysms|||REQUIRED|||-NONE-|||0
-A 13 14|||R:NOUN|||malformations.|||REQUIRED|||-NONE-|||0
+A 0 1|||M:DET|||A magnetic|||REQUIRED|||-NONE-|||0
 
 S She suffers of chronic neuropathic pain secondary to diabetic peripheral neuropathy affecting bilateral lower extremities.
+A 1 2|||R:VERB:TENSE|||has suffered|||REQUIRED|||-NONE-|||0
 A 2 3|||R:PREP|||from|||REQUIRED|||-NONE-|||0
 A 10 11|||R:OTHER|||neuropathy,|||REQUIRED|||-NONE-|||0
-A 11 12|||R:OTHER|||which affects her|||REQUIRED|||-NONE-|||0
+A 12 13|||R:OTHER|||both|||REQUIRED|||-NONE-|||0
 
 S The laparoscopic cholecystectomy was performed in Monday morning by the hepatobiliary surgical team.
 A 5 6|||R:PREP|||on|||REQUIRED|||-NONE-|||0
 
 S Orthopedic surgeon advised complete bed rest and elevation of the affected extremity following open reduction internal fixation.
-A 0 1|||M:DET|||The orthopedic|||REQUIRED|||-NONE-|||0
+A 0 1|||M:DET|||An orthopedic|||REQUIRED|||-NONE-|||0
 A 15 15|||M:CONJ|||and|||REQUIRED|||-NONE-|||0
 
 S The registered nurse give the intramuscular injection of vitamin B12 cyanocobalamin in the deltoid muscle.
-A 3 4|||R:VERB:TENSE|||gave|||REQUIRED|||-NONE-|||0
-A 10 11|||R:NOUN|||(cyanocobalamin)|||REQUIRED|||-NONE-|||0
+A 3 4|||R:VERB:SVA|||gives|||REQUIRED|||-NONE-|||0
 
 S He do not take his antihypertensive medications including amlodipine and hydrochlorothiazide regularly as prescribed.
 A 1 2|||R:VERB:SVA|||does|||REQUIRED|||-NONE-|||0
 A 6 7|||R:NOUN|||medications,|||REQUIRED|||-NONE-|||0
 A 10 11|||R:SPELL|||hydrochlorothiazide,|||REQUIRED|||-NONE-|||0
-A 13 14|||R:ADJ|||prescribed|||REQUIRED|||-NONE-|||0
 
 S The broad-spectrum antibiotic vancomycin was administered on the morning following positive blood culture results.
-A 11 13|||R:NOUN|||blood-culture|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S She were admitted to the coronary care unit yesterday following acute ST-elevation myocardial infarction.
 A 1 2|||R:VERB:SVA|||was|||REQUIRED|||-NONE-|||0
 
 S She has nosocomial pneumonia in bilateral lower lobes with pleural effusion and consolidation on chest radiograph.
-A 3 4|||R:NOUN|||pneumonia,|||REQUIRED|||-NONE-|||0
-A 4 4|||M:OTHER|||which is located|||REQUIRED|||-NONE-|||0
-A 5 5|||M:OTHER|||both the|||REQUIRED|||-NONE-|||0
+A 4 5|||R:OTHER|||involving|||REQUIRED|||-NONE-|||0
+A 5 6|||R:OTHER|||both|||REQUIRED|||-NONE-|||0
 A 7 8|||R:NOUN|||lobes,|||REQUIRED|||-NONE-|||0
 A 8 9|||R:OTHER|||accompanied by|||REQUIRED|||-NONE-|||0
 A 12 13|||R:NOUN|||consolidation,|||REQUIRED|||-NONE-|||0
-A 13 13|||M:OTHER|||as shown|||REQUIRED|||-NONE-|||0
+A 13 13|||M:OTHER|||as seen|||REQUIRED|||-NONE-|||0
 A 14 14|||M:DET|||the|||REQUIRED|||-NONE-|||0
 
 S He was discharge in stable condition following successful percutaneous coronary intervention with drug-eluting stent placement.
@@ -93,25 +93,26 @@ S Systolic and diastolic blood pressure is in normal range following administrat
 A 4 5|||R:NOUN:NUM|||pressures|||REQUIRED|||-NONE-|||0
 A 5 6|||R:VERB:SVA|||are|||REQUIRED|||-NONE-|||0
 A 7 7|||M:DET|||the|||REQUIRED|||-NONE-|||0
+A 8 9|||R:NOUN|||range,|||REQUIRED|||-NONE-|||0
 A 12 12|||M:DET|||an|||REQUIRED|||-NONE-|||0
 
-S The patient have pyrexia of 39.2 degrees Celsius accompanied by rigors and profuse diaphoresis.
+S The patient have pyrexia of 39. 2 degrees Celsius accompanied by rigors and profuse diaphoresis.
 A 2 3|||R:VERB:SVA|||has|||REQUIRED|||-NONE-|||0
-A 7 8|||R:NOUN|||Celsius,|||REQUIRED|||-NONE-|||0
+A 8 9|||R:NOUN|||Celsius,|||REQUIRED|||-NONE-|||0
 
 S The laboratory results shows significant improvement in hemoglobin A1c levels and fasting glucose concentrations.
 A 3 4|||R:VERB:SVA|||show|||REQUIRED|||-NONE-|||0
 
 S The gastroenterologist performed endoscopic retrograde cholangiopancreatography to evaluate for choledocholithiasis and pancreatic ductal adenocarcinoma.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 13 14|||R:NOUN|||adenocarcinomas.|||REQUIRED|||-NONE-|||0
 
 S Echocardiogram demonstrate left ventricular systolic dysfunction with ejection fraction of approximately 35 percent.
 A 0 1|||M:DET|||The echocardiogram|||REQUIRED|||-NONE-|||0
 A 1 2|||R:VERB:SVA|||demonstrates|||REQUIRED|||-NONE-|||0
 A 7 7|||M:DET|||an|||REQUIRED|||-NONE-|||0
+A 11 13|||R:OTHER|||35%.|||REQUIRED|||-NONE-|||0
 
 S The nephrology consult recommend immediate hemodialysis for acute kidney injury with severe uremia and hyperkalemia.
-A 2 3|||R:MORPH|||consultant|||REQUIRED|||-NONE-|||0
 A 3 4|||R:VERB:SVA|||recommends|||REQUIRED|||-NONE-|||0
 
 S Positron emission tomography scan reveal hypermetabolic activity in mediastinal lymph nodes suggesting possible malignancy.
@@ -126,11 +127,10 @@ S Hematology consultation was arrange for evaluation of pancytopenia and possibl
 A 0 1|||M:DET|||A hematology|||REQUIRED|||-NONE-|||0
 A 3 4|||R:VERB:FORM|||arranged|||REQUIRED|||-NONE-|||0
 A 5 5|||M:DET|||the|||REQUIRED|||-NONE-|||0
+A 11 12|||R:NOUN|||syndrome|||REQUIRED|||-NONE-|||0
 
 S The ophthalmologist identify diabetic retinopathy with neovascularization requiring immediate panretinal photocoagulation therapy.
 A 2 3|||R:VERB:TENSE|||identified|||REQUIRED|||-NONE-|||0
-A 6 7|||R:SPELL|||neovascularization,|||REQUIRED|||-NONE-|||0
-A 7 8|||R:OTHER|||which requires|||REQUIRED|||-NONE-|||0
 
 S Patient complain of severe abdominal pain localized to the right lower quadrant consistent with acute appendicitis.
 A 0 1|||M:DET|||The patient|||REQUIRED|||-NONE-|||0
@@ -143,10 +143,10 @@ A 2 3|||R:VERB:SVA|||adjusts|||REQUIRED|||-NONE-|||0
 
 S Cardiac catheterization reveal significant three-vessel coronary artery disease requiring urgent coronary artery bypass grafting.
 A 2 3|||R:VERB:TENSE|||revealed|||REQUIRED|||-NONE-|||0
+A 7 8|||R:NOUN|||disease,|||REQUIRED|||-NONE-|||0
 
 S The patient experience acute exacerbation of chronic obstructive pulmonary disease with respiratory acidosis and hypercapnia.
 A 2 3|||R:VERB:TENSE|||experienced|||REQUIRED|||-NONE-|||0
-A 3 3|||M:DET|||an|||REQUIRED|||-NONE-|||0
 
 S Cerebrospinal fluid analysis show elevated white blood cell count and protein levels consistent with bacterial meningitis.
 A 3 4|||R:VERB:SVA|||shows|||REQUIRED|||-NONE-|||0
@@ -157,15 +157,14 @@ A 8 8|||M:DET|||the|||REQUIRED|||-NONE-|||0
 
 S Bone marrow biopsy demonstrate acute lymphoblastic leukemia with Philadelphia chromosome translocation.
 A 0 1|||M:DET|||The bone|||REQUIRED|||-NONE-|||0
-A 3 4|||R:VERB:SVA|||demonstrates|||REQUIRED|||-NONE-|||0
+A 3 4|||R:VERB:TENSE|||demonstrated|||REQUIRED|||-NONE-|||0
 
 S The oncologist recommend combination chemotherapy with carboplatin and paclitaxel for advanced ovarian adenocarcinoma.
 A 2 3|||R:VERB:SVA|||recommends|||REQUIRED|||-NONE-|||0
 
 S Pulmonary function tests reveal severe restrictive lung disease with decreased forced vital capacity and diffusion capacity.
-A 4 4|||M:PREP|||that|||REQUIRED|||-NONE-|||0
-A 15 16|||R:NOUN|||capacity|||REQUIRED|||-NONE-|||0
-A 16 16|||M:ADJ|||exists.|||REQUIRED|||-NONE-|||0
+A 4 4|||M:OTHER|||that the patient has|||REQUIRED|||-NONE-|||0
+A 7 8|||R:NOUN|||disease,|||REQUIRED|||-NONE-|||0
 
 S The neurologist observe fasciculations and muscle atrophy consistent with amyotrophic lateral sclerosis progression.
 A 2 3|||R:VERB:TENSE|||observed|||REQUIRED|||-NONE-|||0
@@ -174,7 +173,7 @@ S Magnetic resonance imaging of the brain show multiple hyperintense lesions in 
 A 6 7|||R:VERB:SVA|||shows|||REQUIRED|||-NONE-|||0
 
 S The rheumatologist diagnose systemic lupus erythematosus based on positive antinuclear antibody and anti-double-stranded DNA levels.
-A 2 3|||R:VERB:TENSE|||diagnosed|||REQUIRED|||-NONE-|||0
+A 2 3|||R:VERB:SVA|||diagnoses|||REQUIRED|||-NONE-|||0
 
 S Patient develop acute kidney injury secondary to rhabdomyolysis following prolonged immobilization and dehydration.
 A 0 1|||M:DET|||The patient|||REQUIRED|||-NONE-|||0
@@ -182,7 +181,7 @@ A 1 2|||R:VERB:TENSE|||developed|||REQUIRED|||-NONE-|||0
 A 7 8|||R:SPELL|||rhabdomyolysis,|||REQUIRED|||-NONE-|||0
 
 S The urologist perform transurethral resection of the prostate for benign prostatic hyperplasia causing urinary retention.
-A 2 3|||R:VERB:SVA|||performs|||REQUIRED|||-NONE-|||0
+A 2 3|||R:VERB:FORM|||performed|||REQUIRED|||-NONE-|||0
 A 11 12|||R:NOUN|||hyperplasia,|||REQUIRED|||-NONE-|||0
 A 12 12|||M:OTHER|||which is|||REQUIRED|||-NONE-|||0
 
@@ -191,13 +190,14 @@ A 11 12|||R:NOUN|||syndrome,|||REQUIRED|||-NONE-|||0
 
 S The plastic surgeon recommend tissue expander placement followed by autologous breast reconstruction using deep inferior epigastric perforator flap.
 A 3 4|||R:VERB:SVA|||recommends|||REQUIRED|||-NONE-|||0
-A 13 13|||M:DET|||the|||REQUIRED|||-NONE-|||0
+A 13 13|||M:DET|||a|||REQUIRED|||-NONE-|||0
 
 S Computed tomography angiography reveal pulmonary embolism in the right lower lobe pulmonary artery with infarction.
 A 3 4|||R:VERB:SVA|||reveals|||REQUIRED|||-NONE-|||0
 
 S The patient receive intravenous immunoglobulin therapy for treatment of Guillain-Barré syndrome with ascending paralysis.
 A 2 3|||R:VERB:TENSE|||received|||REQUIRED|||-NONE-|||0
+A 7 7|||M:DET|||the|||REQUIRED|||-NONE-|||0
 
 S Transthoracic echocardiography demonstrate severe aortic stenosis with mean gradient of 45 millimeters of mercury.
 A 2 3|||R:VERB:SVA|||demonstrates|||REQUIRED|||-NONE-|||0
@@ -208,8 +208,8 @@ A 4 5|||R:VERB:SVA|||recommends|||REQUIRED|||-NONE-|||0
 A 10 10|||M:DET|||the|||REQUIRED|||-NONE-|||0
 
 S Thyroid function tests show elevated thyroid-stimulating hormone and decreased free thyroxine consistent with hypothyroidism.
-A 4 4|||M:PREP|||that|||REQUIRED|||-NONE-|||0
-A 11 11|||M:VERB|||are|||REQUIRED|||-NONE-|||0
+A 10 11|||R:NOUN|||thyroxine,|||REQUIRED|||-NONE-|||0
+A 11 11|||M:OTHER|||which are|||REQUIRED|||-NONE-|||0
 
 S The emergency physician diagnose acute coronary syndrome based on elevated troponin levels and electrocardiographic changes.
 A 3 4|||R:VERB:SVA|||diagnoses|||REQUIRED|||-NONE-|||0
@@ -223,17 +223,14 @@ S The anesthesiologist administer general anesthesia with endotracheal intubatio
 A 2 3|||R:VERB:TENSE|||administered|||REQUIRED|||-NONE-|||0
 
 S Fluoroscopic examination show compression fracture of the L2 vertebral body with loss of vertebral height.
-A 0 1|||M:DET|||The fluoroscopic|||REQUIRED|||-NONE-|||0
-A 2 3|||R:VERB:TENSE|||showed|||REQUIRED|||-NONE-|||0
+A 2 3|||R:VERB:SVA|||shows|||REQUIRED|||-NONE-|||0
 A 3 3|||M:DET|||a|||REQUIRED|||-NONE-|||0
 
 S The radiologist report multiple metastatic lesions in the liver parenchyma consistent with colorectal adenocarcinoma spread.
 A 2 3|||R:VERB:TENSE|||reported|||REQUIRED|||-NONE-|||0
 
 S Arterial blood gas analysis reveal severe metabolic acidosis with compensatory respiratory alkalosis and elevated lactate levels.
-A 3 4|||R:NOUN:NUM|||analyses|||REQUIRED|||-NONE-|||0
-A 4 5|||R:VERB:TENSE|||revealed|||REQUIRED|||-NONE-|||0
-A 7 8|||R:NOUN|||acidosis,|||REQUIRED|||-NONE-|||0
+A 4 5|||R:VERB:SVA|||reveals|||REQUIRED|||-NONE-|||0
 
 S The pathologist identify invasive ductal carcinoma with estrogen receptor positive and HER2 negative immunohistochemistry results.
 A 2 3|||R:VERB:TENSE|||identified|||REQUIRED|||-NONE-|||0
@@ -242,6 +239,7 @@ A 11 13|||R:OTHER|||HER2-negative|||REQUIRED|||-NONE-|||0
 
 S Coronary angiography demonstrate complete occlusion of the left anterior descending artery with collateral circulation formation.
 A 2 3|||R:VERB:SVA|||demonstrates|||REQUIRED|||-NONE-|||0
+A 3 3|||M:DET|||a|||REQUIRED|||-NONE-|||0
 
 S The patient undergo percutaneous nephrolithotomy for removal of large staghorn calculus in the right renal pelvis.
 A 2 3|||R:VERB:TENSE|||underwent|||REQUIRED|||-NONE-|||0
@@ -255,10 +253,10 @@ A 3 4|||R:VERB:TENSE|||detected|||REQUIRED|||-NONE-|||0
 A 8 8|||M:DET|||a|||REQUIRED|||-NONE-|||0
 
 S Electrophysiology study show prolonged QT interval and increased risk for torsades de pointes arrhythmia.
-A 0 1|||M:DET|||The electrophysiology|||REQUIRED|||-NONE-|||0
-A 2 3|||R:VERB:SVA|||shows|||REQUIRED|||-NONE-|||0
+A 1 2|||R:NOUN:NUM|||studies|||REQUIRED|||-NONE-|||0
 A 3 3|||M:DET|||a|||REQUIRED|||-NONE-|||0
 A 7 7|||M:DET|||an|||REQUIRED|||-NONE-|||0
+A 13 14|||R:NOUN|||arrhythmia|||REQUIRED|||-NONE-|||0
 
 S The vascular surgeon perform carotid endarterectomy for high-grade stenosis preventing cerebrovascular accident.
 A 3 4|||R:VERB:SVA|||performs|||REQUIRED|||-NONE-|||0
@@ -268,9 +266,11 @@ A 9 10|||R:VERB:FORM|||prevents|||REQUIRED|||-NONE-|||0
 
 S Magnetic resonance cholangiopancreatography reveal pancreatic ductal dilatation consistent with chronic pancreatitis and exocrine insufficiency.
 A 3 4|||R:VERB:SVA|||reveals|||REQUIRED|||-NONE-|||0
+A 6 7|||R:NOUN|||dilatation,|||REQUIRED|||-NONE-|||0
+A 7 7|||M:OTHER|||which is|||REQUIRED|||-NONE-|||0
 
 S The patient present with acute lymphangitis and cellulitis requiring intravenous antibiotics and surgical drainage.
-A 2 3|||R:VERB:FORM|||presented|||REQUIRED|||-NONE-|||0
+A 2 3|||R:VERB:SVA|||presents|||REQUIRED|||-NONE-|||0
 A 7 8|||R:NOUN|||cellulitis,|||REQUIRED|||-NONE-|||0
 
 S Colonoscopy examination show multiple adenomatous polyps with high-grade dysplasia requiring endoscopic mucosal resection.
@@ -287,22 +287,20 @@ A 0 1|||M:DET|||The patient|||REQUIRED|||-NONE-|||0
 A 1 2|||R:VERB:TENSE|||developed|||REQUIRED|||-NONE-|||0
 
 S Duplex ultrasonography reveal deep vein thrombosis in the left popliteal and femoral veins extending proximally.
-A 2 3|||R:VERB:SVA|||reveals|||REQUIRED|||-NONE-|||0
-A 12 13|||R:NOUN|||veins,|||REQUIRED|||-NONE-|||0
+A 2 3|||R:VERB:TENSE|||revealed|||REQUIRED|||-NONE-|||0
 
 S The thoracic surgeon perform video-assisted thoracoscopic surgery for spontaneous pneumothorax with persistent air leak.
-A 3 4|||R:VERB:SVA|||performs|||REQUIRED|||-NONE-|||0
+A 3 4|||R:VERB:TENSE|||performed|||REQUIRED|||-NONE-|||0
 
 S Comprehensive metabolic panel show severe hyponatremia and hyperkalemia requiring immediate electrolyte correction.
-A 0 1|||M:DET|||A comprehensive|||REQUIRED|||-NONE-|||0
-A 3 4|||R:VERB:TENSE|||showed|||REQUIRED|||-NONE-|||0
+A 0 1|||M:DET|||The comprehensive|||REQUIRED|||-NONE-|||0
+A 3 4|||R:VERB:SVA|||shows|||REQUIRED|||-NONE-|||0
 A 7 8|||R:SPELL|||hyperkalemia,|||REQUIRED|||-NONE-|||0
 
 S The geneticist identify BRCA1 mutation increasing susceptibility to hereditary breast and ovarian cancer syndrome.
 A 2 3|||R:VERB:SVA|||identifies|||REQUIRED|||-NONE-|||0
-A 4 5|||R:NOUN:NUM|||mutations|||REQUIRED|||-NONE-|||0
-A 5 5|||M:DET|||that|||REQUIRED|||-NONE-|||0
-A 5 6|||R:VERB:FORM|||increase|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOUN|||mutation,|||REQUIRED|||-NONE-|||0
+A 5 6|||R:OTHER|||which increases|||REQUIRED|||-NONE-|||0
 
 S Polysomnography study demonstrate severe obstructive sleep apnea with oxygen desaturation and frequent arousals.
 A 0 1|||M:DET|||The polysomnography|||REQUIRED|||-NONE-|||0
@@ -310,7 +308,6 @@ A 2 3|||R:VERB:SVA|||demonstrates|||REQUIRED|||-NONE-|||0
 
 S The interventional radiologist perform percutaneous transhepatic cholangiography for evaluation of biliary obstruction.
 A 3 4|||R:VERB:SVA|||performs|||REQUIRED|||-NONE-|||0
-A 8 8|||M:DET|||the|||REQUIRED|||-NONE-|||0
 
 S Esophagogastroduodenoscopy reveal grade C esophagitis with Barrett's metaplasia and intestinal dysplasia.
 A 1 2|||R:VERB:TENSE|||revealed|||REQUIRED|||-NONE-|||0
@@ -326,14 +323,16 @@ A 7 7|||M:DET|||a|||REQUIRED|||-NONE-|||0
 
 S Immunofluorescence microscopy show linear IgA deposition consistent with bullous pemphigoid autoimmune blistering disease.
 A 2 3|||R:VERB:SVA|||shows|||REQUIRED|||-NONE-|||0
+A 5 6|||R:NOUN|||deposition,|||REQUIRED|||-NONE-|||0
 
 S The perinatologist detect oligohydramnios and intrauterine growth restriction during third-trimester ultrasound examination.
 A 2 3|||R:VERB:TENSE|||detected|||REQUIRED|||-NONE-|||0
 A 9 9|||M:DET|||the|||REQUIRED|||-NONE-|||0
 
 S Slit-lamp examination reveal anterior uveitis with keratic precipitates and posterior synechiae formation.
-A 0 1|||M:DET|||A slit-lamp|||REQUIRED|||-NONE-|||0
-A 2 3|||R:VERB:SVA|||reveals|||REQUIRED|||-NONE-|||0
+A 0 1|||M:DET|||The slit-lamp|||REQUIRED|||-NONE-|||0
+A 2 3|||R:VERB:TENSE|||revealed|||REQUIRED|||-NONE-|||0
+A 4 5|||R:OTHER|||uveitis,|||REQUIRED|||-NONE-|||0
 
 S Patient experience acute hemolytic transfusion reaction following incompatible blood product administration.
 A 0 1|||M:DET|||The patient|||REQUIRED|||-NONE-|||0
@@ -344,9 +343,7 @@ S The dermatologist diagnose melanoma in situ with irregular borders and asymmet
 A 2 3|||R:VERB:TENSE|||diagnosed|||REQUIRED|||-NONE-|||0
 
 S Holter monitoring show paroxysmal atrial fibrillation with rapid ventricular response and prolonged RR intervals.
-A 0 0|||M:DET|||The|||REQUIRED|||-NONE-|||0
 A 2 3|||R:VERB:SVA|||shows|||REQUIRED|||-NONE-|||0
-A 7 7|||M:DET|||a|||REQUIRED|||-NONE-|||0
 
 S The pediatric endocrinologist adjust growth hormone replacement therapy based on insulin-like growth factor levels.
 A 3 4|||R:MORPH|||adjusts|||REQUIRED|||-NONE-|||0
@@ -363,9 +360,11 @@ A 3 4|||R:VERB:SVA|||recommends|||REQUIRED|||-NONE-|||0
 
 S Fundoscopic examination show papilledema and flame-shaped hemorrhages consistent with malignant hypertensive retinopathy.
 A 2 3|||R:VERB:SVA|||shows|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||hemorrhages,|||REQUIRED|||-NONE-|||0
+A 7 7|||M:OTHER|||which are|||REQUIRED|||-NONE-|||0
 
 S The hand surgeon perform tendon transfer and joint arthrodesis for severe rheumatoid arthritis deformities.
-A 3 4|||R:VERB:SVA|||performs|||REQUIRED|||-NONE-|||0
+A 3 4|||R:VERB:TENSE|||performed|||REQUIRED|||-NONE-|||0
 
 S Electrocorticography reveal epileptogenic focus in the left temporal lobe requiring surgical resection.
 A 1 2|||R:VERB:SVA|||reveals|||REQUIRED|||-NONE-|||0
@@ -373,7 +372,7 @@ A 2 2|||M:DET|||an|||REQUIRED|||-NONE-|||0
 A 8 9|||R:NOUN|||lobe,|||REQUIRED|||-NONE-|||0
 
 S Patient develop Stevens-Johnson syndrome following administration of phenytoin and carbamazepine anticonvulsants.
-A 0 1|||R:NOUN:NUM|||Patients|||REQUIRED|||-NONE-|||0
+A 0 1|||M:DET|||The patient|||REQUIRED|||-NONE-|||0
 A 1 2|||R:VERB:TENSE|||developed|||REQUIRED|||-NONE-|||0
 
 S The radiation oncologist recommend intensity-modulated radiation therapy for locally advanced prostate adenocarcinoma.
@@ -384,10 +383,11 @@ A 0 1|||M:DET|||The ankle-brachial|||REQUIRED|||-NONE-|||0
 A 2 3|||R:VERB:SVA|||demonstrates|||REQUIRED|||-NONE-|||0
 
 S The critical care physician initiate continuous renal replacement therapy for acute kidney injury with fluid overload.
-A 4 5|||R:VERB:TENSE|||initiated|||REQUIRED|||-NONE-|||0
+A 4 5|||R:VERB:SVA|||initiates|||REQUIRED|||-NONE-|||0
 
 S Spirometry testing show severe obstructive pattern with reduced forced expiratory volume in one second.
 A 2 3|||R:VERB:SVA|||shows|||REQUIRED|||-NONE-|||0
+A 3 3|||M:DET|||a|||REQUIRED|||-NONE-|||0
 
 S Patient undergo stereotactic radiosurgery using gamma knife for arteriovenous malformation in eloquent brain regions.
 A 0 1|||M:DET|||The patient|||REQUIRED|||-NONE-|||0
@@ -396,7 +396,7 @@ A 5 5|||M:DET|||a|||REQUIRED|||-NONE-|||0
 A 8 8|||M:DET|||an|||REQUIRED|||-NONE-|||0
 
 S The maternal-fetal medicine specialist detect fetal hydrops and chromosomal abnormalities on detailed ultrasound.
-A 4 5|||R:VERB:TENSE|||detected|||REQUIRED|||-NONE-|||0
+A 4 5|||R:VERB:SVA|||detects|||REQUIRED|||-NONE-|||0
 
 S Intraoperative frozen section analysis confirm clear margins during breast-conserving surgery for invasive lobular carcinoma.
 A 4 5|||R:VERB:SVA|||confirms|||REQUIRED|||-NONE-|||0
@@ -408,6 +408,8 @@ A 7 8|||R:NOUN:NUM|||injections|||REQUIRED|||-NONE-|||0
 S Positron emission tomography-computed tomography scan show hypermetabolic lymphadenopathy consistent with lymphoma recurrence.
 A 0 1|||M:DET|||A positron|||REQUIRED|||-NONE-|||0
 A 5 6|||R:VERB:SVA|||shows|||REQUIRED|||-NONE-|||0
+A 7 8|||R:NOUN|||lymphadenopathy,|||REQUIRED|||-NONE-|||0
+A 8 8|||M:OTHER|||which is|||REQUIRED|||-NONE-|||0
 
 S Patient experience anaphylactic shock following penicillin administration requiring immediate epinephrine and corticosteroid therapy.
 A 0 1|||M:DET|||The patient|||REQUIRED|||-NONE-|||0
@@ -425,7 +427,7 @@ S The transplant surgeon evaluate living donor kidney transplantation for end-st
 A 3 4|||R:VERB:SVA|||evaluates|||REQUIRED|||-NONE-|||0
 
 S Nerve conduction velocity studies show demyelinating polyneuropathy consistent with Charcot-Marie-Tooth disease.
-A 5 5|||M:PREP|||that|||REQUIRED|||-NONE-|||0
+A 5 5|||M:OTHER|||that the|||REQUIRED|||-NONE-|||0
 A 7 7|||M:VERB|||is|||REQUIRED|||-NONE-|||0
 
 S Patient develop tumor lysis syndrome following initiation of chemotherapy for acute lymphoblastic leukemia.
@@ -438,9 +440,11 @@ A 3 4|||R:VERB:SVA|||recommends|||REQUIRED|||-NONE-|||0
 
 S Magnetic resonance spectroscopy demonstrate reduced N-acetylaspartate levels consistent with neuronal loss and gliosis.
 A 3 4|||R:VERB:SVA|||demonstrates|||REQUIRED|||-NONE-|||0
+A 6 7|||R:NOUN|||levels,|||REQUIRED|||-NONE-|||0
+A 12 13|||R:OTHER|||gliosis|||REQUIRED|||-NONE-|||0
 
 S The emergency medicine physician diagnose aortic dissection based on computed tomography angiography findings.
-A 4 5|||R:VERB:SVA|||diagnoses|||REQUIRED|||-NONE-|||0
+A 4 5|||R:VERB:TENSE|||diagnosed|||REQUIRED|||-NONE-|||0
 
 S Single-photon emission computed tomography show decreased cerebral blood flow in the watershed distribution territories.
 A 4 5|||R:NOUN:NUM|||shows|||REQUIRED|||-NONE-|||0
@@ -448,7 +452,6 @@ A 4 5|||R:NOUN:NUM|||shows|||REQUIRED|||-NONE-|||0
 S Patient require intracranial pressure monitoring following traumatic brain injury with subdural hematoma evacuation.
 A 0 1|||M:DET|||The patient|||REQUIRED|||-NONE-|||0
 A 1 2|||R:VERB:SVA|||requires|||REQUIRED|||-NONE-|||0
-A 6 6|||M:DET|||a|||REQUIRED|||-NONE-|||0
 
 S The hepatobiliary surgeon perform pancreaticoduodenectomy for adenocarcinoma of the pancreatic head with biliary obstruction.
 A 3 4|||R:VERB:SVA|||performs|||REQUIRED|||-NONE-|||0
@@ -456,7 +459,8 @@ A 3 4|||R:VERB:SVA|||performs|||REQUIRED|||-NONE-|||0
 S Flow cytometry analysis reveal clonal B-cell population consistent with chronic lymphocytic leukemia diagnosis.
 A 3 4|||R:VERB:SVA|||reveals|||REQUIRED|||-NONE-|||0
 A 4 4|||M:DET|||a|||REQUIRED|||-NONE-|||0
-A 9 9|||M:DET|||a|||REQUIRED|||-NONE-|||0
+A 9 9|||M:OTHER|||the diagnosis of|||REQUIRED|||-NONE-|||0
+A 11 13|||R:NOUN|||leukemia.|||REQUIRED|||-NONE-|||0
 
 S The interventional cardiologist perform percutaneous mitral valve repair using MitraClip device for severe mitral regurgitation.
 A 3 4|||R:VERB:SVA|||performs|||REQUIRED|||-NONE-|||0
@@ -465,6 +469,7 @@ A 9 9|||M:DET|||the|||REQUIRED|||-NONE-|||0
 S Cystoscopy examination show transitional cell carcinoma of the bladder with muscle invasion requiring radical cystectomy.
 A 0 1|||M:DET|||The cystoscopy|||REQUIRED|||-NONE-|||0
 A 2 3|||R:VERB:SVA|||shows|||REQUIRED|||-NONE-|||0
+A 11 12|||R:NOUN|||invasion,|||REQUIRED|||-NONE-|||0
 
 S Patient develop diabetic ketoacidosis with severe dehydration and electrolyte imbalances requiring intensive care management.
 A 0 1|||M:DET|||The patient|||REQUIRED|||-NONE-|||0
@@ -482,15 +487,16 @@ S The pediatric surgeon recommend laparoscopic fundoplication for severe gastroe
 A 3 4|||R:VERB:SVA|||recommends|||REQUIRED|||-NONE-|||0
 
 S Electronystagmography testing show bilateral vestibular hypofunction consistent with aminoglycoside ototoxicity.
+A 0 1|||M:DET|||The electronystagmography|||REQUIRED|||-NONE-|||0
 A 2 3|||R:VERB:SVA|||shows|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||hypofunction,|||REQUIRED|||-NONE-|||0
+A 6 6|||M:OTHER|||which is|||REQUIRED|||-NONE-|||0
 
 S Patient experience massive pulmonary embolism requiring emergency pulmonary embolectomy and cardiopulmonary bypass.
 A 0 1|||M:DET|||The patient|||REQUIRED|||-NONE-|||0
 A 1 2|||R:VERB:TENSE|||experienced|||REQUIRED|||-NONE-|||0
-A 2 2|||M:DET|||a|||REQUIRED|||-NONE-|||0
 A 4 5|||R:NOUN|||embolism,|||REQUIRED|||-NONE-|||0
 A 5 6|||R:OTHER|||which required|||REQUIRED|||-NONE-|||0
-A 6 6|||M:DET|||an|||REQUIRED|||-NONE-|||0
 
 S The clinical pharmacologist adjust warfarin dosing based on CYP2C9 and VKORC1 genetic polymorphism testing results.
 A 3 4|||R:MORPH|||adjusts|||REQUIRED|||-NONE-|||0
@@ -507,12 +513,10 @@ A 3 4|||R:VERB:SVA|||shows|||REQUIRED|||-NONE-|||0
 S Patient develop acute respiratory distress syndrome following aspiration pneumonia and require mechanical ventilation support.
 A 0 1|||M:DET|||The patient|||REQUIRED|||-NONE-|||0
 A 1 2|||R:VERB:TENSE|||developed|||REQUIRED|||-NONE-|||0
-A 8 9|||R:NOUN|||pneumonia,|||REQUIRED|||-NONE-|||0
 A 10 11|||R:VERB:SVA|||requires|||REQUIRED|||-NONE-|||0
 
 S The neonatologist diagnose respiratory distress syndrome in preterm infant requiring surfactant replacement therapy.
-A 1 2|||R:NOUN:NUM|||neonatologists|||REQUIRED|||-NONE-|||0
-A 2 3|||R:VERB:TENSE|||diagnosed|||REQUIRED|||-NONE-|||0
+A 2 3|||R:VERB:SVA|||diagnoses|||REQUIRED|||-NONE-|||0
 A 7 7|||M:DET|||a|||REQUIRED|||-NONE-|||0
 
 S Cardiac magnetic resonance imaging demonstrate myocardial fibrosis and delayed gadolinium enhancement patterns.
@@ -532,72 +536,74 @@ A 2 2|||M:DET|||an|||REQUIRED|||-NONE-|||0
 A 8 8|||M:DET|||a|||REQUIRED|||-NONE-|||0
 
 S The gynecologic oncologist perform radical hysterectomy with pelvic lymphadenectomy for cervical adenocarcinoma.
-A 3 4|||R:VERB:TENSE|||performed|||REQUIRED|||-NONE-|||0
+A 3 4|||R:VERB:SVA|||performs|||REQUIRED|||-NONE-|||0
 
 S Electroencephalography monitoring show continuous seizure activity consistent with nonconvulsive status epilepticus.
 A 2 3|||R:VERB:SVA|||shows|||REQUIRED|||-NONE-|||0
+A 5 6|||R:NOUN|||activity,|||REQUIRED|||-NONE-|||0
 
 S The wound care specialist recommend negative pressure wound therapy for chronic diabetic foot ulcer with osteomyelitis.
 A 4 5|||R:VERB:SVA|||recommends|||REQUIRED|||-NONE-|||0
+A 10 10|||M:DET|||a|||REQUIRED|||-NONE-|||0
 
 S Computed tomography urography reveal ureteral stricture and hydronephrosis requiring percutaneous nephrostomy placement.
 A 3 4|||R:VERB:SVA|||reveals|||REQUIRED|||-NONE-|||0
 A 7 8|||R:SPELL|||hydronephrosis,|||REQUIRED|||-NONE-|||0
-A 8 9|||R:OTHER|||which require|||REQUIRED|||-NONE-|||0
 
 S Patient experience hypertensive emergency with acute kidney injury and encephalopathy requiring immediate blood pressure reduction.
 A 0 1|||M:DET|||The patient|||REQUIRED|||-NONE-|||0
 A 1 2|||R:VERB:TENSE|||experienced|||REQUIRED|||-NONE-|||0
 A 2 2|||M:DET|||a|||REQUIRED|||-NONE-|||0
 A 9 10|||R:OTHER|||encephalopathy,|||REQUIRED|||-NONE-|||0
+A 10 11|||R:OTHER|||which required|||REQUIRED|||-NONE-|||0
 
 S The sports medicine physician diagnose anterior cruciate ligament rupture with meniscal tear requiring arthroscopic reconstruction.
-A 4 5|||R:VERB:TENSE|||diagnosed|||REQUIRED|||-NONE-|||0
+A 4 5|||R:VERB:SVA|||diagnoses|||REQUIRED|||-NONE-|||0
+A 5 5|||M:DET|||an|||REQUIRED|||-NONE-|||0
+A 10 10|||M:DET|||a|||REQUIRED|||-NONE-|||0
 A 11 12|||R:NOUN|||tear,|||REQUIRED|||-NONE-|||0
-A 12 13|||R:OTHER|||which required|||REQUIRED|||-NONE-|||0
+A 12 13|||R:OTHER|||which requires|||REQUIRED|||-NONE-|||0
 
 S Immunohistochemistry staining show positive cytokeratin and negative vimentin consistent with epithelial tumor origin.
 A 2 3|||R:VERB:SVA|||shows|||REQUIRED|||-NONE-|||0
 A 7 8|||R:SPELL|||vimentin,|||REQUIRED|||-NONE-|||0
-A 10 10|||M:DET|||an|||REQUIRED|||-NONE-|||0
 
 S The palliative care specialist adjust opioid analgesics for breakthrough pain management in terminal cancer patient.
 A 4 5|||R:MORPH|||adjusts|||REQUIRED|||-NONE-|||0
 A 14 15|||R:NOUN|||patients.|||REQUIRED|||-NONE-|||0
 
 S Ventilation-perfusion scan demonstrate high probability for pulmonary embolism with multiple segmental defects.
-A 1 2|||R:NOUN:NUM|||scans|||REQUIRED|||-NONE-|||0
+A 0 1|||M:DET|||The ventilation-perfusion|||REQUIRED|||-NONE-|||0
+A 2 3|||R:VERB:SVA|||demonstrates|||REQUIRED|||-NONE-|||0
 A 3 3|||M:DET|||a|||REQUIRED|||-NONE-|||0
+A 5 6|||R:PREP|||of|||REQUIRED|||-NONE-|||0
 
 S Patient develop post-operative ileus following abdominal surgery requiring nasogastric decompression and prokinetic agents.
 A 0 1|||M:DET|||The patient|||REQUIRED|||-NONE-|||0
 A 1 2|||R:VERB:TENSE|||developed|||REQUIRED|||-NONE-|||0
 A 6 7|||R:NOUN|||surgery,|||REQUIRED|||-NONE-|||0
-A 7 8|||R:OTHER|||which required|||REQUIRED|||-NONE-|||0
 
 S The pediatric hematologist diagnose sickle cell disease with vaso-occlusive crisis requiring exchange transfusion therapy.
-A 3 4|||R:VERB:TENSE|||diagnosed|||REQUIRED|||-NONE-|||0
+A 3 4|||R:VERB:SVA|||diagnoses|||REQUIRED|||-NONE-|||0
 
 S Optical coherence tomography reveal macular edema and epiretinal membrane requiring vitreoretinal surgical intervention.
 A 3 4|||R:VERB:SVA|||reveals|||REQUIRED|||-NONE-|||0
 
 S The infectious disease consultant recommend combination antifungal therapy for invasive aspergillosis in immunocompromised host.
 A 4 5|||R:VERB:SVA|||recommends|||REQUIRED|||-NONE-|||0
-A 13 14|||R:NOUN|||hosts.|||REQUIRED|||-NONE-|||0
+A 12 12|||M:DET|||an|||REQUIRED|||-NONE-|||0
 
 S Ambulatory blood pressure monitoring show nocturnal hypertension with loss of normal circadian rhythm patterns.
 A 4 5|||R:VERB:SVA|||shows|||REQUIRED|||-NONE-|||0
+A 8 8|||M:DET|||a|||REQUIRED|||-NONE-|||0
 
 S Patient undergo balloon valvuloplasty for severe aortic stenosis in high-risk surgical candidate with multiple comorbidities.
 A 0 1|||M:DET|||The patient|||REQUIRED|||-NONE-|||0
 A 1 2|||R:VERB:TENSE|||underwent|||REQUIRED|||-NONE-|||0
-A 7 8|||R:OTHER|||stenosis,|||REQUIRED|||-NONE-|||0
 A 9 9|||M:DET|||a|||REQUIRED|||-NONE-|||0
-A 11 12|||R:NOUN|||candidate,|||REQUIRED|||-NONE-|||0
 
 S The medical geneticist identify chromosomal translocation associated with Philadelphia chromosome-positive acute lymphoblastic leukemia.
 A 3 4|||R:VERB:SVA|||identifies|||REQUIRED|||-NONE-|||0
-A 5 6|||R:NOUN:NUM|||translocations|||REQUIRED|||-NONE-|||0
 
 S Magnetic resonance enterography demonstrate small bowel strictures and fistulous tracts consistent with complicated Crohn's disease.
 A 3 4|||R:VERB:SVA|||demonstrates|||REQUIRED|||-NONE-|||0
@@ -607,8 +613,6 @@ A 3 4|||R:VERB:SVA|||recommends|||REQUIRED|||-NONE-|||0
 
 S Intraoperative electrophysiology monitoring show compound muscle action potential changes during spinal deformity correction surgery.
 A 3 4|||R:VERB:SVA|||shows|||REQUIRED|||-NONE-|||0
-A 4 4|||M:PREP|||that|||REQUIRED|||-NONE-|||0
-A 9 9|||M:VERB|||occurred|||REQUIRED|||-NONE-|||0
 
 S Patient experience acute graft-versus-host disease following allogeneic hematopoietic stem cell transplantation.
 A 0 1|||M:DET|||The patient|||REQUIRED|||-NONE-|||0
@@ -616,15 +620,11 @@ A 1 2|||R:VERB:TENSE|||experienced|||REQUIRED|||-NONE-|||0
 
 S The burn surgeon perform autologous skin grafting for full-thickness burns covering twenty percent body surface area.
 A 3 4|||R:VERB:SVA|||performs|||REQUIRED|||-NONE-|||0
-A 11 12|||R:OTHER|||20%|||REQUIRED|||-NONE-|||0
-A 12 12|||M:PREP|||of|||REQUIRED|||-NONE-|||0
-A 12 13|||R:OTHER|||the|||REQUIRED|||-NONE-|||0
+A 13 13|||M:OTHER|||of the|||REQUIRED|||-NONE-|||0
 A 13 14|||R:NOUN|||body's|||REQUIRED|||-NONE-|||0
 
 S Thyroid ultrasound examination show heterogeneous nodules with microcalcifications requiring fine needle aspiration biopsy.
-A 0 1|||M:DET|||The thyroid|||REQUIRED|||-NONE-|||0
 A 3 4|||R:VERB:SVA|||shows|||REQUIRED|||-NONE-|||0
-A 7 8|||R:SPELL|||microcalcifications,|||REQUIRED|||-NONE-|||0
 A 9 11|||R:OTHER|||fine-needle|||REQUIRED|||-NONE-|||0
 
 S The maternal-fetal medicine physician detect twin-to-twin transfusion syndrome requiring laser photocoagulation therapy.
@@ -649,12 +649,14 @@ S Endoscopic ultrasound demonstrate pancreatic mass with regional lymphadenopath
 A 2 3|||R:VERB:SVA|||demonstrates|||REQUIRED|||-NONE-|||0
 A 3 3|||M:DET|||a|||REQUIRED|||-NONE-|||0
 A 7 8|||R:OTHER|||lymphadenopathy,|||REQUIRED|||-NONE-|||0
+A 8 9|||R:OTHER|||which requires|||REQUIRED|||-NONE-|||0
 A 11 13|||R:OTHER|||fine-needle|||REQUIRED|||-NONE-|||0
 
 S The nuclear medicine physician perform parathyroid scintigraphy for localization of adenomatous tissue prior to surgical resection.
 A 4 5|||R:VERB:SVA|||performs|||REQUIRED|||-NONE-|||0
 
 S Molecular cytogenetics analysis show complex karyotype abnormalities consistent with high-risk myelodysplastic syndrome.
+A 1 2|||R:MORPH|||cytogenetic|||REQUIRED|||-NONE-|||0
 A 3 4|||R:VERB:SVA|||shows|||REQUIRED|||-NONE-|||0
 
 S Patient require extracorporeal membrane oxygenation support for severe acute respiratory distress syndrome with refractory hypoxemia.
@@ -687,14 +689,15 @@ S Fluorodeoxyglucose positron emission tomography show increased metabolic activ
 A 4 5|||R:VERB:SVA|||shows|||REQUIRED|||-NONE-|||0
 
 S The pediatric nephrologist diagnose autosomal recessive polycystic kidney disease with hepatic fibrosis and portal hypertension.
-A 3 4|||R:VERB:TENSE|||diagnosed|||REQUIRED|||-NONE-|||0
+A 3 4|||R:VERB:SVA|||diagnoses|||REQUIRED|||-NONE-|||0
 
 S Histopathological examination reveal chronic active hepatitis with bridging fibrosis and interface hepatitis features.
 A 2 3|||R:VERB:SVA|||reveals|||REQUIRED|||-NONE-|||0
 
 S Patient experience delayed graft function following deceased donor kidney transplantation requiring temporary dialysis support.
 A 0 1|||M:DET|||The patient|||REQUIRED|||-NONE-|||0
-A 1 2|||R:VERB:TENSE|||experienced|||REQUIRED|||-NONE-|||0
+A 1 1|||M:VERB:TENSE|||has|||REQUIRED|||-NONE-|||0
+A 1 2|||R:VERB:FORM|||experienced|||REQUIRED|||-NONE-|||0
 A 9 10|||R:NOUN|||transplantation,|||REQUIRED|||-NONE-|||0
 A 10 11|||R:OTHER|||which required|||REQUIRED|||-NONE-|||0
 
@@ -702,7 +705,7 @@ S The interventional neuroradiologist perform mechanical thrombectomy for acute 
 A 3 4|||R:VERB:SVA|||performs|||REQUIRED|||-NONE-|||0
 
 S Bone densitometry study show severe osteoporosis with increased fracture risk requiring bisphosphonate therapy initiation.
-A 0 1|||M:DET|||A bone|||REQUIRED|||-NONE-|||0
+A 0 1|||M:DET|||The bone|||REQUIRED|||-NONE-|||0
 A 3 4|||R:VERB:SVA|||shows|||REQUIRED|||-NONE-|||0
 A 7 7|||M:DET|||an|||REQUIRED|||-NONE-|||0
 A 9 10|||R:NOUN|||risk,|||REQUIRED|||-NONE-|||0
@@ -721,7 +724,7 @@ A 1 2|||R:VERB:TENSE|||developed|||REQUIRED|||-NONE-|||0
 A 12 13|||R:NOUN|||count syndrome,|||REQUIRED|||-NONE-|||0
 
 S The clinical neurophysiologist perform continuous electroencephalography monitoring for seizure detection in comatose patient.
-A 2 3|||R:NOUN:INFL|||neurophysiologists|||REQUIRED|||-NONE-|||0
+A 3 4|||R:VERB:SVA|||performs|||REQUIRED|||-NONE-|||0
 A 12 13|||R:NOUN|||patients.|||REQUIRED|||-NONE-|||0
 
 S Cytogenetic analysis reveal ring chromosome formation associated with constitutional growth delay and developmental abnormalities.
@@ -738,23 +741,22 @@ A 7 8|||R:OTHER|||thrombosis,|||REQUIRED|||-NONE-|||0
 S Patient undergo radiofrequency ablation for hepatocellular carcinoma not suitable for surgical resection or liver transplantation.
 A 0 1|||M:DET|||The patient|||REQUIRED|||-NONE-|||0
 A 1 2|||R:VERB:TENSE|||underwent|||REQUIRED|||-NONE-|||0
-A 7 7|||M:OTHER|||that is|||REQUIRED|||-NONE-|||0
+A 7 7|||M:OTHER|||that was|||REQUIRED|||-NONE-|||0
 
 S The pediatric intensivist manage severe septic shock with multiple organ dysfunction requiring vasopressor support and renal replacement therapy.
-A 2 3|||R:NOUN:INFL|||intensivists|||REQUIRED|||-NONE-|||0
-A 3 4|||R:VERB:TENSE|||managed|||REQUIRED|||-NONE-|||0
+A 3 4|||R:VERB:SVA|||manages|||REQUIRED|||-NONE-|||0
 A 10 11|||R:NOUN|||dysfunction,|||REQUIRED|||-NONE-|||0
-A 11 12|||R:OTHER|||which required|||REQUIRED|||-NONE-|||0
 
 S Dual-energy X-ray absorptiometry scan show significant bone mineral density loss consistent with glucocorticoid-induced osteoporosis.
 A 0 1|||M:DET|||The dual-energy|||REQUIRED|||-NONE-|||0
 A 4 5|||R:VERB:SVA|||shows|||REQUIRED|||-NONE-|||0
+A 9 10|||R:NOUN|||loss,|||REQUIRED|||-NONE-|||0
 
 S The sleep medicine specialist recommend continuous positive airway pressure therapy for severe obstructive sleep apnea syndrome.
 A 4 5|||R:VERB:SVA|||recommends|||REQUIRED|||-NONE-|||0
 
 S Patch testing reveal positive reactions to multiple contact allergens requiring comprehensive avoidance strategies and topical corticosteroids.
-A 2 3|||R:VERB:SVA|||reveals|||REQUIRED|||-NONE-|||0
+A 2 3|||R:VERB:TENSE|||revealed|||REQUIRED|||-NONE-|||0
 A 8 9|||R:OTHER|||allergens,|||REQUIRED|||-NONE-|||0
 
 S Patient experience acute hemodynamic compromise following massive transfusion protocol activation for hemorrhagic shock.
@@ -766,45 +768,43 @@ A 3 4|||R:VERB:SVA|||performs|||REQUIRED|||-NONE-|||0
 
 S Pharmacogenomic testing show CYP2D6 poor metabolizer status affecting codeine metabolism and analgesic efficacy.
 A 2 3|||R:VERB:SVA|||shows|||REQUIRED|||-NONE-|||0
+A 6 7|||R:NOUN|||status,|||REQUIRED|||-NONE-|||0
 
 S The pediatric rheumatologist diagnose juvenile idiopathic arthritis with systemic features requiring methotrexate and biologic therapy.
-A 3 4|||R:VERB:TENSE|||diagnosed|||REQUIRED|||-NONE-|||0
+A 3 4|||R:VERB:SVA|||diagnoses|||REQUIRED|||-NONE-|||0
 
 S Cerebral angiography demonstrate fusiform aneurysm of the basilar artery requiring flow diverter stent placement.
 A 2 3|||R:VERB:SVA|||demonstrates|||REQUIRED|||-NONE-|||0
 A 3 3|||M:DET|||a|||REQUIRED|||-NONE-|||0
 A 8 9|||R:NOUN|||artery,|||REQUIRED|||-NONE-|||0
-A 9 10|||R:OTHER|||which requires|||REQUIRED|||-NONE-|||0
 
 S Patient develop acquired thrombotic thrombocytopenic purpura requiring plasma exchange therapy and immunosuppressive treatment.
-A 0 1|||M:DET|||A patient|||REQUIRED|||-NONE-|||0
+A 0 1|||M:DET|||The patient|||REQUIRED|||-NONE-|||0
 A 1 2|||R:VERB:TENSE|||developed|||REQUIRED|||-NONE-|||0
 A 5 6|||R:NOUN|||purpura,|||REQUIRED|||-NONE-|||0
 A 6 7|||R:OTHER|||which required|||REQUIRED|||-NONE-|||0
 
 S The maternal-fetal medicine specialist perform percutaneous umbilical blood sampling for fetal anemia evaluation and intrauterine transfusion.
-A 3 4|||R:NOUN:NUM|||specialists|||REQUIRED|||-NONE-|||0
+A 4 5|||R:VERB:SVA|||performs|||REQUIRED|||-NONE-|||0
 
 S Gallium-67 scintigraphy show increased uptake in pulmonary parenchyma consistent with active inflammation and sarcoidosis.
 A 2 3|||R:VERB:SVA|||shows|||REQUIRED|||-NONE-|||0
+A 7 8|||R:SPELL|||parenchyma,|||REQUIRED|||-NONE-|||0
 
 S The emergency physician manage acute acetaminophen overdose with N-acetylcysteine administration and hepatic function monitoring.
-A 2 3|||R:NOUN:NUM|||physicians|||REQUIRED|||-NONE-|||0
-A 6 7|||R:VERB:SVA|||overdoses|||REQUIRED|||-NONE-|||0
+A 3 4|||R:VERB:SVA|||manages|||REQUIRED|||-NONE-|||0
 
 S Chromoendoscopy examination reveal subtle mucosal changes consistent with early colorectal neoplasia requiring endoscopic resection.
-A 0 1|||M:DET|||The chromoendoscopy|||REQUIRED|||-NONE-|||0
-A 2 3|||R:VERB:TENSE|||revealed|||REQUIRED|||-NONE-|||0
+A 2 3|||R:VERB:SVA|||reveals|||REQUIRED|||-NONE-|||0
 A 10 11|||R:SPELL|||neoplasia,|||REQUIRED|||-NONE-|||0
-A 11 12|||R:OTHER|||which require|||REQUIRED|||-NONE-|||0
+A 11 12|||R:OTHER|||which requires|||REQUIRED|||-NONE-|||0
 
 S Patient undergo implantable cardioverter-defibrillator placement for primary prevention of sudden cardiac death in ischemic cardiomyopathy.
 A 0 1|||M:DET|||The patient|||REQUIRED|||-NONE-|||0
 A 1 2|||R:VERB:TENSE|||underwent|||REQUIRED|||-NONE-|||0
-A 6 6|||M:DET|||the|||REQUIRED|||-NONE-|||0
 
 S The pediatric dermatologist diagnose epidermolysis bullosa with dystrophic features requiring specialized wound care management.
-A 3 4|||R:VERB:TENSE|||diagnosed|||REQUIRED|||-NONE-|||0
+A 3 4|||R:VERB:SVA|||diagnoses|||REQUIRED|||-NONE-|||0
 
 S Lymphoscintigraphy demonstrate sentinel lymph node drainage patterns for melanoma staging and surgical planning.
 A 1 2|||R:VERB:SVA|||demonstrates|||REQUIRED|||-NONE-|||0
@@ -816,6 +816,7 @@ S Intraoperative transesophageal echocardiography show successful repair of mitr
 A 3 4|||R:VERB:SVA|||shows|||REQUIRED|||-NONE-|||0
 
 S Patient develop refeeding syndrome following nutritional rehabilitation for severe anorexia nervosa with electrolyte abnormalities.
-A 0 1|||R:NOUN:NUM|||Patients|||REQUIRED|||-NONE-|||0
+A 0 1|||M:DET|||The patient|||REQUIRED|||-NONE-|||0
 A 1 2|||R:VERB:TENSE|||developed|||REQUIRED|||-NONE-|||0
+A 13 14|||R:NOUN|||abnormalities|||REQUIRED|||-NONE-|||0
 

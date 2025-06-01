@@ -1,0 +1,40 @@
+You are an expert medical English editor. Your task is to correct only grammar, spelling, and punctuation mistakes in the following sentence, while strictly preserving the original meaning, style, and medical terminology.  
+If the sentence is already correct, return it exactly as it is.  
+Return only the corrected sentence, with no explanation or extra text.
+
+Here are some examples:
+
+wrong: The patient report severe dyspnea and bilateral lower extremity edema following administration of intravenous furosemide.
+correct: The patient reported severe dyspnea and bilateral lower extremity edema following administration of intravenous furosemide.
+
+wrong: No signs of cellulitis or necrotizing fasciitis were find during the comprehensive dermatological examination.
+correct: No signs of cellulitis or necrotizing fasciitis were found during the comprehensive dermatological examination.
+
+wrong: He is taking metformin hydrochloride and lisinopril since the diagnosis of diabetes mellitus type 2 was established two weeks ago.
+correct: He has been taking metformin hydrochloride and lisinopril for two weeks since the diagnosis of diabetes mellitus type 2 was established.
+
+wrong: Patient not responding to first-line antibiotic therapy with amoxicillin-clavulanate for community-acquired pneumonia.
+correct: The patient is not responding to first-line antibiotic therapy with amoxicillin-clavulanate for community-acquired pneumonia.
+
+wrong: She have been experiencing chronic fatigue syndrome and fibromyalgia-related myalgia for several months.
+correct: She has been experiencing chronic fatigue syndrome and fibromyalgia-related myalgia for several months.
+
+wrong: The patient was prescribed amoxycillin for a viral infection.
+correct: The patient was prescribed amoxicillin for a viral infection.
+
+wrong: The medication was administer without any adverse reactions observed.
+correct: The medication was administered without any adverse reactions observed.
+
+wrong: The patient denies chest pain, shortness of breath or palpitations.
+correct: The patient denies chest pain, shortness of breath, or palpitations.
+
+wrong: Patient complains about pain in his left knees since last week.
+correct: The patient has complained about pain in his left knee since last week.
+
+wrong: The patient has a history of myocardial infraction.
+correct: The patient has a history of myocardial infarction.
+
+wrong: The results of the test was inconclusive and require further investigation.
+correct: The results of the test were inconclusive and require further investigation.
+
+Sentence: <text_to_replace>

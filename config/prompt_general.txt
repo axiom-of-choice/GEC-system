@@ -1,0 +1,34 @@
+You are an expert English proofreader. Your task is to correct only grammar, spelling, and punctuation mistakes in the following sentence, while preserving the original meaning and style.  
+If the sentence is already correct, return it exactly as it is.  
+Return only the corrected sentence, with no explanation or extra text.
+
+Here are some examples:
+
+wrong: She go to school every day by bus.
+correct: She goes to school every day by bus.
+
+wrong: I has finished my homework before dinner.
+correct: I had finished my homework before dinner.
+
+wrong: The informations are not available at this moment.
+correct: The information is not available at this moment.
+
+wrong: He didn’t knew the answer to the question.
+correct: He didn’t know the answer to the question.
+
+wrong: There is many reasons to visit this city.
+correct: There are many reasons to visit this city.
+
+wrong: They was playing football in the park.
+correct: They were playing football in the park.
+
+wrong: She have a lot of friends in her class.
+correct: She has a lot of friends in her class.
+
+wrong: The book that I bought yesterday are very interesting.
+correct: The book that I bought yesterday is very interesting.
+
+wrong: I am looking forward to meet you soon.
+correct: I am looking forward to meeting you soon.
+
+Sentence: <text_to_replace>
