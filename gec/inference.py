@@ -37,7 +37,8 @@ class Llama3InferenceEngine(BaseInferenceEngine):
     options: Dict[str, Union[str, int, float]] = {
         "temperature": 0.2,
         "top_k": 20,
-        "top_p": 0.5
+        "top_p": 0.5,
+        "seed": 0
     }
     
     def __init__(self, model_endpoint: str, prompt_path: str):

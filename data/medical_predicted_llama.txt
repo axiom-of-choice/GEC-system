@@ -18,7 +18,7 @@ The registered nurse gave the intramuscular injection of vitamin B12 cyanocobala
 He does not take his antihypertensive medications, including amlodipine and hydrochlorothiazide, regularly as prescribed.
 The broad-spectrum antibiotic vancomycin was administered in the morning following positive blood culture results.
 She was admitted to the coronary care unit yesterday following acute ST-elevation myocardial infarction.
-She has nosocomial pneumonia, in both bilateral lower lobes, with pleural effusion and consolidation on the chest radiograph.
+She has nosocomial pneumonia in both bilateral lower lobes with pleural effusion and consolidation on the chest radiograph.
 He was discharged in stable condition following successful percutaneous coronary intervention with drug-eluting stent placement.
 Systolic and diastolic blood pressure was in a normal range following the administration of an antihypertensive medication regimen.
 The patient has pyrexia of 39. 2 degrees Celsius accompanied by rigors and profuse diaphoresis.
@@ -181,7 +181,7 @@ The clinical neurophysiologists performed continuous electroencephalography moni
 Cytogenetic analysis revealed ring chromosome formation associated with constitutional growth delay and developmental abnormalities.
 The family medicine physician coordinates comprehensive diabetes management, including insulin pump therapy and continuous glucose monitoring.
 Magnetic resonance venography showed cerebral venous sinus thrombosis requiring anticoagulation therapy and intracranial pressure monitoring.
-Patients undergo radiofrequency ablation for hepatocellular carcinoma, which are not suitable for surgical resection or liver transplantation.
+Patients underwent radiofrequency ablation for hepatocellular carcinoma, which was not suitable for surgical resection or liver transplantation.
 The pediatric intensivists managed severe septic shock with multiple organ dysfunction, requiring vasopressor support and renal replacement therapy.
 Dual-energy X-ray absorptiometry scans showed significant bone mineral density loss consistent with glucocorticoid-induced osteoporosis.
 The sleep medicine specialists recommend continuous positive airway pressure therapy for severe obstructive sleep apnea syndrome.

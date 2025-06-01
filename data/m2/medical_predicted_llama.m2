@@ -69,9 +69,7 @@ S She were admitted to the coronary care unit yesterday following acute ST-eleva
 A 1 2|||R:VERB:SVA|||was|||REQUIRED|||-NONE-|||0
 
 S She has nosocomial pneumonia in bilateral lower lobes with pleural effusion and consolidation on chest radiograph.
-A 3 4|||R:NOUN|||pneumonia,|||REQUIRED|||-NONE-|||0
-A 5 5|||M:CONJ|||both|||REQUIRED|||-NONE-|||0
-A 7 8|||R:NOUN|||lobes,|||REQUIRED|||-NONE-|||0
+A 5 5|||M:DET|||both|||REQUIRED|||-NONE-|||0
 A 14 14|||M:DET|||the|||REQUIRED|||-NONE-|||0
 
 S He was discharge in stable condition following successful percutaneous coronary intervention with drug-eluting stent placement.
@@ -670,8 +668,9 @@ A 3 4|||R:VERB:TENSE|||showed|||REQUIRED|||-NONE-|||0
 
 S Patient undergo radiofrequency ablation for hepatocellular carcinoma not suitable for surgical resection or liver transplantation.
 A 0 1|||R:NOUN:NUM|||Patients|||REQUIRED|||-NONE-|||0
+A 1 2|||R:VERB:TENSE|||underwent|||REQUIRED|||-NONE-|||0
 A 6 7|||R:NOUN|||carcinoma,|||REQUIRED|||-NONE-|||0
-A 7 7|||M:OTHER|||which are|||REQUIRED|||-NONE-|||0
+A 7 7|||M:OTHER|||which was|||REQUIRED|||-NONE-|||0
 
 S The pediatric intensivist manage severe septic shock with multiple organ dysfunction requiring vasopressor support and renal replacement therapy.
 A 2 3|||R:NOUN:INFL|||intensivists|||REQUIRED|||-NONE-|||0
