@@ -144,3 +144,10 @@ class Evaluator:
         else:
             self.logger.warning("Async batch inference not available for this engine.")
             return None
+        
+    def evaluate_single(self, pred, ref):
+        norm_pred = Evaluator.normalize_text(pred)
+        norm_ref = Evaluator.normalize_text(ref)
+        exact = int(norm_pred == norm_ref)
+        gleu = sentence_gleu([norm_ref.split()], norm_pred.split())
+        return {"exact_match": exact, "gleu": gleu}
