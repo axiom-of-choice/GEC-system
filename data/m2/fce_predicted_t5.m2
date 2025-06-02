@@ -8,14 +8,13 @@ S I hope that he will recover soon and that he will make it to our conference.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S As far as organisation is concerned, adequate number of double rooms with shower or bath have been booked for your group at the Palace hotel located across the main street from the train station.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 6 7|||R:OTHER|||a sufficient|||REQUIRED|||-NONE-|||0
 
 S To come to our college, you can either watch downhill to the lake front ( about 10 min ) or take the new cable car from the train station.
 A 12 14|||R:ORTH|||lakefront|||REQUIRED|||-NONE-|||0
 
 S The college is just stairs away from the bottom end.
-A 8 9|||R:OTHER|||bottom.|||REQUIRED|||-NONE-|||0
-A 9 10|||U:NOUN||||||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S The end - of - conference party will take place on a boat cruising on the lake.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -74,20 +73,21 @@ A 5 6|||U:DET||||||REQUIRED|||-NONE-|||0
 
 S But is n't it a handicap outside professional life.
 A 1 3|||R:ORTH|||isn't|||REQUIRED|||-NONE-|||0
+A 7 7|||M:PREP|||of|||REQUIRED|||-NONE-|||0
 A 8 9|||R:NOUN|||life?|||REQUIRED|||-NONE-|||0
 
 S Should n't people communicate with those they are next to instead of calling someone 2 miles away.
 A 0 2|||R:ORTH|||Shouldn't|||REQUIRED|||-NONE-|||0
 
 S It is not rare to see two people walking side by side, both talking on the phone.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 3 4|||R:ADJ|||uncommon|||REQUIRED|||-NONE-|||0
 
 S Would n't it be better to prepare the shopping list instead of dialing home to ask which salad to buy.
 A 0 2|||R:ORTH|||Wouldn't|||REQUIRED|||-NONE-|||0
 A 16 17|||R:DET|||what|||REQUIRED|||-NONE-|||0
 
 S Mobile phone is a marvellous invention but as for cigarettes, we should right on it
-A 0 1|||M:DET|||The mobile|||REQUIRED|||-NONE-|||0
+A 12 12|||M:OTHER|||put it|||REQUIRED|||-NONE-|||0
 
 S CAUTION: use of this device may damage your brain.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -102,6 +102,7 @@ A 9 9|||M:PREP|||to|||REQUIRED|||-NONE-|||0
 S Firstly, I would like to tell you, that the group has been booked into Palace Hotel, which locates beside the congress house in the centre.
 A 6 7|||R:OTHER|||you|||REQUIRED|||-NONE-|||0
 A 14 14|||M:DET|||the|||REQUIRED|||-NONE-|||0
+A 17 18|||R:VERB:TENSE|||is located|||REQUIRED|||-NONE-|||0
 
 S You can make contact with Mrs Brackenbury using the number 06 8793888.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -137,14 +138,13 @@ S As you see, what to wear is just something casual.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Finally, in the last afternoon, we could visit the museums, markets ( we have a very interesting robot - market ).
-A 1 3|||U:OTHER||||||REQUIRED|||-NONE-|||0
 A 18 19|||U:PUNCT||||||REQUIRED|||-NONE-|||0
 
 S Basically it 's a free time for the students to look round here by themselves.
 A 1 3|||R:ORTH|||it's|||REQUIRED|||-NONE-|||0
 
 S I hope your questions re answered appropriatly.
-A 4 5|||R:SPELL|||are|||REQUIRED|||-NONE-|||0
+A 4 5|||R:OTHER|||will be|||REQUIRED|||-NONE-|||0
 A 6 7|||R:PUNCT|||appropriately.|||REQUIRED|||-NONE-|||0
 
 S I 'm looking forward to seeing you on the conference.
@@ -164,7 +164,6 @@ S Or even in cars and washmachines there 're computer chips.
 A 5 8|||R:ORTH|||wash machines there're|||REQUIRED|||-NONE-|||0
 
 S What has computer affected to our life?
-A 2 2|||M:DET|||the|||REQUIRED|||-NONE-|||0
 A 4 5|||U:PREP||||||REQUIRED|||-NONE-|||0
 
 S First of all, the efficiency of the society has been improved.
@@ -172,6 +171,7 @@ A 6 7|||U:DET||||||REQUIRED|||-NONE-|||0
 
 S When shopping, we do n't need to wait the Kasse to take every article 's note by hand.
 A 3 5|||R:ORTH|||don't|||REQUIRED|||-NONE-|||0
+A 8 8|||M:PREP|||for|||REQUIRED|||-NONE-|||0
 A 13 15|||R:ORTH|||article's|||REQUIRED|||-NONE-|||0
 
 S When booking a airline, we can just simply make a phone to any agency, and get it done in one minute.
@@ -179,7 +179,7 @@ A 2 3|||R:DET|||an|||REQUIRED|||-NONE-|||0
 A 11 11|||M:NOUN|||call|||REQUIRED|||-NONE-|||0
 
 S Secondly, instead of looking up tons of books to get the information what we need, we can very easily search it from internet or on the local network.
-A 21 22|||R:PREP|||on|||REQUIRED|||-NONE-|||0
+A 12 13|||U:PRON||||||REQUIRED|||-NONE-|||0
 A 22 22|||M:DET|||the|||REQUIRED|||-NONE-|||0
 A 22 23|||R:ORTH|||Internet|||REQUIRED|||-NONE-|||0
 
@@ -189,13 +189,12 @@ A 2 3|||U:DET||||||REQUIRED|||-NONE-|||0
 A 5 6|||R:OTHER|||heard|||REQUIRED|||-NONE-|||0
 A 16 17|||U:DET||||||REQUIRED|||-NONE-|||0
 A 21 22|||R:VERB:SVA|||finds|||REQUIRED|||-NONE-|||0
-A 23 23|||M:NOUN|||Internet|||REQUIRED|||-NONE-|||0
+A 23 23|||M:DET|||the|||REQUIRED|||-NONE-|||0
+A 23 24|||R:ORTH|||Internet.|||REQUIRED|||-NONE-|||0
 
 S Moreover, with computer network, it can be possible that people work from home, making projects, controling operations or having conferences.
 A 2 2|||M:DET|||the|||REQUIRED|||-NONE-|||0
-A 13 14|||R:VERB:FORM|||make|||REQUIRED|||-NONE-|||0
-A 15 16|||R:MORPH|||control|||REQUIRED|||-NONE-|||0
-A 18 19|||R:VERB:FORM|||have|||REQUIRED|||-NONE-|||0
+A 15 16|||R:VERB:INFL|||controlling|||REQUIRED|||-NONE-|||0
 
 S Lastly the way of communications has been also changed.
 A 4 5|||R:NOUN:NUM|||communication|||REQUIRED|||-NONE-|||0
@@ -218,12 +217,11 @@ S A very important and severe problem is the reliability and security.
 A 7 8|||U:DET||||||REQUIRED|||-NONE-|||0
 
 S Till now, to completely rely on computer is still somehow not safe enough.
-A 2 3|||U:VERB:FORM||||||REQUIRED|||-NONE-|||0
-A 4 5|||R:VERB:FORM|||relying|||REQUIRED|||-NONE-|||0
+A 4 5|||R:VERB|||depend|||REQUIRED|||-NONE-|||0
 A 6 6|||M:DET|||the|||REQUIRED|||-NONE-|||0
-A 9 10|||U:ADV||||||REQUIRED|||-NONE-|||0
 
 S In conclusion, computer have become a very essential necessity of our life, and it 's still a young invention, which need to be improved.
+A 2 2|||M:DET|||the|||REQUIRED|||-NONE-|||0
 A 3 4|||R:VERB:SVA|||has|||REQUIRED|||-NONE-|||0
 A 13 15|||R:ORTH|||it's|||REQUIRED|||-NONE-|||0
 A 20 21|||R:VERB:SVA|||needs|||REQUIRED|||-NONE-|||0
@@ -233,6 +231,7 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S First at all, I am sorry about Richard illness.
 A 1 2|||R:PREP|||of|||REQUIRED|||-NONE-|||0
+A 7 8|||R:NOUN|||Richard's|||REQUIRED|||-NONE-|||0
 
 S Please remember me to him and give him my best wishes.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -245,13 +244,14 @@ S Your group has been booked into the Palace Hotel.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Because it is a wellkown hotel it should be easy to find it.
-A 4 5|||R:OTHER|||well - equipped|||REQUIRED|||-NONE-|||0
+A 4 5|||R:OTHER|||well - stocked|||REQUIRED|||-NONE-|||0
 
 S Moreover, it is really well - located so it will allow you to move around the city without any problem.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Even more the conference is going to take place in the Exhibition Centre, which is located only five minutes walking far from the Hotel.
-A 20 21|||R:OTHER|||distance|||REQUIRED|||-NONE-|||0
+A 1 2|||R:OTHER|||more,|||REQUIRED|||-NONE-|||0
+A 20 21|||R:ADV|||away|||REQUIRED|||-NONE-|||0
 
 S We haven't asked for any special clothes so I would wear casual and comfortable clothes, although you can come well - dressed, if you feel better.
 A 20 21|||U:PUNCT||||||REQUIRED|||-NONE-|||0
@@ -272,13 +272,17 @@ S Yours sincerely,
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S " Sagrada Familia" a real holly building.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 3 3|||M:VERB|||is|||REQUIRED|||-NONE-|||0
 
 S If you are looking for a special building in Barcelona, which you can like whatever your tastes are, you should visit the" Sagrada Familia" .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Among the big number of choices, this unfinished church offers a gorgeous view fro the top of its towers, a charming story and one of the most representative examples of the Catalonia modernisme art.
 A 13 14|||R:OTHER|||over|||REQUIRED|||-NONE-|||0
+A 31 32|||U:NOUN||||||REQUIRED|||-NONE-|||0
+A 32 33|||R:SPELL|||modernist|||REQUIRED|||-NONE-|||0
+A 33 34|||R:OTHER|||art|||REQUIRED|||-NONE-|||0
+A 34 34|||M:OTHER|||of Catalonia.|||REQUIRED|||-NONE-|||0
 
 S Gaudi conceived this church n 1912, though it was n't until 1920 they started to build it.
 A 4 5|||R:SPELL|||in|||REQUIRED|||-NONE-|||0
@@ -289,6 +293,7 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S After Gaudi death it was critical stop which was fortunately solved three years later.
 A 5 5|||M:DET|||a|||REQUIRED|||-NONE-|||0
+A 6 7|||R:NOUN|||stop,|||REQUIRED|||-NONE-|||0
 
 S Nowadays, a hard work is being done in order to finish as soon as possible.
 A 1 2|||U:DET||||||REQUIRED|||-NONE-|||0
@@ -304,23 +309,26 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S There you can enjoy a terrific view, not only will you see almost all the city but also you will discover another perspective of this magnific building.
 A 5 6|||R:ADJ|||fantastic|||REQUIRED|||-NONE-|||0
+A 6 7|||R:NOUN|||view.|||REQUIRED|||-NONE-|||0
+A 7 8|||R:ORTH|||Not|||REQUIRED|||-NONE-|||0
+A 25 27|||R:NOUN|||magnificence.|||REQUIRED|||-NONE-|||0
 
 S Dear Mrs Smith
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S As you know I am in charge for organise the conference in my college. Do not worry if Richard did not left you all the information.
 A 7 8|||R:PREP|||of|||REQUIRED|||-NONE-|||0
+A 8 9|||R:MORPH|||organizing|||REQUIRED|||-NONE-|||0
 A 21 22|||R:VERB:FORM|||leave|||REQUIRED|||-NONE-|||0
 
 S I am pleased to help you.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S We looked in every hotel in Town trying to give you the best offerd.
-A 2 3|||R:PREP|||at|||REQUIRED|||-NONE-|||0
 A 13 14|||R:NOUN|||offer.|||REQUIRED|||-NONE-|||0
 
 S We found two good hotels but we decided for the Palace Hotel.
-A 8 9|||R:OTHER|||to choose|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S This has the best price that we could find.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -332,10 +340,9 @@ S The party is going to be in a local discotheque near the college so the best w
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S You do not have to wear any special kind of clothes but in my opinion you can wear very cassual.
-A 19 20|||R:OTHER|||simple clothes.|||REQUIRED|||-NONE-|||0
+A 19 20|||R:OTHER|||special clothes.|||REQUIRED|||-NONE-|||0
 
 S Finally, the last day I sugget you to go to the mall where you can enjoy shopping and looking around.
-A 1 1|||M:PREP|||on|||REQUIRED|||-NONE-|||0
 A 18 19|||R:VERB:FORM|||look|||REQUIRED|||-NONE-|||0
 
 S Yours sincerely,
@@ -352,7 +359,8 @@ S This is an historical building.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S I asked to some pleople in town and this was the best place to choose.
-A 2 5|||R:OTHER|||for somepleple|||REQUIRED|||-NONE-|||0
+A 2 3|||R:PREP|||for|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOUN|||places|||REQUIRED|||-NONE-|||0
 
 S History
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -362,7 +370,8 @@ A 6 7|||R:VERB:FORM|||built|||REQUIRED|||-NONE-|||0
 A 14 15|||R:VERB:SVA|||were|||REQUIRED|||-NONE-|||0
 A 22 23|||R:NOUN|||Mexico.|||REQUIRED|||-NONE-|||0
 A 23 24|||R:ORTH|||One|||REQUIRED|||-NONE-|||0
-A 43 44|||R:OTHER|||the world, had|||REQUIRED|||-NONE-|||0
+A 30 31|||R:VERB:SVA|||were|||REQUIRED|||-NONE-|||0
+A 43 43|||M:OTHER|||the world to|||REQUIRED|||-NONE-|||0
 
 S Place
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -376,7 +385,7 @@ A 2 3|||R:PREP|||on|||REQUIRED|||-NONE-|||0
 A 13 14|||R:PREP|||of|||REQUIRED|||-NONE-|||0
 
 S You are able to get there by car or walking and see everything which was made at that time.
-A 15 16|||R:VERB|||done|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Conclusion
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -464,7 +473,7 @@ S The telephone is a very important invention, which has affected our lives.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S It is a way for people to communicate although they are at two different places.
-A 11 12|||R:PREP|||in|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S People use the telephone every day and it is one of the most important things in daily life.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -474,6 +483,7 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S For example a telephone is very important in job - life.
 A 1 2|||R:OTHER|||example,|||REQUIRED|||-NONE-|||0
+A 8 8|||M:DET|||your|||REQUIRED|||-NONE-|||0
 A 9 10|||U:PUNCT||||||REQUIRED|||-NONE-|||0
 
 S Nowadays there are no companies which do not have a telephone.
@@ -501,7 +511,8 @@ S This invention has made our lives easier and quickier.
 A 8 9|||R:ADJ|||quicker.|||REQUIRED|||-NONE-|||0
 
 S The telephone has made my own life also easy and quick.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 3 3|||M:ADV|||also|||REQUIRED|||-NONE-|||0
+A 7 9|||R:OTHER|||easier|||REQUIRED|||-NONE-|||0
 
 S It makes something possible you can not do.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -547,6 +558,7 @@ S On the last day, the students can enjoy a sightseeing tour around the city, wh
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S The group can also visit the zoo, the opera or stay and relax at the college 's enormous garden and enjoy the settings.
+A 6 7|||R:ORTH|||Zoo,|||REQUIRED|||-NONE-|||0
 A 13 14|||R:PREP|||in|||REQUIRED|||-NONE-|||0
 A 15 17|||U:OTHER||||||REQUIRED|||-NONE-|||0
 A 19 19|||M:OTHER|||of the college|||REQUIRED|||-NONE-|||0
@@ -598,7 +610,7 @@ A 4 5|||U:NOUN||||||REQUIRED|||-NONE-|||0
 
 S History: At the castle are always few guides, who will show someone around and tell him about the history of the castle ( when it was built, by whom and why ), which makes everyone enthousistic.
 A 4 4|||M:PRON|||there|||REQUIRED|||-NONE-|||0
-A 7 8|||R:NOUN|||guides|||REQUIRED|||-NONE-|||0
+A 35 36|||R:ADJ|||happy.|||REQUIRED|||-NONE-|||0
 
 S RECOMMENDATION
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -610,10 +622,10 @@ S It is the favourite place of all the tourists who visit Nyremberg.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Nyremberg is also famous for this castle and the students will have a different expirience and a lesson too.
-A 14 15|||R:NOUN|||opportunity|||REQUIRED|||-NONE-|||0
+A 14 15|||R:NOUN|||course|||REQUIRED|||-NONE-|||0
 
 S By the way you can visit the
-A 7 7|||M:NOUN|||museum|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Dear Mrs Smith,
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -635,17 +647,16 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Furthermore, as usually, we would organise a party at the end of the conference, therefore, it would be great if your students wear a suit ( for man ) or a skirt ( for woman ).
 A 2 3|||R:OTHER|||usual,|||REQUIRED|||-NONE-|||0
-A 13 14|||R:NOUN|||conference.|||REQUIRED|||-NONE-|||0
-A 14 15|||R:ORTH|||Therefore,|||REQUIRED|||-NONE-|||0
 
 S Furthermore, this party would be in your hotel like the following years.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Finally, there are a lot of mouseum is our town, therefore, I would suggest going to the frogs museum which is really fashinating.
-A 6 7|||R:NOUN:INFL|||mouseums|||REQUIRED|||-NONE-|||0
+A 2 3|||R:VERB:SVA|||is|||REQUIRED|||-NONE-|||0
 A 7 8|||R:SPELL|||in|||REQUIRED|||-NONE-|||0
 A 9 10|||R:NOUN|||town.|||REQUIRED|||-NONE-|||0
 A 10 11|||R:ORTH|||Therefore,|||REQUIRED|||-NONE-|||0
+A 17 18|||R:NOUN:NUM|||frog|||REQUIRED|||-NONE-|||0
 A 18 19|||R:NOUN|||museum,|||REQUIRED|||-NONE-|||0
 A 22 23|||R:OTHER|||fascinating.|||REQUIRED|||-NONE-|||0
 
@@ -665,6 +676,7 @@ S subject: Arboriginal Art Museum.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S The aim of this report is intended to discribe the biggest building of our town.
+A 6 7|||U:VERB||||||REQUIRED|||-NONE-|||0
 A 12 13|||R:PREP|||in|||REQUIRED|||-NONE-|||0
 
 S I am in a position to choose a good building which students like myself are interested in.
@@ -684,6 +696,7 @@ S d ) This building is included: 30 toilets, 500'000 lights, and also 100 people
 A 14 15|||R:PRON|||who|||REQUIRED|||-NONE-|||0
 
 S I would suggest this place because it is interesting to discover the eldest civilisation of the world in one of the modernest building.
+A 21 22|||R:SPELL|||modern|||REQUIRED|||-NONE-|||0
 A 22 23|||R:NOUN|||buildings.|||REQUIRED|||-NONE-|||0
 
 S Mrs Smith,
@@ -698,18 +711,20 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 S At First, this international student conference has the intension of explain to students how important is the education.
 A 0 1|||U:PREP||||||REQUIRED|||-NONE-|||0
 A 8 9|||R:NOUN|||intention|||REQUIRED|||-NONE-|||0
-A 9 10|||R:PART|||to|||REQUIRED|||-NONE-|||0
+A 10 11|||R:VERB:FORM|||explaining|||REQUIRED|||-NONE-|||0
 A 15 16|||U:VERB||||||REQUIRED|||-NONE-|||0
 A 17 18|||R:NOUN|||education|||REQUIRED|||-NONE-|||0
 A 18 18|||M:PUNCT|||is.|||REQUIRED|||-NONE-|||0
 
 S In addition to this, we choose the luxuery Palace Hotel which is comfortable enough and in a good location.
 A 7 8|||R:ADJ|||luxurious|||REQUIRED|||-NONE-|||0
+A 9 10|||R:NOUN|||Hotel,|||REQUIRED|||-NONE-|||0
 
 S The Palace Hotel is located in the centre of the city, so you can go by train, by bus or by car.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S I suggest you should go by train and go out in the Museum Station.
+A 3 4|||U:VERB:TENSE||||||REQUIRED|||-NONE-|||0
 A 10 11|||R:PREP|||at|||REQUIRED|||-NONE-|||0
 
 S The Conference will happen in the Hotel, which is so much easier.
@@ -742,7 +757,8 @@ S Yours sincerely,
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Affecting Our Lifes
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 1 2|||R:ORTH|||our|||REQUIRED|||-NONE-|||0
+A 2 3|||R:NOUN:INFL|||lives|||REQUIRED|||-NONE-|||0
 
 S Cars, boats, motobikes, airplanes: Who did never use this once?
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -751,8 +767,10 @@ S This is a good question.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S The humans seems always that they are running and the fastest of this inventions is certainly, the airplane.
-A 2 3|||R:VERB|||seem to|||REQUIRED|||-NONE-|||0
-A 4 7|||R:OTHER|||be|||REQUIRED|||-NONE-|||0
+A 2 3|||R:VERB:SVA|||seem|||REQUIRED|||-NONE-|||0
+A 4 5|||U:PREP||||||REQUIRED|||-NONE-|||0
+A 5 6|||R:OTHER|||to|||REQUIRED|||-NONE-|||0
+A 6 7|||R:VERB:TENSE|||be|||REQUIRED|||-NONE-|||0
 A 12 13|||R:DET|||these|||REQUIRED|||-NONE-|||0
 A 15 16|||R:OTHER|||certainly|||REQUIRED|||-NONE-|||0
 
@@ -761,6 +779,7 @@ A 0 1|||U:PREP||||||REQUIRED|||-NONE-|||0
 A 10 12|||R:ORTH|||didn't|||REQUIRED|||-NONE-|||0
 
 S In this world, where the nations fight to be the better one could n't be diferent: the airplane became the most important thing in the war.
+A 10 11|||R:ADJ|||best|||REQUIRED|||-NONE-|||0
 A 12 14|||R:ORTH|||couldn't|||REQUIRED|||-NONE-|||0
 A 15 16|||R:NOUN|||different:|||REQUIRED|||-NONE-|||0
 
@@ -780,7 +799,7 @@ S The best way is definetely, by air.
 A 4 5|||U:OTHER||||||REQUIRED|||-NONE-|||0
 
 S After this invention travel around the world is so much easier.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 3 4|||R:VERB:FORM|||travelling|||REQUIRED|||-NONE-|||0
 
 S Now, we have to say thanks and congratulate all the creators who invented facility things for us.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -804,7 +823,7 @@ S Thank you for your lettre.
 A 4 5|||R:NOUN|||letter.|||REQUIRED|||-NONE-|||0
 
 S Of course I will give you some more detail about the student conference.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 8 9|||R:NOUN:NUM|||details|||REQUIRED|||-NONE-|||0
 
 S First of all the hotel Richard Brown has been loocked in is the Palace Hotel.
 A 9 10|||R:VERB|||huddled|||REQUIRED|||-NONE-|||0
@@ -825,7 +844,7 @@ S The bus will pick you up right at your hotel entery.
 A 10 11|||R:NOUN|||entrance.|||REQUIRED|||-NONE-|||0
 
 S The end - of - conference party will be a small dinner for all students.
-A 2 2|||M:PREP|||of|||REQUIRED|||-NONE-|||0
+A 14 14|||M:DET|||the|||REQUIRED|||-NONE-|||0
 
 S You do not have to wear spezial clothes, just wear what you always wear.
 A 6 7|||R:SPELL|||special|||REQUIRED|||-NONE-|||0
@@ -873,7 +892,7 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S It is rebuilt in 1948 because of the Secound world war it had been demaged.
 A 1 2|||R:VERB:TENSE|||was|||REQUIRED|||-NONE-|||0
-A 9 10|||R:ORTH|||World|||REQUIRED|||-NONE-|||0
+A 10 11|||R:NOUN|||war,|||REQUIRED|||-NONE-|||0
 A 14 15|||R:OTHER|||destroyed.|||REQUIRED|||-NONE-|||0
 
 S The church is located on a place where you see the whole mountain chain of Rigi.
@@ -921,7 +940,8 @@ S After the party, we will go to an entertainment area to have fun and we will e
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S The rest you already knows.
-A 4 5|||R:VERB|||know.|||REQUIRED|||-NONE-|||0
+A 3 4|||U:ADV||||||REQUIRED|||-NONE-|||0
+A 4 5|||R:VERB|||know already.|||REQUIRED|||-NONE-|||0
 
 S I suggest to wear shirts and jeans.
 A 2 4|||R:VERB:FORM|||wearing|||REQUIRED|||-NONE-|||0
@@ -1020,14 +1040,17 @@ S When you go out of the Hotel turn right and go stright on, at the first crossr
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S At the end of this street you can see our college on your left, it 's a green building.
-A 14 16|||R:ORTH|||it's|||REQUIRED|||-NONE-|||0
+A 13 14|||R:OTHER|||left.|||REQUIRED|||-NONE-|||0
+A 14 16|||R:ORTH|||It's|||REQUIRED|||-NONE-|||0
 
 S At the end - of - conference party it 'll be something to eat and to drink.
 A 3 4|||U:PUNCT||||||REQUIRED|||-NONE-|||0
+A 5 6|||R:OTHER|||the|||REQUIRED|||-NONE-|||0
 A 8 9|||R:PRON|||there|||REQUIRED|||-NONE-|||0
 
 S In the big room where we 'll have the party, it 'll be some picturs of our college, you 'll see al the generations who passed here.
 A 10 11|||R:PRON|||there|||REQUIRED|||-NONE-|||0
+A 14 15|||R:SPELL|||pictures|||REQUIRED|||-NONE-|||0
 A 17 18|||R:NOUN|||college.|||REQUIRED|||-NONE-|||0
 A 18 19|||R:ORTH|||You|||REQUIRED|||-NONE-|||0
 A 21 22|||U:NOUN||||||REQUIRED|||-NONE-|||0
@@ -1058,12 +1081,14 @@ A 7 8|||R:PREP|||to|||REQUIRED|||-NONE-|||0
 
 S Television is an important invention, it permitted us to better our way of communication.
 A 6 7|||R:VERB|||allowed|||REQUIRED|||-NONE-|||0
+A 9 10|||R:VERB|||improve|||REQUIRED|||-NONE-|||0
 
 S This animated box can give us a lot of informations coming from all around the world.
 A 9 10|||R:NOUN:INFL|||information|||REQUIRED|||-NONE-|||0
 
 S Television has affected the" all days life, ,, too. We can spend a lot of time enjoying ourselves with some programs, all what we have to do is watching.
 A 5 6|||R:NOUN:NUM|||day|||REQUIRED|||-NONE-|||0
+A 7 8|||R:PUNCT|||,|||REQUIRED|||-NONE-|||0
 A 20 21|||R:OTHER|||programs.|||REQUIRED|||-NONE-|||0
 A 21 22|||R:ORTH|||All|||REQUIRED|||-NONE-|||0
 A 22 23|||R:PRON|||that|||REQUIRED|||-NONE-|||0
@@ -1073,10 +1098,12 @@ S And we like that, because it 's easier nothing doing than engaging ourselves i
 A 5 7|||R:ORTH|||it's|||REQUIRED|||-NONE-|||0
 A 8 8|||M:VERB|||to do|||REQUIRED|||-NONE-|||0
 A 9 10|||U:VERB||||||REQUIRED|||-NONE-|||0
-A 11 12|||R:VERB:FORM|||engage|||REQUIRED|||-NONE-|||0
 A 16 17|||R:VERB:SVA|||makes|||REQUIRED|||-NONE-|||0
 
 S So television can be a positive or a negative invention, it depends on which use we want to do of this box.
+A 7 8|||U:DET||||||REQUIRED|||-NONE-|||0
+A 9 10|||R:NOUN|||invention.|||REQUIRED|||-NONE-|||0
+A 10 11|||R:ORTH|||It|||REQUIRED|||-NONE-|||0
 A 19 20|||R:PREP|||in|||REQUIRED|||-NONE-|||0
 
 S Now we should be able to answer at the introducing question.
@@ -1098,12 +1125,13 @@ S I am writing to answer your letter about the details of international students
 A 11 11|||M:DET|||the|||REQUIRED|||-NONE-|||0
 
 S Palace Hotel has been booked and you should first walk from the hotel to the Town Hall railway station, which is North City Line, is yellow line on the map.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 25 25|||M:DET|||a|||REQUIRED|||-NONE-|||0
 
 S After getting on the train, you should get off at the Mountain station which is for twenty minutes, is in front of the conference.
 A 12 13|||R:NOUN|||station,|||REQUIRED|||-NONE-|||0
 
 S The conference which will be held from 1 pm through 4 pm, is a formal party.
+A 9 10|||R:PREP|||to|||REQUIRED|||-NONE-|||0
 A 11 12|||R:NOUN|||pm|||REQUIRED|||-NONE-|||0
 
 S You should wear formal clothes, and are going to play a game and enjoy welcome drink together.
@@ -1132,7 +1160,7 @@ A 3 3|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
 
 S This building have a hundred floor and it takes for five minutes from the grand to the top in the elevator.
 A 2 3|||R:VERB:SVA|||has|||REQUIRED|||-NONE-|||0
-A 5 6|||R:NOUN:NUM|||floors|||REQUIRED|||-NONE-|||0
+A 5 5|||M:PUNCT|||-|||REQUIRED|||-NONE-|||0
 
 S There are many facilities which are a museum, a exhibition and many gift shops where we might also enjoy going shopping.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -1177,12 +1205,13 @@ A 37 38|||R:VERB:SVA|||gives|||REQUIRED|||-NONE-|||0
 A 42 43|||U:PUNCT||||||REQUIRED|||-NONE-|||0
 
 S On the last day we are going to have about three hours free times.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 13 14|||R:NOUN|||time.|||REQUIRED|||-NONE-|||0
 
 S What do you think if we will go to visit the Arts Museum?
-A 4 5|||U:PREP||||||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Of if we will go to hear a classic concert near the conference building 's?
+A 1 2|||R:OTHER|||course|||REQUIRED|||-NONE-|||0
 A 13 15|||R:ORTH|||building's?|||REQUIRED|||-NONE-|||0
 
 S I hope that I have been able to give you some help.
@@ -1217,10 +1246,10 @@ S Your American students could learn how the, , Meriot ticinese" is produced and
 A 14 16|||R:WO|||it is|||REQUIRED|||-NONE-|||0
 
 S I think that these suggestions could interest your student then Biasco, with its, , Casa Cavalier Pellanda" , is the middle points of two tailes - Leventina and Blenio - and the middle points of two similar but also different cultures too.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 24 25|||R:SPELL|||tails|||REQUIRED|||-NONE-|||0
 
 S I hope that these informations will bring you to visit Biasco and its, , house" .
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOUN:INFL|||information|||REQUIRED|||-NONE-|||0
 
 S Yours faithfully,
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -1243,13 +1272,11 @@ A 3 5|||R:ORTH|||don't|||REQUIRED|||-NONE-|||0
 A 7 8|||U:VERB:FORM||||||REQUIRED|||-NONE-|||0
 
 S As you already know we are going to have the end - of - conference party where the Head of the college will give a small speech at the begining, then it will a buffet and a disco.
-A 29 30|||R:NOUN|||beginning|||REQUIRED|||-NONE-|||0
-A 30 30|||M:OTHER|||of the session,|||REQUIRED|||-NONE-|||0
+A 29 30|||R:NOUN|||beginning,|||REQUIRED|||-NONE-|||0
 A 33 33|||M:VERB|||be|||REQUIRED|||-NONE-|||0
 
 S You do n't need to dress up smartly but please, make sure that your students do n't wear short or trainers.
 A 1 3|||R:ORTH|||don't|||REQUIRED|||-NONE-|||0
-A 6 7|||U:PART||||||REQUIRED|||-NONE-|||0
 A 15 17|||R:ORTH|||don't|||REQUIRED|||-NONE-|||0
 A 18 19|||R:NOUN:NUM|||shorts|||REQUIRED|||-NONE-|||0
 
@@ -1278,6 +1305,7 @@ S To my personal opinion one of the most important and useful thing which has be
 A 0 1|||R:PREP|||In|||REQUIRED|||-NONE-|||0
 A 2 3|||U:ADJ||||||REQUIRED|||-NONE-|||0
 A 11 12|||R:NOUN:NUM|||things|||REQUIRED|||-NONE-|||0
+A 13 14|||R:VERB:SVA|||have|||REQUIRED|||-NONE-|||0
 
 S Cars take a big part in our life.
 A 1 2|||R:VERB|||play|||REQUIRED|||-NONE-|||0
@@ -1294,15 +1322,13 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 S You do n't have to wait on a bus stop on a cold and windy weather for a late bus, or being stuck on a train for an hour due to some railtrack repairs, you can just jump into a car, tune your radio onto your favourite station and have a plesant drive to your distanation.
 A 1 3|||R:ORTH|||don't|||REQUIRED|||-NONE-|||0
 A 10 11|||R:PREP|||in|||REQUIRED|||-NONE-|||0
-A 21 22|||R:VERB:FORM|||be|||REQUIRED|||-NONE-|||0
-A 32 33|||R:NOUN|||rail tracks|||REQUIRED|||-NONE-|||0
-A 33 34|||R:OTHER|||repairs.|||REQUIRED|||-NONE-|||0
+A 33 34|||R:NOUN|||repairs.|||REQUIRED|||-NONE-|||0
 A 34 35|||R:ORTH|||You|||REQUIRED|||-NONE-|||0
 A 51 52|||R:ADJ|||joyful|||REQUIRED|||-NONE-|||0
 A 55 56|||R:NOUN|||destination.|||REQUIRED|||-NONE-|||0
 
 S Cars are even more important for emergency situations such as fire in a house or if somebody is critically ill.
-A 5 6|||R:PREP|||in|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Could you imagine if our police, doctors or fire - fighters had to get somewhere quickly on foot?
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -1345,13 +1371,13 @@ S I am writing to inform you some information about an international student con
 A 4 5|||R:VERB|||give|||REQUIRED|||-NONE-|||0
 
 S First of all, the hotel which the group has been booked into is The Princes Hotel.
-A 8 10|||U:VERB:TENSE||||||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S It is very near York Railway Station which you can get there easily.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S By rail: get off at York station and you can walk from the station turn left and the hotel is on your left hand side.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 5 5|||M:DET|||the|||REQUIRED|||-NONE-|||0
 
 S By bus: most of the buses in York City Centre pass the station, or you can take a taxi.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -1375,10 +1401,11 @@ S Finally, on the last day we have an afternoon free.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S It would be grateful If we could go for a walk around the city of York and visit the historic buildings.
+A 3 4|||R:VERB|||appreciated|||REQUIRED|||-NONE-|||0
 A 4 5|||R:ORTH|||if|||REQUIRED|||-NONE-|||0
 
 S If you could think of any other ideas It would be very kind of you. I would be grateful if my idea and all the information could help you.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 8 9|||R:ORTH|||it|||REQUIRED|||-NONE-|||0
 
 S I look forward to hearing from you.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -1394,6 +1421,7 @@ A 11 12|||U:VERB||||||REQUIRED|||-NONE-|||0
 
 S A car is one of the invention which is very useful.
 A 6 7|||R:NOUN:NUM|||inventions|||REQUIRED|||-NONE-|||0
+A 8 9|||R:VERB:SVA|||are|||REQUIRED|||-NONE-|||0
 
 S I think a car is very important to me because it 's very convenient for everyday life.
 A 10 12|||R:ORTH|||it's|||REQUIRED|||-NONE-|||0
@@ -1415,7 +1443,6 @@ S The car has largely affected my own life.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S I can go anywhere by car a lot quicker than use public transports.
-A 10 11|||R:VERB:FORM|||using|||REQUIRED|||-NONE-|||0
 A 12 13|||R:NOUN|||transport.|||REQUIRED|||-NONE-|||0
 
 S I can listen to the radio and sometimes can listen to Thai music which I brought some cassets with me from Thailand.
@@ -1484,7 +1511,7 @@ S There is also huge shop centre, where you can buy some souvenirs or taste some
 A 3 3|||M:DET|||a|||REQUIRED|||-NONE-|||0
 
 S I hope that you will find my information helpfull
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 8 9|||R:SPELL|||helpful.|||REQUIRED|||-NONE-|||0
 
 S I'am looking forward to seeing you
 A 0 1|||R:OTHER|||I am|||REQUIRED|||-NONE-|||0
@@ -1505,21 +1532,24 @@ A 8 10|||R:OTHER|||its|||REQUIRED|||-NONE-|||0
 
 S Do n't miss the chance to visit the hystorical museum, located in the heart of the capital city.
 A 0 2|||R:ORTH|||Don't|||REQUIRED|||-NONE-|||0
+A 8 9|||R:SPELL|||historical|||REQUIRED|||-NONE-|||0
 
 S A traditional building which was built at the beginning of the century.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S The hystorical museum is simply a symbol, a proof of what greek have always considered as main principal: their freedom.
-A 11 12|||R:SPELL|||Greece|||REQUIRED|||-NONE-|||0
+A 11 12|||R:SPELL|||Greeks|||REQUIRED|||-NONE-|||0
 A 16 16|||M:DET|||their|||REQUIRED|||-NONE-|||0
 
 S There are five diffrent floors, each of them presents a diffrent chronical period of greek history, starting from the period before the birth of Juisus and concluding to the revolution of 1967.
 A 3 4|||R:SPELL|||different|||REQUIRED|||-NONE-|||0
+A 26 27|||R:VERB|||culminating|||REQUIRED|||-NONE-|||0
+A 27 28|||R:PREP|||in|||REQUIRED|||-NONE-|||0
 
 S The museum provides the visitor with the opportunity to see original pieces of writing, famous paintings having as main subject the revolution of 1821, and aspects of the greek religion that has always considered to be vital part of greek history.
-A 33 33|||M:VERB:TENSE|||been|||REQUIRED|||-NONE-|||0
-A 34 35|||U:VERB:FORM||||||REQUIRED|||-NONE-|||0
-A 35 36|||R:OTHER|||a|||REQUIRED|||-NONE-|||0
+A 15 16|||R:NOUN|||paintings,|||REQUIRED|||-NONE-|||0
+A 31 32|||R:VERB:SVA|||have|||REQUIRED|||-NONE-|||0
+A 36 36|||M:DET|||a|||REQUIRED|||-NONE-|||0
 
 S There is a small amount of money that visitors should pay for entry.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -1543,7 +1573,7 @@ S I will remind you that the international student conference will be the next m
 A 11 12|||U:DET||||||REQUIRED|||-NONE-|||0
 
 S The hotel that we booked was the Palace Hotel which is near the bus station.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 8 9|||R:NOUN|||Hotel,|||REQUIRED|||-NONE-|||0
 
 S When you are in the bus station you will catch the bus number 37 which will go to town center.
 A 18 18|||M:DET|||the|||REQUIRED|||-NONE-|||0
@@ -1553,14 +1583,17 @@ S From there you will walk until the college because it is easier to get there t
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Anyway the college is the first road on your right from town center.
+A 0 1|||R:OTHER|||Anyway,|||REQUIRED|||-NONE-|||0
 A 11 11|||M:DET|||the|||REQUIRED|||-NONE-|||0
 A 12 13|||R:NOUN|||centre.|||REQUIRED|||-NONE-|||0
 
 S After the conference some drink and food will be available in the sport - center which is well equipped for disco - party.
+A 4 5|||R:NOUN:NUM|||drinks|||REQUIRED|||-NONE-|||0
 A 12 13|||R:NOUN:NUM|||sports|||REQUIRED|||-NONE-|||0
 A 13 14|||U:PUNCT||||||REQUIRED|||-NONE-|||0
 A 14 15|||R:SPELL|||centre,|||REQUIRED|||-NONE-|||0
 A 20 20|||M:DET|||a|||REQUIRED|||-NONE-|||0
+A 21 22|||U:PUNCT||||||REQUIRED|||-NONE-|||0
 
 S Our party has a special subject ' Western '.
 A 5 8|||R:ORTH|||subject'Western|||REQUIRED|||-NONE-|||0
@@ -1569,7 +1602,7 @@ S So we suggest to wear western clothes.
 A 3 5|||R:VERB:FORM|||wearing|||REQUIRED|||-NONE-|||0
 
 S On your last day you could go to the sport - musseum which is grateful and famous around the world or only go for a walk around Reconvillier - Park.
-A 11 12|||R:SPELL|||musseum,|||REQUIRED|||-NONE-|||0
+A 11 12|||R:SPELL|||museum,|||REQUIRED|||-NONE-|||0
 
 S I hope that I had answer all of your question and that the conference will be grateful.
 A 4 5|||R:VERB:TENSE|||have|||REQUIRED|||-NONE-|||0
@@ -1600,10 +1633,10 @@ A 1 1|||M:DET|||The|||REQUIRED|||-NONE-|||0
 A 15 17|||R:ORTH|||town's|||REQUIRED|||-NONE-|||0
 
 S This place is very important because it is there that an Emperor had growing up.
-A 13 14|||R:VERB:FORM|||grown|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Architecture: It is a typical from this epoque with beautiful draw on the wall and first kind of writing in the sport center.
-A 5 6|||R:PREP|||of|||REQUIRED|||-NONE-|||0
+A 7 8|||R:SPELL|||epocoque|||REQUIRED|||-NONE-|||0
 A 10 11|||R:MORPH|||drawing|||REQUIRED|||-NONE-|||0
 A 15 15|||M:DET|||the|||REQUIRED|||-NONE-|||0
 A 21 22|||R:NOUN:NUM|||sports|||REQUIRED|||-NONE-|||0
@@ -1613,19 +1646,22 @@ S The door is enormous because for them the entry was the most important.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S History: All began when Ogus Micius said that Roman need to go at school.
+A 1 2|||M:PRON|||It all|||REQUIRED|||-NONE-|||0
 A 8 9|||R:MORPH|||Romans|||REQUIRED|||-NONE-|||0
 A 9 10|||R:VERB:TENSE|||needed|||REQUIRED|||-NONE-|||0
 A 12 13|||R:PREP|||to|||REQUIRED|||-NONE-|||0
 
 S They decided to build more school specially in Switzerland because the people were considerated clever.
-A 5 6|||R:NOUN:NUM|||schools|||REQUIRED|||-NONE-|||0
+A 5 6|||R:NOUN|||schools,|||REQUIRED|||-NONE-|||0
+A 6 7|||R:ADV|||especially|||REQUIRED|||-NONE-|||0
 A 13 14|||R:SPELL|||considered|||REQUIRED|||-NONE-|||0
 
 S During the Second World War all school were demolished only our is left.
+A 6 6|||M:DET|||the|||REQUIRED|||-NONE-|||0
 A 7 8|||R:VERB:SVA|||was|||REQUIRED|||-NONE-|||0
+A 10 10|||M:PREP|||because|||REQUIRED|||-NONE-|||0
 
 S Conclusion: I gave you a lot of reason to get in this building and I hope you will enjoy your trip in my town.
-A 7 8|||R:NOUN:NUM|||reasons|||REQUIRED|||-NONE-|||0
 A 10 11|||R:PREP|||into|||REQUIRED|||-NONE-|||0
 A 21 22|||R:PREP|||to|||REQUIRED|||-NONE-|||0
 
@@ -1651,7 +1687,7 @@ S I will copy the map around the college.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Secondly, I will tell you about the end - of - conference party.
-A 8 8|||M:PREP|||of|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S It will start at six o'clock.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -1660,7 +1696,7 @@ S The party will be held in the dinning room.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S People who will attend the party are many professers, semi - professers and faculties.
-A 8 9|||R:OTHER|||professionals,|||REQUIRED|||-NONE-|||0
+A 0 1|||M:DET|||The people|||REQUIRED|||-NONE-|||0
 A 10 11|||U:NOUN||||||REQUIRED|||-NONE-|||0
 
 S So I suggest that the students should wear formal clothes.
@@ -1697,7 +1733,7 @@ S Yours sincerely.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S I suggest that you should visit one building.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 4 5|||U:VERB:TENSE||||||REQUIRED|||-NONE-|||0
 
 S My town is the capital of Japan.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -1722,7 +1758,7 @@ S I have three reasons for my recommendation.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Firstly, there is the acquerium in the building.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOUN|||entrance|||REQUIRED|||-NONE-|||0
 
 S In addition, this is the 60th floor, I went there first time I could n't believed it.
 A 6 7|||R:NOUN|||floor.|||REQUIRED|||-NONE-|||0
@@ -1758,7 +1794,6 @@ S I would like to help you with my best.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Firstly, Palace Hotel has been booked into for the group accomodation and I spoke with the hotel manager for traveling to the conference.
-A 6 7|||U:PREP||||||REQUIRED|||-NONE-|||0
 A 10 11|||R:SPELL|||accommodation|||REQUIRED|||-NONE-|||0
 A 18 19|||R:PREP|||about|||REQUIRED|||-NONE-|||0
 
@@ -1769,6 +1804,7 @@ A 11 11|||M:DET|||the|||REQUIRED|||-NONE-|||0
 A 15 16|||R:NOUN|||hall.|||REQUIRED|||-NONE-|||0
 
 S Secondly, I would like to tell more about end - of - conference party. I booked Palace Hotel 's restaurant for our party and it is big enough for your students.
+A 8 8|||M:DET|||the|||REQUIRED|||-NONE-|||0
 A 16 16|||M:DET|||the|||REQUIRED|||-NONE-|||0
 A 17 19|||R:ORTH|||Hotel's|||REQUIRED|||-NONE-|||0
 
@@ -1838,6 +1874,7 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 S It has very big museum inside the building and all building made from stone.
 A 2 2|||M:DET|||a|||REQUIRED|||-NONE-|||0
 A 10 10|||M:DET|||the|||REQUIRED|||-NONE-|||0
+A 11 11|||M:VERB:TENSE|||is|||REQUIRED|||-NONE-|||0
 A 12 13|||R:PREP|||of|||REQUIRED|||-NONE-|||0
 
 S 3. This building 's security guards are very special soldiers.
@@ -1861,6 +1898,7 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 S I recommend that it is the best building in Ankara to visit because it includes all Turkish history and very good sight seeing.
 A 16 16|||M:DET|||the|||REQUIRED|||-NONE-|||0
 A 19 19|||M:DET|||a|||REQUIRED|||-NONE-|||0
+A 21 23|||R:NOUN|||sight.|||REQUIRED|||-NONE-|||0
 
 S Dear Mrs. Smith,
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -1875,7 +1913,7 @@ S It is not far from our college, taking 20 minutes by car.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S It would be a good idea to take a taxi from the hotel to the college because the total members of your group are 4 and taxi fare would not be expensive.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 26 28|||R:NOUN|||taxis|||REQUIRED|||-NONE-|||0
 
 S There is a taxi rank opposite the hotel.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -1884,20 +1922,21 @@ S Regarding the end - of - conference party on Thursday, it starts at 7 p. m. in
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S You can wear either casual dresses or fancy ones because we have a fancy - dress competition and the raffle is a bottle of French champaign.
+A 14 15|||U:PUNCT||||||REQUIRED|||-NONE-|||0
 A 25 26|||R:NOUN|||wine.|||REQUIRED|||-NONE-|||0
 
 S On Friday afternoon, it has set to be a free time.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Therefore, you can go shopping in the town centre which is near the college.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 8 9|||R:NOUN|||centre,|||REQUIRED|||-NONE-|||0
 
 S Many beautiful and traditional souvenirs can be found there.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S The other suggestion is going to the flower market where is very famous for tourists because it covers 2 acres and there are plenty of flowers to buy.
 A 8 9|||R:NOUN|||market,|||REQUIRED|||-NONE-|||0
-A 10 10|||M:PRON|||it|||REQUIRED|||-NONE-|||0
+A 9 10|||R:OTHER|||which|||REQUIRED|||-NONE-|||0
 
 S Moreover, it is the biggest flower market in this area.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -1918,7 +1957,7 @@ S Some of them are natural whereas the others are not.
 A 6 7|||U:DET||||||REQUIRED|||-NONE-|||0
 
 S Owing to increasing demand of light for more activities, the natural source is not adequate.
-A 4 5|||R:PREP|||for|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S There, electric light has invented.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -1984,15 +2023,15 @@ S There will be various kinds of food and drinks provided.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Moreover, students can dance and enjoy different sorts of music, for instance, rock, jazz, pop, garage and so on.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 7 8|||R:NOUN|||kinds|||REQUIRED|||-NONE-|||0
 
 S Furthermore, I suggest you and the students wearing pub - wears to it, as it is suitable for dancing.
 A 8 8|||M:DET|||a|||REQUIRED|||-NONE-|||0
 A 10 11|||R:NOUN:NUM|||wear|||REQUIRED|||-NONE-|||0
+A 11 12|||U:PREP||||||REQUIRED|||-NONE-|||0
 
 S Finally, on the last day, I suggest you could go the market at town during the 3-hour gap.
 A 10 10|||M:PREP|||to|||REQUIRED|||-NONE-|||0
-A 12 13|||R:PREP|||in|||REQUIRED|||-NONE-|||0
 
 S It is a nice place to buy the British style gifts to your family and friends.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -2001,7 +2040,7 @@ S You could also enjoy the tea at the cafés nearby.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S I would be grateful to give any help if you need.
-A 6 6|||M:PRON|||you|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S I am looking forward to seeing you.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -2023,7 +2062,7 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S The purpose of this is to give information to the American students, describing Po Lin Temple is worth - visited.
 A 13 13|||M:ADV|||how|||REQUIRED|||-NONE-|||0
-A 19 20|||R:ADJ|||visit.|||REQUIRED|||-NONE-|||0
+A 18 20|||R:OTHER|||visiting.|||REQUIRED|||-NONE-|||0
 
 S 1.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -2084,7 +2123,7 @@ S You could go sightseeing around the Temple and take photos.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Of course, you may get more knowledge about Hong Kong, as the temple have been here for nearly 100 years.
-A 12 13|||R:NOUN:NUM|||temples|||REQUIRED|||-NONE-|||0
+A 13 14|||R:VERB:SVA|||has|||REQUIRED|||-NONE-|||0
 
 S The well known Big Buhha you must n't miss it, or you will be sorry.
 A 6 8|||R:ORTH|||mustn't|||REQUIRED|||-NONE-|||0
@@ -2100,13 +2139,14 @@ S Conclusion:
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S To sum up, I think Po Lin Temple is a nice place to visit, especially for Americans students.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 16 17|||R:NOUN|||Americans.|||REQUIRED|||-NONE-|||0
+A 17 18|||U:VERB||||||REQUIRED|||-NONE-|||0
 
 S Easy to get there and free amittion.
 A 6 7|||R:NOUN|||access.|||REQUIRED|||-NONE-|||0
 
 S On the other hand, Hong Kong is known as a highly commerical city, but you could find something different in Po Lin Temple.
-A 11 12|||R:OTHER|||- industrial|||REQUIRED|||-NONE-|||0
+A 11 12|||R:ADJ|||regarded|||REQUIRED|||-NONE-|||0
 A 20 20|||M:DET|||the|||REQUIRED|||-NONE-|||0
 
 S Dear Mrs Smith,
@@ -2126,7 +2166,7 @@ S We will meet at the lobby at 9. 00 AM.
 A 3 4|||R:PREP|||in|||REQUIRED|||-NONE-|||0
 
 S The conference party will last at 1. 00 AM, but every body do not need to stay until the end.
-A 12 13|||R:VERB:TENSE|||will|||REQUIRED|||-NONE-|||0
+A 12 13|||R:VERB:SVA|||does|||REQUIRED|||-NONE-|||0
 
 S There will be a bus taking students who do not need to stay at the party until the end.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -2136,6 +2176,7 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Everybody are free to dress for the party but be considering to be appropriate.
 A 1 2|||R:VERB:SVA|||is|||REQUIRED|||-NONE-|||0
+A 9 9|||M:VERB:TENSE|||should|||REQUIRED|||-NONE-|||0
 A 11 13|||R:VERB:FORM|||being|||REQUIRED|||-NONE-|||0
 
 S On the last day at noon, you could go to the craft centre near by the Airport.
@@ -2177,12 +2218,15 @@ A 20 22|||R:ORTH|||it's|||REQUIRED|||-NONE-|||0
 
 S To hear the voice from the person you love is the feelling that hard to describe, it 's wonderful and so real, you can imagine their face clearly.
 A 11 12|||R:SPELL|||feeling|||REQUIRED|||-NONE-|||0
-A 16 18|||R:ORTH|||it's|||REQUIRED|||-NONE-|||0
+A 13 13|||M:VERB|||is|||REQUIRED|||-NONE-|||0
+A 15 16|||R:OTHER|||describe.|||REQUIRED|||-NONE-|||0
+A 16 18|||R:ORTH|||It's|||REQUIRED|||-NONE-|||0
+A 21 22|||R:NOUN|||real.|||REQUIRED|||-NONE-|||0
+A 22 23|||R:ORTH|||You|||REQUIRED|||-NONE-|||0
 
 S I had a problem with my best friend once when we keep in tuch through e - mail.
 A 11 12|||R:VERB:TENSE|||kept|||REQUIRED|||-NONE-|||0
 A 13 14|||R:SPELL|||touch|||REQUIRED|||-NONE-|||0
-A 14 15|||R:PREP|||via|||REQUIRED|||-NONE-|||0
 
 S The problem is the language, we used English but we both were not very good at it by the time which made us misunderstand each other.
 A 4 5|||R:NOUN|||language.|||REQUIRED|||-NONE-|||0
@@ -2202,6 +2246,7 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S With reference to the information that you had requested, the hotel that had been booked is the Holiday Inn, in New Port and to get to the University of Wales wich is not far from the hotel, you only need to take a divertion where clearly indicate Carleon and once that you are on the main road all you need to do is to follow the country road which take you direct to the place.
 A 7 8|||U:VERB:TENSE||||||REQUIRED|||-NONE-|||0
+A 29 30|||R:NOUN|||Wales,|||REQUIRED|||-NONE-|||0
 A 30 31|||R:SPELL|||which|||REQUIRED|||-NONE-|||0
 A 36 37|||R:NOUN|||hotel.|||REQUIRED|||-NONE-|||0
 A 37 38|||R:ORTH|||You|||REQUIRED|||-NONE-|||0
@@ -2214,6 +2259,7 @@ A 1 2|||U:PREP||||||REQUIRED|||-NONE-|||0
 S As for the last day I would suggest you to take a visit to the locall museum and the ruin 's Castle.
 A 9 10|||U:VERB:FORM||||||REQUIRED|||-NONE-|||0
 A 15 16|||R:SPELL|||local|||REQUIRED|||-NONE-|||0
+A 18 18|||M:PREP|||to|||REQUIRED|||-NONE-|||0
 A 19 21|||R:ORTH|||ruin's|||REQUIRED|||-NONE-|||0
 
 S In the fist you will find a very intresting collection of Roman Vestiges, also you can visit another section wich it supoused to be a Roman cite.
@@ -2229,9 +2275,10 @@ S Yours Sincerely,
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S I always had consider myself been very looky to be born in the Century because all the amaizing human inventions.
-A 3 4|||R:VERB|||thought|||REQUIRED|||-NONE-|||0
-A 5 6|||R:VERB:FORM|||to be|||REQUIRED|||-NONE-|||0
-A 7 8|||R:ADJ|||curious|||REQUIRED|||-NONE-|||0
+A 2 2|||M:OTHER|||thought I|||REQUIRED|||-NONE-|||0
+A 2 3|||R:VERB:TENSE|||would have|||REQUIRED|||-NONE-|||0
+A 3 5|||U:OTHER||||||REQUIRED|||-NONE-|||0
+A 7 8|||R:ADJ|||interested|||REQUIRED|||-NONE-|||0
 A 15 15|||M:PREP|||of|||REQUIRED|||-NONE-|||0
 A 17 18|||R:SPELL|||amazing|||REQUIRED|||-NONE-|||0
 
@@ -2240,20 +2287,20 @@ A 3 5|||R:ORTH|||let's|||REQUIRED|||-NONE-|||0
 A 12 13|||U:PREP||||||REQUIRED|||-NONE-|||0
 
 S We just need to think about the first world wold and all the inventions created thanks to the industrial revolution to these day.
+A 9 10|||R:OTHER|||war|||REQUIRED|||-NONE-|||0
 A 20 21|||R:PREP|||of|||REQUIRED|||-NONE-|||0
 A 21 22|||U:DET||||||REQUIRED|||-NONE-|||0
 A 22 23|||R:NOUN|||today.|||REQUIRED|||-NONE-|||0
 
 S However I feel that at the moment there should emerge more grups to control this development because the industrial polution that it has been created and it seems that its very little what has been done at the moment in relation to our embiroment.
 A 0 1|||R:OTHER|||However,|||REQUIRED|||-NONE-|||0
-A 9 10|||R:VERB|||be|||REQUIRED|||-NONE-|||0
 A 11 12|||R:SPELL|||groups|||REQUIRED|||-NONE-|||0
 A 17 17|||M:PREP|||of|||REQUIRED|||-NONE-|||0
 A 19 20|||R:SPELL|||pollution|||REQUIRED|||-NONE-|||0
 A 29 29|||M:PRON|||there|||REQUIRED|||-NONE-|||0
 A 29 30|||R:SPELL|||is|||REQUIRED|||-NONE-|||0
 A 32 33|||R:PRON|||that|||REQUIRED|||-NONE-|||0
-A 33 35|||R:VERB:TENSE|||was|||REQUIRED|||-NONE-|||0
+A 43 44|||R:NOUN|||embiromant.|||REQUIRED|||-NONE-|||0
 
 S I hope in the future there will be more and more people interested in this important issue.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -2291,12 +2338,14 @@ S The party it will be nice.
 A 2 3|||U:PRON||||||REQUIRED|||-NONE-|||0
 
 S The clothes now that they will wear it has to be smart, not how you are going to casino for example but nice casual, not with sports shoes or T - shirts.
-A 8 9|||R:VERB:SVA|||have|||REQUIRED|||-NONE-|||0
+A 7 9|||R:OTHER|||have|||REQUIRED|||-NONE-|||0
 A 13 14|||R:OTHER|||like|||REQUIRED|||-NONE-|||0
 
 S On the last day in the afternoon that you have three ours free you can go for coffee or to visit some places.
+A 6 7|||R:NOUN|||afternoon,|||REQUIRED|||-NONE-|||0
+A 7 8|||R:OTHER|||when|||REQUIRED|||-NONE-|||0
 A 11 12|||U:NOUN||||||REQUIRED|||-NONE-|||0
-A 19 20|||U:VERB:FORM||||||REQUIRED|||-NONE-|||0
+A 12 13|||R:OTHER|||free,|||REQUIRED|||-NONE-|||0
 
 S Those are my ideas for the conference.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -2314,11 +2363,12 @@ A 12 13|||R:ORTH|||in our|||REQUIRED|||-NONE-|||0
 
 S I think that all this things we need in our life because it can give us a lot of things.
 A 4 5|||R:DET|||these|||REQUIRED|||-NONE-|||0
+A 12 13|||R:PRON|||they|||REQUIRED|||-NONE-|||0
 
 S First of all we need the telephone in our house because it 's important to make call if you need something of if it something happend to your house and nobody is next to you.
 A 11 13|||R:ORTH|||it's|||REQUIRED|||-NONE-|||0
 A 16 16|||M:DET|||a|||REQUIRED|||-NONE-|||0
-A 22 24|||R:WO|||it if|||REQUIRED|||-NONE-|||0
+A 23 24|||U:PRON||||||REQUIRED|||-NONE-|||0
 A 25 26|||R:SPELL|||happened|||REQUIRED|||-NONE-|||0
 
 S The second one is the lamp, the electricity that is very important in our life.
@@ -2326,8 +2376,7 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S In the past the people did n't have electicity and if they wanted for example to read or to cook something they used to do in the fire.
 A 5 7|||R:ORTH|||didn't|||REQUIRED|||-NONE-|||0
-A 12 13|||R:VERB|||wanted,|||REQUIRED|||-NONE-|||0
-A 14 15|||R:OTHER|||example,|||REQUIRED|||-NONE-|||0
+A 8 8|||M:DET|||any|||REQUIRED|||-NONE-|||0
 
 S It 's important to have electricity because without this you ca n't do anything.
 A 0 2|||R:ORTH|||It's|||REQUIRED|||-NONE-|||0
@@ -2337,14 +2386,13 @@ S The other one is the television.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S You must have TV because you can liten what it happend in the world and you can watch some places that you did n't go.
-A 7 8|||R:VERB|||tell|||REQUIRED|||-NONE-|||0
+A 7 8|||R:VERB|||see|||REQUIRED|||-NONE-|||0
 A 9 10|||U:PRON||||||REQUIRED|||-NONE-|||0
 A 10 11|||R:SPELL|||happened|||REQUIRED|||-NONE-|||0
 A 22 24|||R:ORTH|||didn't|||REQUIRED|||-NONE-|||0
 
 S You can enjoy you time to watch a film if you have free time.
 A 3 4|||R:DET|||your|||REQUIRED|||-NONE-|||0
-A 5 7|||R:VERB:FORM|||watching|||REQUIRED|||-NONE-|||0
 
 S The boat it 's not so important but you can use it for fishing and to see some places.
 A 2 4|||R:OTHER|||is|||REQUIRED|||-NONE-|||0
@@ -2354,6 +2402,7 @@ A 8 9|||R:NOUN|||life.|||REQUIRED|||-NONE-|||0
 A 9 10|||R:ORTH|||You|||REQUIRED|||-NONE-|||0
 
 S In this year the familys they have 3 cars in one family one by one person.
+A 0 2|||U:PREP|||This|||REQUIRED|||-NONE-|||0
 A 4 5|||R:NOUN:INFL|||family|||REQUIRED|||-NONE-|||0
 A 5 6|||U:PRON||||||REQUIRED|||-NONE-|||0
 
@@ -2374,12 +2423,10 @@ S It has a swimming - pool and a nice bar.
 A 4 5|||U:PUNCT||||||REQUIRED|||-NONE-|||0
 
 S The hotel is ten minutes far from the conference and there will be a bus available to go directly over there.
-A 5 6|||R:ADV|||away|||REQUIRED|||-NONE-|||0
+A 5 6|||U:ADV||||||REQUIRED|||-NONE-|||0
 
 S At the end of the conference, there will be a dinner in a luxurious restaurant so people must have nice clothes; jean 's is not allowed.
-A 9 10|||U:DET||||||REQUIRED|||-NONE-|||0
-A 21 23|||R:NOUN:POSS|||jeans|||REQUIRED|||-NONE-|||0
-A 23 24|||R:VERB:SVA|||are|||REQUIRED|||-NONE-|||0
+A 21 23|||R:ORTH|||jean's|||REQUIRED|||-NONE-|||0
 
 S Next to the restaurant, there is a disco for people who like dancing.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -2389,7 +2436,8 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S We have the possibility to visit the old town, it 's very nice and there is a lot of shops.
 A 3 4|||R:NOUN|||opportunity|||REQUIRED|||-NONE-|||0
-A 9 11|||R:ORTH|||it's|||REQUIRED|||-NONE-|||0
+A 8 9|||R:OTHER|||town.|||REQUIRED|||-NONE-|||0
+A 9 11|||R:ORTH|||It's|||REQUIRED|||-NONE-|||0
 A 15 16|||R:VERB:SVA|||are|||REQUIRED|||-NONE-|||0
 
 S We can visit the old castle or the painting museum too.
@@ -2413,6 +2461,8 @@ A 27 28|||R:OTHER|||well,|||REQUIRED|||-NONE-|||0
 
 S With television, old people are less alone because most of old woman have not her husband anymore.
 A 10 10|||M:DET|||the|||REQUIRED|||-NONE-|||0
+A 12 12|||M:VERB:TENSE|||do|||REQUIRED|||-NONE-|||0
+A 12 14|||R:WO|||not have|||REQUIRED|||-NONE-|||0
 
 S Television is a good way to be informed with the news.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -2429,7 +2479,8 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S I 'm very glad to be able to help you out with such sutiation.
 A 0 2|||R:ORTH|||I'm|||REQUIRED|||-NONE-|||0
-A 13 14|||R:NOUN|||assistance.|||REQUIRED|||-NONE-|||0
+A 13 13|||M:DET|||a|||REQUIRED|||-NONE-|||0
+A 13 14|||R:NOUN|||situation.|||REQUIRED|||-NONE-|||0
 
 S First of all, the group has been booked into ' THE PALACE HOTEL '.
 A 8 11|||R:ORTH|||into'THE|||REQUIRED|||-NONE-|||0
@@ -2447,8 +2498,10 @@ A 10 11|||R:NOUN|||trousers.|||REQUIRED|||-NONE-|||0
 A 11 12|||R:ORTH|||If|||REQUIRED|||-NONE-|||0
 
 S When we had finished you 'll be able to enjoy yourself in our cinema or television room, but if you prefer other things, we 've got a swimming pool and a library, it will your own choice.
-A 2 3|||U:VERB:TENSE||||||REQUIRED|||-NONE-|||0
+A 2 3|||R:VERB:TENSE|||have|||REQUIRED|||-NONE-|||0
 A 23 25|||R:ORTH|||we've|||REQUIRED|||-NONE-|||0
+A 31 32|||R:NOUN|||library.|||REQUIRED|||-NONE-|||0
+A 32 33|||R:ORTH|||It|||REQUIRED|||-NONE-|||0
 A 34 34|||M:VERB|||be|||REQUIRED|||-NONE-|||0
 
 S I hope it was useful for you.
@@ -2486,7 +2539,6 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 S As you see, you have to visit the castle, you wo n't feel regret about that.
 A 8 9|||R:NOUN|||castle.|||REQUIRED|||-NONE-|||0
 A 9 12|||R:ORTH|||You won't|||REQUIRED|||-NONE-|||0
-A 13 14|||R:OTHER|||sorry|||REQUIRED|||-NONE-|||0
 
 S Your sincerley,
 A 0 1|||R:PRON|||Yours|||REQUIRED|||-NONE-|||0
@@ -2504,6 +2556,8 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S It is a very nice hotel in the centre of the city, and that is very near of the college which the conference is into, five minutes walking.
 A 17 18|||R:PREP|||to|||REQUIRED|||-NONE-|||0
+A 20 21|||R:OTHER|||where|||REQUIRED|||-NONE-|||0
+A 24 25|||R:OTHER|||in,|||REQUIRED|||-NONE-|||0
 
 S Going walking is quicker than waiting for a taxi or a bus.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -2533,6 +2587,7 @@ S I hope my information can help you and it has been useful for you.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S I am looking forwards to see you at the Conference.
+A 3 4|||R:MORPH|||forward|||REQUIRED|||-NONE-|||0
 A 5 6|||R:VERB:FORM|||seeing|||REQUIRED|||-NONE-|||0
 
 S Yours sincerely,
@@ -2542,6 +2597,8 @@ S There is an invention that I think that has been very important: the computer.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S The computer is very useful and It has affect our own lifes, in differents meanings.
+A 6 7|||R:ORTH|||it|||REQUIRED|||-NONE-|||0
+A 8 9|||R:VERB:FORM|||affected|||REQUIRED|||-NONE-|||0
 A 11 12|||R:NOUN|||lives,|||REQUIRED|||-NONE-|||0
 A 13 14|||R:MORPH|||different|||REQUIRED|||-NONE-|||0
 
@@ -2550,13 +2607,13 @@ A 4 5|||U:ADV||||||REQUIRED|||-NONE-|||0
 A 8 9|||R:NOUN|||work easy.|||REQUIRED|||-NONE-|||0
 
 S For works that you needed, for example three hours you can do them in ten minutes; the same!
+A 1 1|||M:DET|||the|||REQUIRED|||-NONE-|||0
 A 1 2|||R:NOUN:NUM|||work|||REQUIRED|||-NONE-|||0
 
 S But computers do n't have affected only in a good way because thank you to computers the number the places of work for the persons is minor.
 A 2 4|||R:ORTH|||don't|||REQUIRED|||-NONE-|||0
-A 12 13|||R:MORPH|||thanks|||REQUIRED|||-NONE-|||0
-A 13 14|||U:PRON||||||REQUIRED|||-NONE-|||0
-A 18 19|||R:OTHER|||of|||REQUIRED|||-NONE-|||0
+A 18 19|||U:DET||||||REQUIRED|||-NONE-|||0
+A 19 22|||R:WO|||of work places|||REQUIRED|||-NONE-|||0
 A 24 25|||R:NOUN|||people|||REQUIRED|||-NONE-|||0
 
 S But, definetely they has been a very important invention.
@@ -2566,10 +2623,12 @@ A 3 4|||R:VERB:SVA|||have|||REQUIRED|||-NONE-|||0
 S The last relationed with computers is internet.
 A 2 3|||R:SPELL|||relation|||REQUIRED|||-NONE-|||0
 A 3 4|||R:PREP|||to|||REQUIRED|||-NONE-|||0
-A 6 6|||M:NOUN|||Internet|||REQUIRED|||-NONE-|||0
+A 6 6|||M:DET|||the|||REQUIRED|||-NONE-|||0
+A 6 7|||R:ORTH|||Internet.|||REQUIRED|||-NONE-|||0
 
 S By internet you can comunicate with people of differents places of the world at the same moment.
-A 1 1|||M:NOUN|||Internet|||REQUIRED|||-NONE-|||0
+A 1 1|||M:DET|||the|||REQUIRED|||-NONE-|||0
+A 1 2|||R:ORTH|||Internet|||REQUIRED|||-NONE-|||0
 A 4 5|||R:SPELL|||communicate|||REQUIRED|||-NONE-|||0
 A 8 9|||R:MORPH|||different|||REQUIRED|||-NONE-|||0
 A 10 11|||R:PREP|||in|||REQUIRED|||-NONE-|||0
@@ -2580,17 +2639,20 @@ A 6 7|||R:NOUN:INFL|||information|||REQUIRED|||-NONE-|||0
 
 S Every thing that you need you can find it in internet.
 A 0 2|||R:ORTH|||Everything|||REQUIRED|||-NONE-|||0
-A 5 9|||R:OTHER|||is|||REQUIRED|||-NONE-|||0
-A 9 10|||R:OTHER|||on Internet|||REQUIRED|||-NONE-|||0
+A 5 7|||R:OTHER|||is|||REQUIRED|||-NONE-|||0
+A 7 8|||R:OTHER|||on|||REQUIRED|||-NONE-|||0
+A 8 9|||R:PRON|||the|||REQUIRED|||-NONE-|||0
+A 9 10|||U:PREP||||||REQUIRED|||-NONE-|||0
+A 10 11|||R:ORTH|||Internet.|||REQUIRED|||-NONE-|||0
 
 S Nowadays computer are very developmented and it is increasing.
 A 1 2|||R:NOUN:NUM|||computers|||REQUIRED|||-NONE-|||0
-A 4 5|||R:SPELL|||developing|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||developmental|||REQUIRED|||-NONE-|||0
 A 6 7|||R:PRON|||they|||REQUIRED|||-NONE-|||0
 A 7 8|||R:VERB:SVA|||are|||REQUIRED|||-NONE-|||0
 
 S What will be the next?
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 3 4|||U:DET||||||REQUIRED|||-NONE-|||0
 
 S Dear Mrs Maria Smith,
 A 2 3|||U:NOUN||||||REQUIRED|||-NONE-|||0
@@ -2606,6 +2668,7 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S When you are in the college ask for me.
 A 4 5|||U:DET||||||REQUIRED|||-NONE-|||0
+A 7 8|||U:PREP||||||REQUIRED|||-NONE-|||0
 
 S The conference will take one hour, and, at 8 o'clock the party will start, it is a formal party and you should wear formal stuff.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -2617,7 +2680,7 @@ S We will prove you with food and drinks.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S For your free hours I have quite a few ideas.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 3 4|||R:NOUN|||time|||REQUIRED|||-NONE-|||0
 
 S There are lots of things to do here.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -2647,12 +2710,14 @@ S THE MOBILE PHONE
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S The mobile phone has completely changed our lives, it is an instrument which I can not imagine myself living without.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 7 8|||R:NOUN|||lives.|||REQUIRED|||-NONE-|||0
+A 8 9|||R:ORTH|||It|||REQUIRED|||-NONE-|||0
 
 S Apart from being in - fashion it is also a very helpful machine.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 11 12|||R:ADJ|||useful|||REQUIRED|||-NONE-|||0
 
 S Do you remember that day when you got stuck in the middle of the road with your car which would n't work?
+A 17 18|||R:NOUN|||car,|||REQUIRED|||-NONE-|||0
 A 19 21|||R:ORTH|||wouldn't|||REQUIRED|||-NONE-|||0
 
 S What would you have done in that moment without a mobile phone?
@@ -2669,14 +2734,12 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Five years ago you would n't have even thought about it.
 A 4 6|||R:ORTH|||wouldn't|||REQUIRED|||-NONE-|||0
-A 6 7|||U:VERB:TENSE||||||REQUIRED|||-NONE-|||0
-A 8 9|||R:VERB:FORM|||think|||REQUIRED|||-NONE-|||0
 
 S It has been a plus for me.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 1 3|||R:VERB:TENSE|||was|||REQUIRED|||-NONE-|||0
 
 S For example, now my parents allow me to go to more places just because I have my mobile with me, and, sending text messages is an addiction which every teenager is obsessed with.
-A 20 21|||R:OTHER|||and|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S All over, the invention of this little device is a big plus for everyone.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -2688,7 +2751,7 @@ S I am writing to inform you that I have recieved a letter from you about helpin
 A 9 10|||R:SPELL|||received|||REQUIRED|||-NONE-|||0
 
 S Your group has been booked into the Palace Hotel which is not very far from my college.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 8 9|||R:NOUN|||Hotel,|||REQUIRED|||-NONE-|||0
 
 S However, due to the congestions and delay near the hotel, the best way to get from there to the conference is by underground, Victoria Street station.
 A 4 5|||R:NOUN:INFL|||congestion|||REQUIRED|||-NONE-|||0
@@ -2698,6 +2761,7 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S At the end - of - conference party, you may either leave the party or stay in the college for more activities.
 A 3 4|||U:PUNCT||||||REQUIRED|||-NONE-|||0
+A 5 6|||R:OTHER|||the|||REQUIRED|||-NONE-|||0
 
 S All different types of clothing could be worn however jean wears and T - shirts would be common on that day.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -2706,8 +2770,7 @@ S Instead staying in the hotel for the last three hours, I suggest that you coul
 A 1 1|||M:PREP|||of|||REQUIRED|||-NONE-|||0
 
 S The popular attractions in our town, including the art gallery, museum, aquarium, market square, could be found near our monument of our town, the Saltisy Bridge.
-A 19 20|||R:NOUN|||town's monument,|||REQUIRED|||-NONE-|||0
-A 20 23|||U:OTHER||||||REQUIRED|||-NONE-|||0
+A 20 21|||R:PREP|||to|||REQUIRED|||-NONE-|||0
 
 S I am looking forward to see you soon.
 A 5 6|||R:VERB:FORM|||seeing|||REQUIRED|||-NONE-|||0
@@ -2749,6 +2812,7 @@ S Conclusion
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Not only the tourist information centre would provide the information you might need, you could also visit the ICT block which allows you to access onto anything you want to know from the computers.
+A 19 20|||R:OTHER|||block,|||REQUIRED|||-NONE-|||0
 A 25 26|||U:PREP||||||REQUIRED|||-NONE-|||0
 
 S A special trip could also be organized.
@@ -2771,7 +2835,7 @@ S Richard Brown booked the Palace Hotel for the students, which is a very comfor
 A 11 12|||U:DET||||||REQUIRED|||-NONE-|||0
 
 S You need only 5 minutes by walking to catch the college.
-A 5 6|||U:PREP||||||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S After conference we are planning to organise a big party with barbecue.
 A 1 1|||M:DET|||the|||REQUIRED|||-NONE-|||0
@@ -2789,6 +2853,7 @@ S Therefore, I suggest to wear some casual clothes.
 A 3 5|||R:VERB:FORM|||wearing|||REQUIRED|||-NONE-|||0
 
 S On the last day an afternoon if you have some free time I would recommend you to visit a very famous exposition of Leonardo Devinci.
+A 5 6|||R:NOUN|||afternoon,|||REQUIRED|||-NONE-|||0
 A 16 17|||U:VERB:FORM||||||REQUIRED|||-NONE-|||0
 
 S The exposition will take place on" Gribaldi museum" , which you can find on the Crariden street N 5.
@@ -2812,7 +2877,8 @@ A 20 21|||R:NOUN|||question,|||REQUIRED|||-NONE-|||0
 A 21 21|||M:PUNCT|||"|||REQUIRED|||-NONE-|||0
 
 S The Students, who were questioned said that there are a lot of interesting buildings in our City.
-A 1 2|||R:NOUN|||students|||REQUIRED|||-NONE-|||0
+A 1 2|||R:ORTH|||students,|||REQUIRED|||-NONE-|||0
+A 4 5|||R:OTHER|||questioned,|||REQUIRED|||-NONE-|||0
 
 S However the majority of people point out one a very old building, which you can find at Barkeley Square.
 A 0 1|||R:OTHER|||However,|||REQUIRED|||-NONE-|||0
@@ -2823,11 +2889,9 @@ A 3 4|||R:ORTH|||students|||REQUIRED|||-NONE-|||0
 
 S If you visit the building, you will get impression, feeling, that you are in past times.
 A 8 8|||M:DET|||an|||REQUIRED|||-NONE-|||0
-A 9 9|||M:NOUN|||feeling|||REQUIRED|||-NONE-|||0
-A 9 10|||R:NOUN|||feeling|||REQUIRED|||-NONE-|||0
 
 S This building attracts a lot of people, - because it has a very particular style with majestic, antique windows.
-A 7 8|||U:PUNCT||||||REQUIRED|||-NONE-|||0
+A 6 7|||R:OTHER|||people|||REQUIRED|||-NONE-|||0
 
 S In addition, I also visited this place - and I was very impressed.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -2837,8 +2901,10 @@ A 5 6|||R:VERB:TENSE|||visit|||REQUIRED|||-NONE-|||0
 A 6 6|||M:DET|||the|||REQUIRED|||-NONE-|||0
 
 S In this area you could also find another different buildings, which would you attract.
-A 7 8|||R:DET|||other|||REQUIRED|||-NONE-|||0
-A 11 13|||R:WO|||you would|||REQUIRED|||-NONE-|||0
+A 9 10|||R:NOUN|||building,|||REQUIRED|||-NONE-|||0
+A 12 13|||U:PRON||||||REQUIRED|||-NONE-|||0
+A 13 14|||R:VERB|||attract|||REQUIRED|||-NONE-|||0
+A 14 14|||M:NOUN|||you.|||REQUIRED|||-NONE-|||0
 
 S report on the group leader
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -2884,13 +2950,12 @@ A 13 14|||R:MORPH|||relaxed|||REQUIRED|||-NONE-|||0
 A 21 21|||M:PREP|||to|||REQUIRED|||-NONE-|||0
 
 S The party is amazed by a group of musicians, and as I remembered from last year it was unforgiven, because all the people where dancing and having a lot of fun.
-A 13 13|||M:PRON|||it|||REQUIRED|||-NONE-|||0
+A 13 14|||R:OTHER|||it|||REQUIRED|||-NONE-|||0
 A 18 19|||R:OTHER|||unforgivable,|||REQUIRED|||-NONE-|||0
 A 23 24|||R:SPELL|||were|||REQUIRED|||-NONE-|||0
 
 S It is a well - situated town with a lot of museums to visit especially" the History museum" wich I visited last year, and I think you can enjoy as well.
 A 13 14|||R:OTHER|||visit,|||REQUIRED|||-NONE-|||0
-A 18 18|||M:DET|||which|||REQUIRED|||-NONE-|||0
 A 18 19|||R:SPELL|||which|||REQUIRED|||-NONE-|||0
 A 29 29|||M:PRON|||it|||REQUIRED|||-NONE-|||0
 
@@ -2898,7 +2963,7 @@ S It does n't take a lot of time to visit and the entrance is free.
 A 1 3|||R:ORTH|||doesn't|||REQUIRED|||-NONE-|||0
 
 S Whising I 've been very helpful to you.
-A 0 1|||R:SPELL|||Whising,|||REQUIRED|||-NONE-|||0
+A 0 1|||R:SPELL|||Whistling,|||REQUIRED|||-NONE-|||0
 A 1 3|||R:ORTH|||I've|||REQUIRED|||-NONE-|||0
 
 S Yours sincerely,
@@ -2931,10 +2996,11 @@ S An old woman told me how important was the phone when her only son was abroad 
 A 7 10|||R:WO|||the phone was|||REQUIRED|||-NONE-|||0
 A 16 17|||R:SPELL|||studying|||REQUIRED|||-NONE-|||0
 A 18 19|||R:PREP|||at|||REQUIRED|||-NONE-|||0
-A 22 24|||R:PUNCT|||. She|||REQUIRED|||-NONE-|||0
 A 29 29|||M:PRON|||she|||REQUIRED|||-NONE-|||0
 A 36 37|||R:PREP|||because|||REQUIRED|||-NONE-|||0
-A 43 44|||R:NOUN|||happiness.|||REQUIRED|||-NONE-|||0
+A 38 40|||U:OTHER||||||REQUIRED|||-NONE-|||0
+A 42 42|||M:OTHER|||happiness was|||REQUIRED|||-NONE-|||0
+A 43 44|||R:NOUN|||one.|||REQUIRED|||-NONE-|||0
 
 S However it was one persone wich he told me, it was n't happy at all with the phone, because he used to writte a lot, especially at Christmas to wish all his friends a very nice Christmas but now everybody phone him losing a very old fashion.
 A 0 1|||R:OTHER|||However,|||REQUIRED|||-NONE-|||0
@@ -2946,8 +3012,7 @@ A 22 23|||R:SPELL|||write|||REQUIRED|||-NONE-|||0
 A 40 41|||R:VERB:TENSE|||phoned|||REQUIRED|||-NONE-|||0
 
 S In my opinion this little" box" that everybody has at home can safe your life, especially if you need to ring a doctor in an emergency situation.
-A 12 13|||R:VERB|||save|||REQUIRED|||-NONE-|||0
-A 20 21|||R:VERB|||call|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S In conclusion do n't make a very long phone calls and you wo n't have to pay a very expensive bill.
 A 2 4|||R:ORTH|||don't|||REQUIRED|||-NONE-|||0
@@ -2977,6 +3042,7 @@ S ( for example bath, car park, free internet access, etc. )
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S They also are located in our campus so you can get to the conference by walk.
+A 1 3|||R:WO|||are also|||REQUIRED|||-NONE-|||0
 A 4 5|||R:PREP|||on|||REQUIRED|||-NONE-|||0
 A 15 16|||R:NOUN|||walking.|||REQUIRED|||-NONE-|||0
 
@@ -2985,7 +3051,6 @@ A 14 16|||R:VERB:TENSE|||take|||REQUIRED|||-NONE-|||0
 A 17 18|||R:PREP|||in|||REQUIRED|||-NONE-|||0
 
 S This party is unlikely to be that formal, but I recommend you not to wear jeans and trainners.
-A 13 14|||U:VERB:FORM||||||REQUIRED|||-NONE-|||0
 A 17 18|||R:NOUN|||trainers.|||REQUIRED|||-NONE-|||0
 
 S At last, if you have free time for couple of ours, you 'd better visit Kamakura City, which is 30 minutes from our campus by train.
@@ -2995,10 +3060,11 @@ A 8 8|||M:DET|||a|||REQUIRED|||-NONE-|||0
 S That is very traditional Japanese city where so many temple and heritages are there.
 A 2 2|||M:DET|||a|||REQUIRED|||-NONE-|||0
 A 9 10|||R:NOUN:NUM|||temples|||REQUIRED|||-NONE-|||0
+A 11 12|||R:NOUN:NUM|||heritage|||REQUIRED|||-NONE-|||0
 
 S I 'm sure you 'll enjoy it and maybe get familier with our culture.
 A 0 2|||R:ORTH|||I'm|||REQUIRED|||-NONE-|||0
-A 10 11|||R:SPELL|||familiar|||REQUIRED|||-NONE-|||0
+A 10 11|||R:VERB|||acquainted|||REQUIRED|||-NONE-|||0
 
 S By the way, if you have any other questions, please send me a letter again.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -3030,14 +3096,12 @@ A 35 35|||M:DET|||a|||REQUIRED|||-NONE-|||0
 A 42 43|||R:NOUN|||time.|||REQUIRED|||-NONE-|||0
 
 S When you take the class on computer programming, you will definetly need one and it holds true for the class on politics, because you have to study statistic on your computer for doing social research and some analysys.
-A 10 11|||R:SPELL|||definitely|||REQUIRED|||-NONE-|||0
 A 27 28|||R:NOUN:NUM|||statistics|||REQUIRED|||-NONE-|||0
 A 37 38|||R:NOUN|||analyses.|||REQUIRED|||-NONE-|||0
 
 S My professor said ' go and get familier with your computer, otherwise you 'll fail '.
 A 2 5|||R:ORTH|||said'go|||REQUIRED|||-NONE-|||0
-A 7 7|||M:DET|||a|||REQUIRED|||-NONE-|||0
-A 7 8|||R:SPELL|||familiar|||REQUIRED|||-NONE-|||0
+A 7 8|||R:VERB|||acquainted|||REQUIRED|||-NONE-|||0
 
 S I find it amazingly easy to forget the importance of inventions which we useually use without any questione.
 A 13 14|||U:ADV||||||REQUIRED|||-NONE-|||0
@@ -3060,7 +3124,7 @@ A 5 5|||M:PREP|||for|||REQUIRED|||-NONE-|||0
 A 8 8|||M:DET|||the|||REQUIRED|||-NONE-|||0
 
 S I am glad to provide all information
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 6 6|||M:DET|||the|||REQUIRED|||-NONE-|||0
 
 S The group has been booked the place Hotel which is near the train station.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -3079,7 +3143,8 @@ S In the conference you should wear formal dress but you are free to choose its 
 A 0 1|||R:PREP|||At|||REQUIRED|||-NONE-|||0
 
 S At the end of the conference there will be reseption at the hotel.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 9 9|||M:DET|||a|||REQUIRED|||-NONE-|||0
+A 9 10|||R:SPELL|||reception|||REQUIRED|||-NONE-|||0
 
 S we have arranged some tours in the city.
 A 0 1|||R:ORTH|||We|||REQUIRED|||-NONE-|||0
@@ -3108,6 +3173,7 @@ A 3 3|||M:DET|||a|||REQUIRED|||-NONE-|||0
 
 S He store all information, never say enough and it never forget any information, whenever we want them from him he dosn't refuse.
 A 1 2|||R:VERB:SVA|||stores|||REQUIRED|||-NONE-|||0
+A 5 6|||R:VERB:SVA|||says|||REQUIRED|||-NONE-|||0
 A 10 11|||R:VERB:SVA|||forgets|||REQUIRED|||-NONE-|||0
 A 20 21|||R:OTHER|||doesn't|||REQUIRED|||-NONE-|||0
 
@@ -3120,19 +3186,23 @@ A 15 16|||R:MORPH|||recording|||REQUIRED|||-NONE-|||0
 
 S Many bosses or in the factories not being needed to employ many claver workers Because we do n't need them a lot.
 A 6 6|||M:VERB:TENSE|||are|||REQUIRED|||-NONE-|||0
+A 7 8|||U:VERB:TENSE||||||REQUIRED|||-NONE-|||0
+A 14 15|||R:ORTH|||because|||REQUIRED|||-NONE-|||0
 A 16 18|||R:ORTH|||don't|||REQUIRED|||-NONE-|||0
 
 S This saves a lot money for companies.
 A 4 4|||M:PREP|||of|||REQUIRED|||-NONE-|||0
 
 S Computer has been helping to improve health Because in this century we can use it in medical operation Doctors can manage the extreemest operation easyly and confedantly.
-A 0 1|||M:DET|||The computer|||REQUIRED|||-NONE-|||0
+A 7 8|||R:ORTH|||because|||REQUIRED|||-NONE-|||0
 A 17 18|||R:NOUN|||operations.|||REQUIRED|||-NONE-|||0
-A 22 23|||R:OTHER|||most expensive|||REQUIRED|||-NONE-|||0
+A 22 23|||R:OTHER|||most extensive|||REQUIRED|||-NONE-|||0
 A 24 25|||R:SPELL|||easily|||REQUIRED|||-NONE-|||0
 A 26 27|||R:OTHER|||efficiently.|||REQUIRED|||-NONE-|||0
 
 S In general computer has brought human life two century ahead. it makes life easier for us.
+A 1 2|||R:OTHER|||general,|||REQUIRED|||-NONE-|||0
+A 2 2|||M:DET|||the|||REQUIRED|||-NONE-|||0
 A 8 9|||R:NOUN:NUM|||centuries|||REQUIRED|||-NONE-|||0
 A 10 11|||R:ORTH|||It|||REQUIRED|||-NONE-|||0
 
@@ -3186,10 +3256,7 @@ S Subject: Bournemouth National Museum
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S As requested I visited the Bournemouth National Museum, which is, to my mind, one of the most interesting buildings of the area.
-A 8 9|||R:OTHER|||which,|||REQUIRED|||-NONE-|||0
-A 9 10|||U:NOUN||||||REQUIRED|||-NONE-|||0
 A 10 11|||R:PREP|||in|||REQUIRED|||-NONE-|||0
-A 13 13|||M:VERB|||is|||REQUIRED|||-NONE-|||0
 A 19 20|||R:PREP|||in|||REQUIRED|||-NONE-|||0
 
 S Below is a summary of the most important relevant points and some recommendations you may need.
@@ -3203,6 +3270,7 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Even if the architectural style may seem a bit ' heavy, this building is really a masterpiece with no similar comparison all over the world.
 A 8 11|||R:ORTH|||bit'heavy,|||REQUIRED|||-NONE-|||0
+A 20 21|||R:NOUN:NUM|||comparisons|||REQUIRED|||-NONE-|||0
 
 S 2. Exposition
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -3223,7 +3291,7 @@ S In fact it is just what visitors need after their trip through the museum.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S To sum up, I would say that this museum is more interesting than the other museums, because you can enjoy not only wonderful masterpieces but also a very uncommon architecture and a quiet restaurant to have a rest if you need to.
-A 41 42|||R:NOUN|||it.|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Dear Mrs. Smith,
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -3241,7 +3309,8 @@ S There is a bus stop in front of the hotel and no. 31 or 3 will take you direct
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Thirdly, the end - of - conference party would be a small disco, with a variety of drinks and food provided.
-A 3 3|||M:PREP|||of|||REQUIRED|||-NONE-|||0
+A 3 4|||U:PUNCT||||||REQUIRED|||-NONE-|||0
+A 5 6|||R:OTHER|||the|||REQUIRED|||-NONE-|||0
 
 S Therefore, you could wear something quite casual.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -3309,7 +3378,7 @@ S As the conference must go on, I will give you the information you asked for in
 A 20 21|||U:PREP||||||REQUIRED|||-NONE-|||0
 
 S According to the hotel, the group has been arranged to stay in a hotel which is very near the place we are going to have the conference.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 20 20|||M:ADV|||where|||REQUIRED|||-NONE-|||0
 
 S The hotel is The Palace Hotel.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -3319,7 +3388,8 @@ A 0 1|||R:NOUN|||It's|||REQUIRED|||-NONE-|||0
 A 2 3|||U:ADV||||||REQUIRED|||-NONE-|||0
 
 S About the party, we will have a party at the end of the conference at the hotel you will stay.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 19 20|||R:VERB|||stay|||REQUIRED|||-NONE-|||0
+A 20 20|||M:NOUN|||in.|||REQUIRED|||-NONE-|||0
 
 S The party will be in a friendly atmosphere so do n't worry about what to wear.
 A 9 11|||R:ORTH|||don't|||REQUIRED|||-NONE-|||0
@@ -3328,7 +3398,7 @@ S There will be only our group, so dress whatever you want and enjoy ourselves.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Lastly, what you could possibly do while you will be waiting for three hours, for some people who want to go shopping.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 2 4|||R:WO|||could you|||REQUIRED|||-NONE-|||0
 
 S The shopping centre is just right opposite of the hotel, however, some people may want to just wait at the hotel, having a cup of coffee.
 A 9 10|||R:NOUN|||hotel.|||REQUIRED|||-NONE-|||0
@@ -3360,6 +3430,7 @@ A 6 7|||U:PRON||||||REQUIRED|||-NONE-|||0
 A 11 12|||R:NOUN|||work?|||REQUIRED|||-NONE-|||0
 
 S How would you know what happens in the whole wide world or even how you would get yourself breakfast without toaster! !!
+A 9 10|||U:ADJ||||||REQUIRED|||-NONE-|||0
 A 20 20|||M:DET|||a|||REQUIRED|||-NONE-|||0
 
 S How would you cope with all those?
@@ -3374,14 +3445,14 @@ S The electricity is a clever invention.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Everything bases on the use of electricity, for instance from a little bulb light to the most complicated computer system which stored priceless information!
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 19 20|||R:NOUN|||system,|||REQUIRED|||-NONE-|||0
 
 S Life would n't be easy if we did n't have electricity.
 A 1 3|||R:ORTH|||wouldn't|||REQUIRED|||-NONE-|||0
 A 7 9|||R:ORTH|||didn't|||REQUIRED|||-NONE-|||0
 
 S The electricity is very important in keeping our lives go.
-A 9 10|||R:OTHER|||going.|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S No matter where you are, what you do, apparantly, you need the electricity.
 A 8 9|||R:NOUN|||obviously,|||REQUIRED|||-NONE-|||0
@@ -3392,7 +3463,6 @@ A 7 9|||R:ORTH|||didn't|||REQUIRED|||-NONE-|||0
 
 S I, personally, could n't live without the electricity.
 A 2 4|||R:ORTH|||couldn't|||REQUIRED|||-NONE-|||0
-A 6 7|||U:DET||||||REQUIRED|||-NONE-|||0
 
 S It has already affected and play a great role in my life.
 A 5 6|||R:VERB:TENSE|||played|||REQUIRED|||-NONE-|||0
@@ -3401,8 +3471,7 @@ S I watch the television and use the computer everyday.
 A 8 9|||R:ORTH|||every day.|||REQUIRED|||-NONE-|||0
 
 S Moreover, other facilities in my house, telephone, air - conditioner, fridge, for example, they are all need the electricity. That'is why it is very important to my life.
-A 14 15|||U:VERB:TENSE||||||REQUIRED|||-NONE-|||0
-A 17 18|||U:DET||||||REQUIRED|||-NONE-|||0
+A 13 15|||U:OTHER||||||REQUIRED|||-NONE-|||0
 A 19 20|||R:OTHER|||That's|||REQUIRED|||-NONE-|||0
 
 S Dear Mrs. Smith
@@ -3417,7 +3486,7 @@ S The rooms for your students have been booked at the Palace Hotel near the city
 A 15 16|||U:PUNCT||||||REQUIRED|||-NONE-|||0
 
 S The hotel is just three busstops away from our college.
-A 5 6|||R:SPELL|||stops|||REQUIRED|||-NONE-|||0
+A 5 6|||R:ORTH|||bus stops|||REQUIRED|||-NONE-|||0
 
 S So you and your students can take the bus from the central busstation that is right in front of your hotel to get to the conference.
 A 12 13|||R:ORTH|||bus station|||REQUIRED|||-NONE-|||0
@@ -3433,7 +3502,7 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S So you do n't have to appear very noble dressed, just as you like it ( there is no order - you may wear what you want ).
 A 2 4|||R:ORTH|||don't|||REQUIRED|||-NONE-|||0
-A 11 12|||R:PREP|||like|||REQUIRED|||-NONE-|||0
+A 14 15|||U:PRON||||||REQUIRED|||-NONE-|||0
 
 S For your last day I think it would be interesting to vistit our historical and famous city - centre.
 A 11 12|||R:SPELL|||visit|||REQUIRED|||-NONE-|||0
@@ -3443,7 +3512,7 @@ S I will organize a tourist guide to give us information about the old buildings
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S If you have any more questions write me a short letter.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 7 7|||M:PREP|||to|||REQUIRED|||-NONE-|||0
 
 S Yours sincerely
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -3452,6 +3521,7 @@ S The invention of the car was a great point in history.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S From there on people got mobile and had the possibility to travel wherever they wanted.
+A 2 3|||U:PREP||||||REQUIRED|||-NONE-|||0
 A 9 10|||R:NOUN|||opportunity|||REQUIRED|||-NONE-|||0
 
 S Of course within the physical barriers.
@@ -3472,6 +3542,8 @@ S It has been quiet hard to me not to have the opportunities for my free time li
 A 3 4|||U:ADJ||||||REQUIRED|||-NONE-|||0
 A 5 6|||R:PREP|||for|||REQUIRED|||-NONE-|||0
 A 7 8|||U:ADV||||||REQUIRED|||-NONE-|||0
+A 11 12|||R:NOUN:NUM|||opportunity|||REQUIRED|||-NONE-|||0
+A 19 20|||R:PRON|||who|||REQUIRED|||-NONE-|||0
 
 S I just had no possibility to meet them after school, because I had no vehicle to get there.
 A 4 5|||R:NOUN|||chance|||REQUIRED|||-NONE-|||0
@@ -3480,7 +3552,7 @@ S I always needed my Mom or my Dad to take me where I wanted to go.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Today I have my own car and I use it daily to get to work and to meet my friends at any place and any time.
-A 21 24|||U:OTHER||||||REQUIRED|||-NONE-|||0
+A 24 24|||M:PREP|||at|||REQUIRED|||-NONE-|||0
 
 S So with my car I achieved a great freedom.
 A 6 7|||U:DET||||||REQUIRED|||-NONE-|||0
@@ -3576,6 +3648,7 @@ S I have just received a letter from you.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S I am really appreciate your interesting about our conference.
+A 1 2|||U:VERB:TENSE||||||REQUIRED|||-NONE-|||0
 A 5 6|||R:MORPH|||interest|||REQUIRED|||-NONE-|||0
 A 6 7|||R:PREP|||in|||REQUIRED|||-NONE-|||0
 
@@ -3592,7 +3665,7 @@ S Obviously, using a taxi is the best but unfortunately it is quite expensive fo
 A 14 15|||R:NOUN|||students.|||REQUIRED|||-NONE-|||0
 
 S However, we have already prepared a mini - bus for you.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 7 8|||U:NOUN||||||REQUIRED|||-NONE-|||0
 
 S The bus will be in front of your hotel at 1 p. m. and it will take you to the conference.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -3601,7 +3674,7 @@ S Thirdly, we will have the end - of - conference party at 6 p. m. You can have 
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S But I hope you will wear formal suit and dress.
-A 7 8|||R:NOUN:NUM|||suits|||REQUIRED|||-NONE-|||0
+A 6 6|||M:DET|||a|||REQUIRED|||-NONE-|||0
 
 S You will not be allowed to enter this party unless you wear casual clothes.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -3614,6 +3687,7 @@ A 7 7|||M:DET|||a|||REQUIRED|||-NONE-|||0
 
 S But if you do not like it, you can enjoy City centre by walking tour and then you can enjoy going punting which is the most pleasant attraction in Cambridge.
 A 10 10|||M:DET|||the|||REQUIRED|||-NONE-|||0
+A 14 15|||R:NOUN:NUM|||tours|||REQUIRED|||-NONE-|||0
 A 21 22|||R:OTHER|||to the theatre,|||REQUIRED|||-NONE-|||0
 
 S I hope you will be happy with our conference and party and etc.
@@ -3635,30 +3709,31 @@ S Dear Mr or Miss,
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Welcome to my town and I am really appreciate your visiting.
-A 8 9|||R:OTHER|||grateful for|||REQUIRED|||-NONE-|||0
+A 6 7|||U:VERB:TENSE||||||REQUIRED|||-NONE-|||0
 A 10 11|||R:NOUN|||visit.|||REQUIRED|||-NONE-|||0
 
 S I would like you to visit ' COEX ' building which is located in Samsung - dong south of Seoul.
-A 6 10|||R:OTHER|||the'COEX'building|||REQUIRED|||-NONE-|||0
+A 6 10|||R:OTHER|||the'COEX'building,|||REQUIRED|||-NONE-|||0
 
 S I will tell you some information about this building.
-A 2 3|||R:VERB|||give|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S This building consists of a world exposition centre, a multiplex cinema, a huge shopping mall, a huge food court and an aquarium.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 9 10|||R:NOUN|||multiple|||REQUIRED|||-NONE-|||0
 
 S Now there is holding ' the world software for Linux ' exposition in exposition centre.
 A 3 6|||R:ORTH|||holding'the|||REQUIRED|||-NONE-|||0
-A 9 12|||R:OTHER|||Linux'exhibition|||REQUIRED|||-NONE-|||0
+A 9 12|||R:ORTH|||Linux'exposition|||REQUIRED|||-NONE-|||0
 A 13 14|||R:OTHER|||the exhibition|||REQUIRED|||-NONE-|||0
 
 S If you are interested in computer, it will give you big pleasant.
-A 5 5|||M:DET|||a|||REQUIRED|||-NONE-|||0
-A 10 12|||R:OTHER|||a lot of pleasure.|||REQUIRED|||-NONE-|||0
+A 5 6|||R:NOUN|||computers,|||REQUIRED|||-NONE-|||0
+A 10 10|||M:DET|||a|||REQUIRED|||-NONE-|||0
+A 11 12|||R:OTHER|||pleasant|||REQUIRED|||-NONE-|||0
+A 12 12|||M:NOUN|||experience.|||REQUIRED|||-NONE-|||0
 
 S For a multiplex cinema, it is the biggest cinema in Asia and it has 18 screens.
-A 2 3|||R:MORPH|||multiple|||REQUIRED|||-NONE-|||0
-A 3 3|||M:OTHER|||- screen|||REQUIRED|||-NONE-|||0
+A 2 3|||R:OTHER|||multi - coloured|||REQUIRED|||-NONE-|||0
 
 S Therefore you can enjoy all latest films there.
 A 5 5|||M:DET|||the|||REQUIRED|||-NONE-|||0
@@ -3705,15 +3780,17 @@ S Thank you for your letter.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S I am writing to give some information on the conference as you required.
-A 5 5|||M:PRON|||you|||REQUIRED|||-NONE-|||0
 A 7 8|||R:PREP|||about|||REQUIRED|||-NONE-|||0
 A 12 13|||R:VERB|||requested.|||REQUIRED|||-NONE-|||0
 
 S First of all, your group has been booked into Palace Hotel which is very convenient to stay and has beautiful landscape.
 A 9 9|||M:DET|||the|||REQUIRED|||-NONE-|||0
+A 10 11|||R:NOUN|||Hotel,|||REQUIRED|||-NONE-|||0
+A 19 19|||M:DET|||a|||REQUIRED|||-NONE-|||0
 
 S I would recommend you get to the conference by subway, because subway station is situated in 5 minutes ' walk from the hotel.
 A 11 11|||M:DET|||the|||REQUIRED|||-NONE-|||0
+A 15 16|||U:PREP||||||REQUIRED|||-NONE-|||0
 A 17 20|||R:ORTH|||minutes'walk|||REQUIRED|||-NONE-|||0
 
 S It will take you about 15 minutes to arrive at the college.
@@ -3754,7 +3831,7 @@ S The aim of this report is to give information on the Amusement Centre in Seoul
 A 9 10|||R:PREP|||about|||REQUIRED|||-NONE-|||0
 
 S It is based on my experience and on views expressed by local people who were interviewed.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 8 8|||M:DET|||the|||REQUIRED|||-NONE-|||0
 
 S Facilities
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -3819,7 +3896,7 @@ S The hotel is on the right hand side of the Parker Piece, which you can find on
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S The, , Palace Hotel" is 5 minutes walking from the station.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 7 8|||U:VERB||||||REQUIRED|||-NONE-|||0
 
 S The conference is situatet in the building opposite the bus stop.
 A 3 4|||R:SPELL|||situated|||REQUIRED|||-NONE-|||0
@@ -3848,12 +3925,14 @@ S The architecture bring you back into the old time. as well as the stained glas
 A 2 3|||R:VERB:SVA|||brings|||REQUIRED|||-NONE-|||0
 A 5 6|||R:PREP|||to|||REQUIRED|||-NONE-|||0
 A 8 9|||R:NOUN|||time,|||REQUIRED|||-NONE-|||0
+A 15 16|||R:NOUN|||windows,|||REQUIRED|||-NONE-|||0
 
 S We have also an interesting museum and a modern theatre.
 A 1 3|||R:WO|||also have|||REQUIRED|||-NONE-|||0
 
 S Finally, I am sure you and your group will spent some funny realaxing days.
 A 9 10|||R:VERB|||have|||REQUIRED|||-NONE-|||0
+A 12 13|||R:SPELL|||realising|||REQUIRED|||-NONE-|||0
 
 S Please do not hesitate to contact me for some more information.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -3899,7 +3978,7 @@ S Finally, the TV is in my opinion very useful for getting important information
 A 12 13|||R:NOUN|||information.|||REQUIRED|||-NONE-|||0
 A 13 14|||R:ORTH|||You|||REQUIRED|||-NONE-|||0
 A 15 16|||R:VERB:FORM|||watch|||REQUIRED|||-NONE-|||0
-A 26 27|||R:NOUN|||colours.|||REQUIRED|||-NONE-|||0
+A 25 25|||M:DET|||a|||REQUIRED|||-NONE-|||0
 
 S To sum up, in my opinion the TV is a very good and useful invention.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -3909,7 +3988,7 @@ A 6 7|||R:NOUN|||violence,|||REQUIRED|||-NONE-|||0
 
 S I can not imagine to live without televison, it is something what we need for our education, for getting news and other helpful information.
 A 4 6|||R:VERB:FORM|||living|||REQUIRED|||-NONE-|||0
-A 7 8|||R:NOUN|||television.|||REQUIRED|||-NONE-|||0
+A 7 8|||R:NOUN|||televising.|||REQUIRED|||-NONE-|||0
 A 8 9|||R:ORTH|||It|||REQUIRED|||-NONE-|||0
 A 11 12|||R:PRON|||that|||REQUIRED|||-NONE-|||0
 
@@ -3929,7 +4008,7 @@ S Fortunately, it is not far from our college.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S For getting from the hotel to the conference, you only have to take bus no. 7 and get off at St. James College, where the conference will take place.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 13 13|||M:DET|||the|||REQUIRED|||-NONE-|||0
 
 S About the end - of - conference party I can only say that a band will be playing the whole night, and a special guest I still do n't know will be expected.
 A 3 4|||U:PUNCT||||||REQUIRED|||-NONE-|||0
@@ -3943,8 +4022,8 @@ A 8 10|||R:ORTH|||there's|||REQUIRED|||-NONE-|||0
 A 12 13|||R:PREP|||for|||REQUIRED|||-NONE-|||0
 
 S To answer your last question, I would propose you to attend the local zoo, because many baby animals were born in the past few days.
-A 7 8|||R:VERB|||suggest|||REQUIRED|||-NONE-|||0
-A 9 10|||U:VERB:FORM||||||REQUIRED|||-NONE-|||0
+A 7 8|||R:VERB|||like|||REQUIRED|||-NONE-|||0
+A 18 19|||R:VERB:TENSE|||have been|||REQUIRED|||-NONE-|||0
 
 S Dear Mrs Smith, I hope the given information is useful for you.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -4002,21 +4081,18 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S The same hotel that will you stay.
 A 4 6|||R:WO|||you will|||REQUIRED|||-NONE-|||0
-A 6 7|||R:VERB|||stay|||REQUIRED|||-NONE-|||0
-A 7 7|||M:NOUN|||in.|||REQUIRED|||-NONE-|||0
 
 S Palace Hotel is opposite the park ' Clifton ', which is near the college.
 A 5 8|||R:ORTH|||park'Clifton|||REQUIRED|||-NONE-|||0
 
 S We chose that hotel because is it near the college and we do n't need to use a transport.
 A 5 7|||R:WO|||it is|||REQUIRED|||-NONE-|||0
-A 8 9|||U:DET||||||REQUIRED|||-NONE-|||0
 A 12 14|||R:ORTH|||don't|||REQUIRED|||-NONE-|||0
+A 18 19|||R:NOUN|||transport system.|||REQUIRED|||-NONE-|||0
 
 S Because you know where is the college and you need to bring with me some things at the college to hotel I think that is better to come all the group in college and then we can go all together to the ' Palace Hotel '.
 A 4 7|||R:WO|||the college is|||REQUIRED|||-NONE-|||0
 A 20 20|||M:DET|||the|||REQUIRED|||-NONE-|||0
-A 20 21|||R:NOUN|||hotel,|||REQUIRED|||-NONE-|||0
 A 24 24|||M:PRON|||it|||REQUIRED|||-NONE-|||0
 A 41 44|||R:ORTH|||the'Palace|||REQUIRED|||-NONE-|||0
 
@@ -4026,7 +4102,6 @@ A 6 7|||R:NOUN|||o'clock.|||REQUIRED|||-NONE-|||0
 A 7 8|||R:ORTH|||You|||REQUIRED|||-NONE-|||0
 
 S Concerning the end - of - conference I 'm thinking about some dance and singing events.
-A 3 4|||U:PUNCT||||||REQUIRED|||-NONE-|||0
 A 7 9|||R:ORTH|||I'm|||REQUIRED|||-NONE-|||0
 
 S Tell me your idea.
@@ -4040,7 +4115,7 @@ A 21 21|||M:PRON|||there|||REQUIRED|||-NONE-|||0
 A 22 23|||U:VERB||||||REQUIRED|||-NONE-|||0
 
 S Finally on the last day we have organised a seeing - crossing around London. You will have the opportunity visiting some museums and zoo parks.
-A 9 13|||R:OTHER|||visit to|||REQUIRED|||-NONE-|||0
+A 9 10|||R:NOUN|||visit|||REQUIRED|||-NONE-|||0
 A 19 20|||R:VERB:FORM|||to visit|||REQUIRED|||-NONE-|||0
 
 S I think it is a nice idea.
@@ -4055,7 +4130,6 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Nowdays all the people have a telephone.
 A 0 1|||R:SPELL|||Nowadays|||REQUIRED|||-NONE-|||0
-A 2 3|||U:DET||||||REQUIRED|||-NONE-|||0
 
 S Telephone is part of our life.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -4065,17 +4139,19 @@ A 7 8|||R:NOUN:NUM|||investigations|||REQUIRED|||-NONE-|||0
 A 8 10|||R:OTHER|||in|||REQUIRED|||-NONE-|||0
 
 S Telephone is type of communication.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 2 2|||M:DET|||a|||REQUIRED|||-NONE-|||0
 
 S If you want to talk with your friends, parents, partner or to ask something, you can call them without wondering how can be communicate with them.
 A 9 10|||R:NOUN:NUM|||partners|||REQUIRED|||-NONE-|||0
-A 21 23|||R:VERB|||to|||REQUIRED|||-NONE-|||0
+A 21 21|||M:PRON|||they|||REQUIRED|||-NONE-|||0
+A 22 23|||U:VERB||||||REQUIRED|||-NONE-|||0
 
 S Especial if some of your relatives or friends are living in other country you can communicate with them and everyday and you do n't feel that they are far a way from you.
 A 0 1|||R:MORPH|||Especially|||REQUIRED|||-NONE-|||0
 A 11 12|||R:DET|||another|||REQUIRED|||-NONE-|||0
 A 19 20|||R:ORTH|||every day|||REQUIRED|||-NONE-|||0
 A 22 24|||R:ORTH|||don't|||REQUIRED|||-NONE-|||0
+A 29 31|||U:OTHER||||||REQUIRED|||-NONE-|||0
 
 S Today with the development of technology has been improved and the abilities of the telephone.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -4087,29 +4163,36 @@ S Also you can leave a message if you call and ca n't find someone.
 A 10 12|||R:ORTH|||can't|||REQUIRED|||-NONE-|||0
 
 S The last type of telephone, is the mobile phone.
-A 4 5|||R:NOUN|||telephone|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S You can use it everywhere and at anytime.
-A 7 8|||R:ORTH|||any time.|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Finally telephone except|apart from type of communication, is type and socialisation.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 0 1|||R:OTHER|||Finally,|||REQUIRED|||-NONE-|||0
+A 1 1|||M:DET|||the|||REQUIRED|||-NONE-|||0
+A 1 2|||R:NOUN|||telephone,|||REQUIRED|||-NONE-|||0
+A 2 3|||R:OTHER|||except|||REQUIRED|||-NONE-|||0
+A 3 4|||R:PREP|||for|||REQUIRED|||-NONE-|||0
+A 4 4|||M:DET|||the|||REQUIRED|||-NONE-|||0
 
 S Nowadays who are so bussy and we do n't have free time to see our friends, we can call them and talk or chat with them.
 A 7 9|||R:ORTH|||don't|||REQUIRED|||-NONE-|||0
 
 S Especial the young people are using many hours the telephone and that is trouble for their parents.
 A 0 1|||R:OTHER|||In particular|||REQUIRED|||-NONE-|||0
+A 4 6|||R:VERB:TENSE|||use|||REQUIRED|||-NONE-|||0
 A 6 8|||U:OTHER||||||REQUIRED|||-NONE-|||0
 A 10 10|||M:OTHER|||for many hours|||REQUIRED|||-NONE-|||0
+A 13 14|||R:OTHER|||a problem|||REQUIRED|||-NONE-|||0
 
 S Telephone is very important investigation if we can use it correct without use it as type of entertaiment as they are doing nowadys many people.
 A 2 2|||M:DET|||a|||REQUIRED|||-NONE-|||0
+A 10 11|||R:MORPH|||correctly|||REQUIRED|||-NONE-|||0
 A 12 13|||R:VERB:FORM|||using|||REQUIRED|||-NONE-|||0
 A 15 15|||M:DET|||a|||REQUIRED|||-NONE-|||0
-A 17 18|||R:NOUN|||entry|||REQUIRED|||-NONE-|||0
-A 22 23|||R:ADV|||now|||REQUIRED|||-NONE-|||0
-A 23 24|||R:OTHER|||a lot of|||REQUIRED|||-NONE-|||0
+A 17 18|||R:SPELL|||entertainment|||REQUIRED|||-NONE-|||0
+A 22 23|||R:OTHER|||now for|||REQUIRED|||-NONE-|||0
 
 S Dear Mrs Smith
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -4148,7 +4231,7 @@ S You can visit the zoo or walk around the amazing lake in the park.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S I hope you will find all the details, which you would like to have in the letter.
-A 7 8|||R:NOUN|||details|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S If you need any information, please let me know.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -4193,6 +4276,7 @@ A 5 6|||U:PREP||||||REQUIRED|||-NONE-|||0
 S I meet a lot of people on internet and it really interest me.
 A 7 7|||M:DET|||the|||REQUIRED|||-NONE-|||0
 A 7 8|||R:ORTH|||Internet|||REQUIRED|||-NONE-|||0
+A 11 12|||R:VERB:SVA|||interests|||REQUIRED|||-NONE-|||0
 
 S I learn a lot about their culture by speaking them on internet.
 A 9 9|||M:PREP|||to|||REQUIRED|||-NONE-|||0
@@ -4222,7 +4306,7 @@ S I am writing in order to reply to your letter and to give you all the informat
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S First of all the hotel is the Palace Hotel, 82 Regent Street, so that it is very easy to reach the conference.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 2 3|||R:OTHER|||all,|||REQUIRED|||-NONE-|||0
 
 S In fact you can take the bus number 3; as you can see, the bus stop is just in front of the hotel, then you can get off immediately after the church that you pass, on your right hand.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -4268,12 +4352,15 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S In fact we can go everywhere sitting either with friends or with our family and carring lugguage and shopping bags.
 A 15 16|||R:SPELL|||carrying|||REQUIRED|||-NONE-|||0
+A 16 17|||R:SPELL|||luggage|||REQUIRED|||-NONE-|||0
 
 S Cars are able to cover not only short distance but also can be used for long journey.
 A 16 17|||R:NOUN|||journeys.|||REQUIRED|||-NONE-|||0
 
 S For example, in the past it would had been extremely exhausting travelling riding a hourse but nowadays we have lots of big and spacious cars and a wide range of optionals to choose with.
 A 7 8|||R:VERB:FORM|||have|||REQUIRED|||-NONE-|||0
+A 12 13|||U:VERB||||||REQUIRED|||-NONE-|||0
+A 14 15|||R:NOUN|||day|||REQUIRED|||-NONE-|||0
 A 30 31|||R:MORPH|||optional|||REQUIRED|||-NONE-|||0
 A 31 31|||M:NOUN|||options|||REQUIRED|||-NONE-|||0
 
@@ -4295,7 +4382,7 @@ S Thank you for your letter which I received last week.
 A 4 5|||R:NOUN|||letter,|||REQUIRED|||-NONE-|||0
 
 S If student is ill, we will return the money but you should tell us untill one week before we start.
-A 1 1|||M:DET|||a|||REQUIRED|||-NONE-|||0
+A 1 1|||M:DET|||the|||REQUIRED|||-NONE-|||0
 A 14 15|||R:SPELL|||until|||REQUIRED|||-NONE-|||0
 
 S And you are staying the Palace Hotel, which is located in town Centre.
@@ -4310,7 +4397,7 @@ S It costs forty pence.
 A 3 3|||M:PUNCT|||-|||REQUIRED|||-NONE-|||0
 
 S If you take public buses, it costs more expensive than school bus.
-A 10 10|||M:DET|||a|||REQUIRED|||-NONE-|||0
+A 10 10|||M:DET|||the|||REQUIRED|||-NONE-|||0
 
 S The end - of - conference party is going to start from Seven o'clock.
 A 11 12|||R:PREP|||at|||REQUIRED|||-NONE-|||0
@@ -4331,6 +4418,7 @@ S In my opinion, you should wear normal cloth.
 A 6 6|||M:DET|||a|||REQUIRED|||-NONE-|||0
 
 S I would like to suggest that you should visit building of sixty two which is consisted on sixty second floor.
+A 7 8|||U:VERB:TENSE||||||REQUIRED|||-NONE-|||0
 A 9 9|||M:DET|||the|||REQUIRED|||-NONE-|||0
 A 12 12|||M:PUNCT|||-|||REQUIRED|||-NONE-|||0
 A 16 17|||R:PREP|||of|||REQUIRED|||-NONE-|||0
@@ -4364,6 +4452,7 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S There are exhibited historcall things, picthurs and clothes.
 A 3 4|||R:ADJ|||various|||REQUIRED|||-NONE-|||0
+A 5 6|||R:NOUN|||pictorials|||REQUIRED|||-NONE-|||0
 
 S It was built four hundread ago.
 A 4 5|||R:NOUN|||years|||REQUIRED|||-NONE-|||0
@@ -4393,12 +4482,15 @@ S What is more, every places is explained by English.
 A 4 5|||R:NOUN:NUM|||place|||REQUIRED|||-NONE-|||0
 
 S So you do not need pamplat, but, the entrance fee is a little expensive.
-A 5 6|||R:NOUN|||parking,|||REQUIRED|||-NONE-|||0
+A 5 6|||R:OTHER|||any accommodation,|||REQUIRED|||-NONE-|||0
+A 6 7|||R:OTHER|||but|||REQUIRED|||-NONE-|||0
 
 S It cost ten pounds.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S fortunately If somebody visit castle over ten people, they give them discount.
+A 0 1|||R:OTHER|||fortunately,|||REQUIRED|||-NONE-|||0
+A 1 2|||R:ORTH|||if|||REQUIRED|||-NONE-|||0
 A 3 4|||R:VERB:SVA|||visits|||REQUIRED|||-NONE-|||0
 A 4 4|||M:DET|||a|||REQUIRED|||-NONE-|||0
 A 5 5|||M:PREP|||for|||REQUIRED|||-NONE-|||0
@@ -4409,19 +4501,22 @@ A 2 3|||U:NOUN||||||REQUIRED|||-NONE-|||0
 
 S With reference to your letter which I recived yesterday, I would like to give you some details about The international student conference, also the acomodation and activities that are planed during this week.
 A 7 8|||R:SPELL|||received|||REQUIRED|||-NONE-|||0
-A 19 22|||R:ORTH|||International Student Conference,|||REQUIRED|||-NONE-|||0
+A 18 22|||R:ORTH|||the International Student Conference,|||REQUIRED|||-NONE-|||0
 A 24 25|||R:SPELL|||accommodation|||REQUIRED|||-NONE-|||0
 A 29 30|||R:MORPH|||planned|||REQUIRED|||-NONE-|||0
 
 S The Hotel that is booked for the students it is one of the beast in the area, it has great facilities and it is situated near to the place where the conference is going to be.
+A 8 9|||U:PRON||||||REQUIRED|||-NONE-|||0
 A 13 14|||R:NOUN:NUM|||beasts|||REQUIRED|||-NONE-|||0
+A 16 17|||R:NOUN|||area.|||REQUIRED|||-NONE-|||0
+A 17 18|||R:ORTH|||It|||REQUIRED|||-NONE-|||0
 A 26 27|||U:PREP||||||REQUIRED|||-NONE-|||0
 
 S The best way to get there from The hotel is by bus and it is already booked for the next day you arrive, at 8: 30 am.
-A 22 23|||R:VERB|||arrive|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S About the party which is just at the end of the conference, a good it would be a dance party and the students do n't really need to wear special clothes, it 's just to have a little dance and meet all the students, after the party there is a small trip to the old part of the city and I think it would be a good choice to spend the last three hours that you have left before go back.
-A 12 14|||U:OTHER||||||REQUIRED|||-NONE-|||0
+A 14 15|||R:OTHER|||idea|||REQUIRED|||-NONE-|||0
 A 23 25|||R:ORTH|||don't|||REQUIRED|||-NONE-|||0
 A 30 31|||R:NOUN|||clothes.|||REQUIRED|||-NONE-|||0
 A 31 33|||R:ORTH|||It's|||REQUIRED|||-NONE-|||0
@@ -4441,6 +4536,7 @@ A 0 1|||R:PRON|||yours|||REQUIRED|||-NONE-|||0
 S The aim of this report is to give some information about The new Acapulco resart buildings which was build 10 years ago and it is one of the first buildings that was build with the latest tecnonology and made by a important Mexican arquitector.
 A 17 18|||R:VERB:SVA|||were|||REQUIRED|||-NONE-|||0
 A 18 19|||R:VERB:FORM|||built|||REQUIRED|||-NONE-|||0
+A 31 32|||R:VERB:SVA|||were|||REQUIRED|||-NONE-|||0
 A 32 33|||R:VERB:FORM|||built|||REQUIRED|||-NONE-|||0
 A 36 37|||R:SPELL|||technology|||REQUIRED|||-NONE-|||0
 A 40 41|||R:DET|||an|||REQUIRED|||-NONE-|||0
@@ -4458,7 +4554,7 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 S In spite of the disadvantages, I would strongly recomended to students and public to visit the new Acapulco resort buildings. and have a great experience knowing about buildings history and at the same time traveling around Mexico.
 A 8 9|||R:SPELL|||recommend|||REQUIRED|||-NONE-|||0
 A 12 12|||M:DET|||the|||REQUIRED|||-NONE-|||0
-A 13 14|||R:VERB|||visiting|||REQUIRED|||-NONE-|||0
+A 27 27|||M:DET|||the|||REQUIRED|||-NONE-|||0
 
 S Dear Mrs Maria Smith,
 A 2 3|||U:NOUN||||||REQUIRED|||-NONE-|||0
@@ -4477,14 +4573,15 @@ A 16 18|||R:OTHER|||Hotel. To|||REQUIRED|||-NONE-|||0
 A 32 33|||R:NOUN|||there.|||REQUIRED|||-NONE-|||0
 
 S For the end - of - conference party we have booked one of the halls of the hotel and they will provide us life music and cattering.
-A 3 3|||M:PREP|||of|||REQUIRED|||-NONE-|||0
+A 3 4|||U:PUNCT||||||REQUIRED|||-NONE-|||0
+A 5 6|||R:OTHER|||the|||REQUIRED|||-NONE-|||0
 A 23 23|||M:PREP|||with|||REQUIRED|||-NONE-|||0
 A 26 27|||R:NOUN|||entertainment.|||REQUIRED|||-NONE-|||0
 
 S Due the hotel is such an elegant place I would suggest to dress up in night clothes.
 A 1 1|||M:PREP|||to|||REQUIRED|||-NONE-|||0
 A 3 4|||R:VERB:FORM|||being|||REQUIRED|||-NONE-|||0
-A 11 12|||U:VERB:FORM||||||REQUIRED|||-NONE-|||0
+A 11 13|||R:VERB:FORM|||dressing|||REQUIRED|||-NONE-|||0
 
 S Finally, to fill your free afternoon I would hardly recomend to visit the cathedral and have a walk arround the old part of the city, if you like it will be my pleasure to show you the souroundings.
 A 9 12|||R:VERB:FORM|||recommend visiting|||REQUIRED|||-NONE-|||0
@@ -4507,6 +4604,7 @@ S In fact, nobody has got this clue, but it must have been the most clever perso
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S the world is packed with so many tipes of chairs, from the common woden ones to the most sophisticate and comfortables others finding a baste range of prices.
+A 7 8|||R:SPELL|||types|||REQUIRED|||-NONE-|||0
 A 13 14|||U:ADJ||||||REQUIRED|||-NONE-|||0
 A 18 19|||R:MORPH|||sophisticated|||REQUIRED|||-NONE-|||0
 A 20 21|||R:MORPH|||comfortable|||REQUIRED|||-NONE-|||0
@@ -4517,11 +4615,12 @@ S From my point of view the chair is without a doubt the most usefull gadget eve
 A 13 14|||R:SPELL|||useful|||REQUIRED|||-NONE-|||0
 
 S Some people use them in their work, others are wishing to get one by the end of the day and for some other people a while chair represents the possibility of mouvement.
-A 25 26|||U:NOUN||||||REQUIRED|||-NONE-|||0
+A 26 26|||M:DET|||a|||REQUIRED|||-NONE-|||0
 A 31 32|||R:NOUN|||movement.|||REQUIRED|||-NONE-|||0
 
 S Although is worth to say that not everybody can chose his ideal chair there is a special one for each of us.
 A 1 1|||M:PRON|||it|||REQUIRED|||-NONE-|||0
+A 3 5|||R:VERB:FORM|||saying|||REQUIRED|||-NONE-|||0
 A 9 10|||R:VERB|||choose|||REQUIRED|||-NONE-|||0
 
 S Dear Mrs Smith,
@@ -4544,7 +4643,7 @@ S It is an outstanding building situated in the city centre.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S The Hotel is in a good position, 10 minutes walk from the conference and I think the best way to reach it is on foot.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 9 10|||U:VERB||||||REQUIRED|||-NONE-|||0
 
 S I am sure the students will enjoy walking in the streets of the town.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -4556,7 +4655,6 @@ S I think they should wear smart dress, because there will be lots of interestin
 A 17 18|||R:NOUN|||meetings.|||REQUIRED|||-NONE-|||0
 
 S In conclusion, for the last day, I thought it will be very interesting for the students to visit the town and appreciate its monuments and art.
-A 2 3|||R:PREP|||on|||REQUIRED|||-NONE-|||0
 A 9 10|||R:VERB:TENSE|||would|||REQUIRED|||-NONE-|||0
 
 S On the other hand, if you prefer to have a relaxing day, you could have a pic - nic in the wonderful park.
@@ -4598,7 +4696,7 @@ S The museum is situated in the centre of Populoniou, the picturesque fishing vi
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Populoniou is about 15 Km. from Piombino and it can be reached by well - organised means of transport.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 4 5|||R:ORTH|||km.|||REQUIRED|||-NONE-|||0
 
 S DESCRIPTION:
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -4607,7 +4705,7 @@ S The Etruscan Museum is one of the most attractive building in my town.
 A 9 10|||R:NOUN:NUM|||buildings|||REQUIRED|||-NONE-|||0
 
 S It contains lots of archeological Etruscans founded and some remains about Etruscans neoropolis.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||archaeological|||REQUIRED|||-NONE-|||0
 
 S The entrance fee is £ 7 each student.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -4622,7 +4720,7 @@ S There are some shops, café and toilets.
 A 4 5|||R:MORPH|||cafés|||REQUIRED|||-NONE-|||0
 
 S Also there are some free handphones, that explain the history of the museum.
-A 5 6|||R:NOUN|||handphones|||REQUIRED|||-NONE-|||0
+A 6 7|||R:DET|||which|||REQUIRED|||-NONE-|||0
 
 S 2.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -4652,6 +4750,7 @@ S I am writing to give you some information asked in your letter, which I receiv
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Your group has been booked in Palace Hotel which is one of the most comfortable hotels in London.
+A 6 6|||M:DET|||the|||REQUIRED|||-NONE-|||0
 A 7 8|||R:NOUN|||Hotel,|||REQUIRED|||-NONE-|||0
 
 S Personally, I am glad that you will have this opportunity to use its various facilities.
@@ -4668,14 +4767,13 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Regarding to the end - of - conference party, I would suggest to wear some dress for a woman and an elegant suit for a man, though, it is no formal do.
 A 1 2|||U:PREP||||||REQUIRED|||-NONE-|||0
-A 4 4|||M:PREP|||of|||REQUIRED|||-NONE-|||0
 A 12 14|||R:VERB:FORM|||wearing|||REQUIRED|||-NONE-|||0
 
 S The party will finish quite late so we 've decided to provide a bus which would take you to the hotel safely.
 A 7 9|||R:ORTH|||we've|||REQUIRED|||-NONE-|||0
 
 S Basicaly, during three hour time in the afternoon nobody is able to visit all of interesting places of London.
-A 0 1|||R:NOUN|||Basically,|||REQUIRED|||-NONE-|||0
+A 0 1|||R:NOUN|||Firstly,|||REQUIRED|||-NONE-|||0
 A 3 5|||R:NOUN|||hours|||REQUIRED|||-NONE-|||0
 A 15 15|||M:DET|||the|||REQUIRED|||-NONE-|||0
 A 17 18|||R:PREP|||in|||REQUIRED|||-NONE-|||0
@@ -4691,12 +4789,14 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Are you always happy when your telephon ring?
 A 6 7|||R:SPELL|||telephone|||REQUIRED|||-NONE-|||0
+A 7 8|||R:OTHER|||rings?|||REQUIRED|||-NONE-|||0
 
 S As far as I am concerned the telephone was invented in 19th century.
 A 11 11|||M:DET|||the|||REQUIRED|||-NONE-|||0
 
 S It has been affecting our lifes very quickly, although there were some different ways of communication as TV, for instance.
 A 5 6|||R:NOUN:INFL|||lives|||REQUIRED|||-NONE-|||0
+A 16 16|||M:ADV|||as well|||REQUIRED|||-NONE-|||0
 
 S Since the internet was introduced, many of us would n't have imagined the lifes without this.
 A 2 3|||R:ORTH|||Internet|||REQUIRED|||-NONE-|||0
@@ -4717,11 +4817,13 @@ S This invention has affected my life completely.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Since I have been traveling around the world I would have imagined beeing in tough with my family or friends without internet or my mobile phone.
-A 4 5|||R:VERB:INFL|||travelling|||REQUIRED|||-NONE-|||0
 A 12 13|||R:SPELL|||being|||REQUIRED|||-NONE-|||0
+A 14 14|||M:DET|||a|||REQUIRED|||-NONE-|||0
+A 15 15|||M:NOUN|||place|||REQUIRED|||-NONE-|||0
+A 21 21|||M:DET|||the|||REQUIRED|||-NONE-|||0
+A 21 22|||R:ORTH|||Internet|||REQUIRED|||-NONE-|||0
 
 S In spite of having the opportunity of keeping contact with friends at the time we are far away from home, we should have been knowledge how to use it without interrupting others.
-A 8 8|||M:PREP|||in|||REQUIRED|||-NONE-|||0
 A 24 25|||R:OTHER|||able to learn|||REQUIRED|||-NONE-|||0
 
 S Dear Maria:
@@ -4738,7 +4840,6 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S The party will be take place in Palace Hotel.
 A 3 4|||U:VERB||||||REQUIRED|||-NONE-|||0
-A 6 7|||R:PREP|||at|||REQUIRED|||-NONE-|||0
 
 S The Hotel is very close Town Hall.
 A 5 5|||M:OTHER|||to the|||REQUIRED|||-NONE-|||0
@@ -4759,7 +4860,6 @@ A 4 5|||R:VERB:SVA|||has|||REQUIRED|||-NONE-|||0
 S You can notice every students what they could make some tradional food to the party.
 A 2 3|||R:VERB|||see|||REQUIRED|||-NONE-|||0
 A 4 5|||R:NOUN:NUM|||student|||REQUIRED|||-NONE-|||0
-A 10 11|||R:SPELL|||traditional|||REQUIRED|||-NONE-|||0
 
 S After meal, you can play some games and prepare some gift to the winner.
 A 10 11|||R:NOUN:NUM|||gifts|||REQUIRED|||-NONE-|||0
@@ -4781,7 +4881,7 @@ S Report building of LUTON University
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S I heard that a group of America students has just arrived in our town.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 6 7|||R:MORPH|||American|||REQUIRED|||-NONE-|||0
 
 S I want to introduce an interesting building for them to visit.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -4809,7 +4909,7 @@ S At the rest of time, you can go to IT suit use Internet.
 A 0 2|||U:PREP|||The|||REQUIRED|||-NONE-|||0
 A 4 4|||M:DET|||the|||REQUIRED|||-NONE-|||0
 A 9 9|||M:DET|||the|||REQUIRED|||-NONE-|||0
-A 12 12|||M:DET|||the|||REQUIRED|||-NONE-|||0
+A 12 12|||M:OTHER|||of the|||REQUIRED|||-NONE-|||0
 
 S If you feel hungry, you do n't need go out.
 A 5 7|||R:ORTH|||don't|||REQUIRED|||-NONE-|||0
@@ -4817,19 +4917,22 @@ A 8 8|||M:VERB:FORM|||to|||REQUIRED|||-NONE-|||0
 
 S Just at the same building, you could find restuarant.
 A 1 2|||R:PREP|||in|||REQUIRED|||-NONE-|||0
-A 8 9|||R:NOUN|||accommodation.|||REQUIRED|||-NONE-|||0
+A 8 8|||M:DET|||a|||REQUIRED|||-NONE-|||0
+A 8 9|||R:NOUN|||restaurant.|||REQUIRED|||-NONE-|||0
 
 S I recommen this buiding to visit.
 A 1 2|||R:SPELL|||recommend|||REQUIRED|||-NONE-|||0
-A 3 4|||R:NOUN|||trip|||REQUIRED|||-NONE-|||0
+A 3 6|||R:OTHER|||trip.|||REQUIRED|||-NONE-|||0
 
 S Because American students will know British students is how to study and different campus life.
 A 7 8|||R:VERB:SVA|||are|||REQUIRED|||-NONE-|||0
+A 12 12|||M:DET|||a|||REQUIRED|||-NONE-|||0
 A 13 13|||M:OTHER|||life on|||REQUIRED|||-NONE-|||0
 A 13 15|||R:NOUN|||campus.|||REQUIRED|||-NONE-|||0
 
 S They can also talk with British students to communiate study experience.
-A 8 9|||R:OTHER|||share their|||REQUIRED|||-NONE-|||0
+A 8 9|||R:SPELL|||communicate|||REQUIRED|||-NONE-|||0
+A 9 9|||M:DET|||their|||REQUIRED|||-NONE-|||0
 
 S I think it will be interesting. for American students.
 A 5 6|||R:ADJ|||interesting|||REQUIRED|||-NONE-|||0
@@ -4848,8 +4951,12 @@ S First of all, I would like to give you more information about name and locatio
 A 12 12|||M:DET|||the|||REQUIRED|||-NONE-|||0
 
 S The group has been booked into" Maria Luisa" hotel which is situated on the center of Wimbledon called Wimbledon Village.
+A 5 6|||R:OTHER|||into|||REQUIRED|||-NONE-|||0
+A 6 6|||M:ADJ|||a"|||REQUIRED|||-NONE-|||0
+A 8 9|||R:OTHER|||hotel,|||REQUIRED|||-NONE-|||0
 A 12 13|||R:PREP|||in|||REQUIRED|||-NONE-|||0
 A 14 15|||R:SPELL|||centre|||REQUIRED|||-NONE-|||0
+A 16 17|||R:NOUN|||Wimbledon,|||REQUIRED|||-NONE-|||0
 
 S This hotel is the next building after Art College, so it will be easy for your group to find the place.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -4857,6 +4964,7 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 S Secondly turning to the end - of - conference party, it is planed to be in Wimbledon Common - nice piece of England nature.
 A 0 1|||R:OTHER|||Secondly,|||REQUIRED|||-NONE-|||0
 A 5 6|||U:PUNCT||||||REQUIRED|||-NONE-|||0
+A 7 8|||R:OTHER|||the|||REQUIRED|||-NONE-|||0
 A 12 13|||R:MORPH|||planned|||REQUIRED|||-NONE-|||0
 
 S So, it may be a good idea to take some very comfortable and informal clothes.
@@ -4867,7 +4975,8 @@ A 14 15|||U:VERB:FORM||||||REQUIRED|||-NONE-|||0
 A 16 16|||M:DET|||the|||REQUIRED|||-NONE-|||0
 
 S Where is quite good exposition their, giving interesting information about the history of Wimbledon Tennis Tournaments.
-A 5 5|||M:PREP|||of|||REQUIRED|||-NONE-|||0
+A 3 3|||M:DET|||a|||REQUIRED|||-NONE-|||0
+A 4 5|||R:OTHER|||exhibition of|||REQUIRED|||-NONE-|||0
 
 S I look forward to meeting your group in our conference.
 A 7 8|||R:PREP|||at|||REQUIRED|||-NONE-|||0
@@ -4883,6 +4992,7 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S The purpose of this report is to give a brief discription of the Academy of Art in St. - Petersburg.
 A 10 11|||R:SPELL|||description|||REQUIRED|||-NONE-|||0
+A 18 19|||U:PUNCT||||||REQUIRED|||-NONE-|||0
 
 S From my point of view this building is the best option to visit.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -4892,7 +5002,6 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S This building is situated on the magnificent embankment of Niva River with an exellent view on the Hermitage Museum.
 A 13 14|||R:SPELL|||excellent|||REQUIRED|||-NONE-|||0
-A 15 16|||R:PREP|||of|||REQUIRED|||-NONE-|||0
 
 S History:
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -4911,7 +5020,6 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 S In the Academy of Art you can find the oldiest art libarary with a wide range of books, the Museum of Russian Art with a huge collection of painting, sculpture and architectural projects from early eighteenth to late twentieth centuries.
 A 9 10|||R:SPELL|||oldest|||REQUIRED|||-NONE-|||0
 A 11 12|||R:SPELL|||library|||REQUIRED|||-NONE-|||0
-A 34 34|||M:DET|||the|||REQUIRED|||-NONE-|||0
 
 S It is also a good chance to be introduced with Russian system of art education.
 A 10 10|||M:DET|||the|||REQUIRED|||-NONE-|||0
@@ -4921,6 +5029,7 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S The building of Academy of Art in St. - Petersburg is worth visiting and interesting as historical as educational aspects.
 A 3 3|||M:DET|||the|||REQUIRED|||-NONE-|||0
+A 8 9|||U:PUNCT||||||REQUIRED|||-NONE-|||0
 
 S Dear Mrs Smith:
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -4932,7 +5041,7 @@ S It is my pleasure to help you with the information you need.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Your group has been booked into The Palace Hotel, located on the High street, opposite to the Post Office.
-A 15 16|||U:PREP||||||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S The conference will be hold in The Royal Hall, and the best way to get there from the hotel is by bus.
 A 4 5|||R:VERB:FORM|||held|||REQUIRED|||-NONE-|||0
@@ -4970,7 +5079,7 @@ S Yes, I know, it is just hard to imagine our lives without this invention.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Think about the people living in the time it was invented.
-A 5 6|||R:PREP|||at|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Must had been such a exciting thing being able to talk to someone living thousands of miles for. .. .. .. . and now for us is just as simple as dial a number and talk to whoever we want to.
 A 0 1|||R:OTHER|||It|||REQUIRED|||-NONE-|||0
@@ -4979,11 +5088,13 @@ A 4 5|||R:DET|||an|||REQUIRED|||-NONE-|||0
 A 26 26|||M:PRON|||it|||REQUIRED|||-NONE-|||0
 A 31 32|||R:VERB:FORM|||dialing|||REQUIRED|||-NONE-|||0
 A 35 36|||R:VERB:FORM|||talking|||REQUIRED|||-NONE-|||0
+A 37 38|||R:NOUN|||anyone|||REQUIRED|||-NONE-|||0
 
 S Of course is nice to have a phone conversation with friends or family, but the telephone is also very important for business and emergencies.
 A 2 2|||M:PRON|||it|||REQUIRED|||-NONE-|||0
 
 S For example, I work for a bank, and we need to have weekly meetings with our Director living 800 kilometers far, and he does n't have to come here, we just have a phone conference where everybody can talks, and that is it!
+A 20 21|||R:OTHER|||away,|||REQUIRED|||-NONE-|||0
 A 23 25|||R:ORTH|||doesn't|||REQUIRED|||-NONE-|||0
 A 38 39|||R:OTHER|||talk,|||REQUIRED|||-NONE-|||0
 
@@ -5019,6 +5130,7 @@ A 10 11|||R:ORTH|||hand side|||REQUIRED|||-NONE-|||0
 
 S About the end - of - conference party.
 A 3 4|||U:PUNCT||||||REQUIRED|||-NONE-|||0
+A 5 6|||R:OTHER|||the|||REQUIRED|||-NONE-|||0
 
 S We are going to have a dinner before the end and at the end we are going to bring you to the Hotel, you need to wear a night - dress or suit and bow tie.
 A 5 6|||U:DET||||||REQUIRED|||-NONE-|||0
@@ -5029,6 +5141,7 @@ S Finally, on the last day you have three hours before you catch the plane so we
 A 16 17|||R:VERB|||suggest|||REQUIRED|||-NONE-|||0
 A 21 21|||M:DET|||the|||REQUIRED|||-NONE-|||0
 A 33 33|||M:DET|||the|||REQUIRED|||-NONE-|||0
+A 44 45|||R:ORTH|||it|||REQUIRED|||-NONE-|||0
 
 S yours sincerely
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -5038,7 +5151,6 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S I am the student leader. We are greatful that your group has just arrived so I am going to give information about an interesting building to visit.
 A 7 8|||R:SPELL|||grateful|||REQUIRED|||-NONE-|||0
-A 20 20|||M:PRON|||you|||REQUIRED|||-NONE-|||0
 
 S We recommend you to go to BBC building.
 A 3 4|||U:VERB:FORM||||||REQUIRED|||-NONE-|||0
@@ -5049,20 +5161,22 @@ A 4 4|||M:DET|||the|||REQUIRED|||-NONE-|||0
 A 10 11|||R:PREP|||in|||REQUIRED|||-NONE-|||0
 
 S On the ground floor, they have a video camera everywhere around the building and police officer walk around the building as well.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 15 16|||R:NOUN:NUM|||officers|||REQUIRED|||-NONE-|||0
 
 S Up to the first floor, they have a huge radio room, for send and receipt the information all over the world because they have a small BBC building all over the world either;
 A 12 13|||R:VERB:FORM|||sending|||REQUIRED|||-NONE-|||0
 A 14 15|||R:VERB|||receiving|||REQUIRED|||-NONE-|||0
+A 15 16|||U:DET||||||REQUIRED|||-NONE-|||0
 
 S For Example, THAILAND, United State of America, INDONISIA and CANADA.
+A 1 2|||R:ORTH|||example,|||REQUIRED|||-NONE-|||0
 A 4 5|||R:MORPH|||States|||REQUIRED|||-NONE-|||0
 
 S And the second floor is the news room where they get on - air to show on the T. V. That is not finish, I just give you some information but they have more interesting thing you do not know.
 A 18 19|||U:NOUN||||||REQUIRED|||-NONE-|||0
 A 19 20|||R:OTHER|||TV.|||REQUIRED|||-NONE-|||0
 A 23 24|||R:ADJ|||finished.|||REQUIRED|||-NONE-|||0
-A 35 36|||R:NOUN:NUM|||things|||REQUIRED|||-NONE-|||0
+A 33 33|||M:DET|||a|||REQUIRED|||-NONE-|||0
 
 S I recommend you this building because this building is the main of london and this building is the second most beautiful building in london so that why I recommend you this building.
 A 12 13|||R:ORTH|||London|||REQUIRED|||-NONE-|||0
@@ -5080,7 +5194,6 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S I would be very pleased if I can help you answering all your enquiries.
 A 7 8|||R:VERB:TENSE|||could|||REQUIRED|||-NONE-|||0
-A 10 10|||M:PREP|||with|||REQUIRED|||-NONE-|||0
 
 S The hotel which your students ' group has been booked into is the Palace Hotel.
 A 4 7|||R:ORTH|||students'group|||REQUIRED|||-NONE-|||0
@@ -5132,7 +5245,6 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S The invention without no doubt, that has affected my own life by far is the car.
 A 1 2|||R:NOUN|||invention,|||REQUIRED|||-NONE-|||0
-A 3 4|||R:DET|||any|||REQUIRED|||-NONE-|||0
 
 S Cars have definitely changed all our lives, and I am not refering only in a positive way, but in a negative way as well.
 A 11 12|||R:VERB|||talking|||REQUIRED|||-NONE-|||0
@@ -5162,7 +5274,7 @@ S In my case I use public transport during the week to go to work but I could ha
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S I really need it to escape from the pollution, mainly caused by cars and any other four - wheel motored vehicle.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 19 20|||R:MORPH|||motor|||REQUIRED|||-NONE-|||0
 
 S Is n't that contradictorious?
 A 0 2|||R:ORTH|||Isn't|||REQUIRED|||-NONE-|||0
@@ -5174,7 +5286,8 @@ A 25 26|||R:OTHER|||concerned,|||REQUIRED|||-NONE-|||0
 S Therefore I am thinking in selling my car, which has changed my life over the last 10 years, which has given me a kind of freedom, which has gone with me to all sort of fantastic places, and change my life for a new life: whithout car.
 A 4 5|||R:PREP|||of|||REQUIRED|||-NONE-|||0
 A 33 34|||R:MORPH|||sorts|||REQUIRED|||-NONE-|||0
-A 45 46|||R:OTHER|||a luxury|||REQUIRED|||-NONE-|||0
+A 38 39|||R:VERB:TENSE|||changed|||REQUIRED|||-NONE-|||0
+A 45 45|||M:DET|||a|||REQUIRED|||-NONE-|||0
 
 S Dear Mrs Smith.
 A 2 3|||R:NOUN|||Smith,|||REQUIRED|||-NONE-|||0
@@ -5205,7 +5318,7 @@ A 3 5|||R:ORTH|||conference's|||REQUIRED|||-NONE-|||0
 A 6 7|||R:VERB:SVA|||makes|||REQUIRED|||-NONE-|||0
 
 S Finally we enjoy a disco party so you wear a suiteable dress.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 8 8|||M:VERB:TENSE|||can|||REQUIRED|||-NONE-|||0
 
 S On the last day I go to your house and then we think about our 's conference plane.
 A 15 16|||U:NOUN:POSS||||||REQUIRED|||-NONE-|||0
@@ -5244,8 +5357,7 @@ A 16 17|||U:DET||||||REQUIRED|||-NONE-|||0
 A 26 27|||R:OTHER|||open.|||REQUIRED|||-NONE-|||0
 
 S So he crimbed on the radder up to the window and he opened the door but policemen came there" what happened? "
-A 18 19|||R:NOUN|||there,|||REQUIRED|||-NONE-|||0
-A 19 20|||M:PUNCT|||" What|||REQUIRED|||-NONE-|||0
+A 5 6|||R:NOUN|||wheel|||REQUIRED|||-NONE-|||0
 
 S Jane expained that situations and they under stood him.
 A 1 2|||R:SPELL|||explained|||REQUIRED|||-NONE-|||0
@@ -5268,14 +5380,14 @@ S I am writting to give you the information that you asked me for.
 A 2 3|||R:SPELL|||writing|||REQUIRED|||-NONE-|||0
 
 S the group has been booked into the Harris hotel.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 0 1|||R:ORTH|||The|||REQUIRED|||-NONE-|||0
 
 S this hotel is very good placed.
 A 0 1|||R:ORTH|||This|||REQUIRED|||-NONE-|||0
-A 5 6|||R:NOUN|||positioned.|||REQUIRED|||-NONE-|||0
 
 S From there you can get a taxi, catch the buses seven and eleven, wich both have you very close to the conference place, and also you can go by underground to get there.
 A 13 14|||R:SPELL|||which|||REQUIRED|||-NONE-|||0
+A 29 29|||M:DET|||the|||REQUIRED|||-NONE-|||0
 
 S the conference starts at 5: 30 pm and it finishes at 8: 00PM.
 A 0 1|||R:ORTH|||The|||REQUIRED|||-NONE-|||0
@@ -5373,12 +5485,12 @@ S We have booked the hotel for the group.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Called" palace Hotel" which is about 10 miles away from our College, the hotel will have a coach to pick the group up from the airport on 19th of June and then take the group to Conference and return to hotel every day.
-A 27 27|||M:DET|||the|||REQUIRED|||-NONE-|||0
+A 3 3|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A 36 36|||M:DET|||the|||REQUIRED|||-NONE-|||0
 A 40 40|||M:DET|||the|||REQUIRED|||-NONE-|||0
 
 S Regarding to the end - of - conference party.
 A 1 2|||U:PREP||||||REQUIRED|||-NONE-|||0
-A 4 5|||U:PUNCT||||||REQUIRED|||-NONE-|||0
 
 S We have planed a barbecue at 5 oo pm. on our most idyllic play field which is over looking the endless Countryside and farms.
 A 2 3|||R:MORPH|||planned|||REQUIRED|||-NONE-|||0
@@ -5393,8 +5505,8 @@ S we can move to our student hall to have a disc dance until 10: 00pm.
 A 0 1|||R:ORTH|||We|||REQUIRED|||-NONE-|||0
 
 S On the last day, we have arranged a small party in the hotel, then we all set up to have a sightseeing Bromley town center for about two hours before you leave for airport.
-A 22 22|||M:OTHER|||centre in|||REQUIRED|||-NONE-|||0
-A 23 25|||U:NOUN||||||REQUIRED|||-NONE-|||0
+A 22 23|||U:NOUN||||||REQUIRED|||-NONE-|||0
+A 24 25|||R:SPELL|||centre|||REQUIRED|||-NONE-|||0
 A 33 33|||M:DET|||the|||REQUIRED|||-NONE-|||0
 
 S Bromley town center is the most beautiful shopping centre in South East London.
@@ -5416,7 +5528,7 @@ S How wonderful" light"
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S We need light every day, not just night time.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 7 9|||R:ORTH|||nighttime.|||REQUIRED|||-NONE-|||0
 
 S We need lamp light in offices or schools or some places during the day time.
 A 13 15|||R:ORTH|||daytime.|||REQUIRED|||-NONE-|||0
@@ -5430,6 +5542,8 @@ A 11 12|||R:OTHER|||nature's|||REQUIRED|||-NONE-|||0
 S When I was small, we lived in country yard, I remembered, we used to have oil lamps which used a cotton string dipping in the oil in the small bottle and made it burned the tip of the cotton string to give us light during the night time, it was very little light on, and many things we could n't do under the oil lamps because the light range was very small.
 A 7 7|||M:DET|||a|||REQUIRED|||-NONE-|||0
 A 8 9|||R:OTHER|||yard.|||REQUIRED|||-NONE-|||0
+A 27 28|||R:DET|||a|||REQUIRED|||-NONE-|||0
+A 31 32|||R:VERB:FORM|||making|||REQUIRED|||-NONE-|||0
 A 33 34|||R:VERB:TENSE|||burn|||REQUIRED|||-NONE-|||0
 A 46 48|||R:NOUN|||nighttime.|||REQUIRED|||-NONE-|||0
 A 48 49|||R:ORTH|||It|||REQUIRED|||-NONE-|||0
@@ -5439,6 +5553,7 @@ S There was no any light outside our house, no light on the road or field either
 A 3 4|||U:DET||||||REQUIRED|||-NONE-|||0
 
 S I was always very scared whenever or wherever. because most places.
+A 7 8|||R:NOUN|||wherever,|||REQUIRED|||-NONE-|||0
 A 9 9|||M:PREP|||of|||REQUIRED|||-NONE-|||0
 
 S Covered by dark, dark and dark.
@@ -5448,7 +5563,7 @@ S This scaring dark is still affecting my life now.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S I never stayed out after dark today except accompanying by my family.
-A 9 10|||U:PREP||||||REQUIRED|||-NONE-|||0
+A 8 10|||R:OTHER|||with|||REQUIRED|||-NONE-|||0
 
 S What a biggest person on the earth, who invented the light, Einstein was.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -5480,13 +5595,15 @@ A 3 4|||R:MORPH|||pleased|||REQUIRED|||-NONE-|||0
 A 14 15|||R:ORTH|||Conference|||REQUIRED|||-NONE-|||0
 
 S I would like to inform you that the group you belong to, has been booked in Palace Hotel, in the center of London from the 24 June until 25 of June.
+A 15 16|||R:PREP|||at|||REQUIRED|||-NONE-|||0
 A 16 16|||M:DET|||the|||REQUIRED|||-NONE-|||0
 A 20 21|||R:SPELL|||centre|||REQUIRED|||-NONE-|||0
+A 24 25|||U:DET||||||REQUIRED|||-NONE-|||0
 
 S The Albert Hall College, the building where will be taken part the conference is sited near Green Park Avenue; so, to get it from the Palace Hotel you can take the bus number 26, otherwise, you can take the Picadilly Line from South Kensigton Station to green Park station.
 A 7 7|||M:OTHER|||the conference|||REQUIRED|||-NONE-|||0
-A 9 10|||R:OTHER|||taken,|||REQUIRED|||-NONE-|||0
-A 10 13|||U:OTHER||||||REQUIRED|||-NONE-|||0
+A 10 11|||R:NOUN|||part,|||REQUIRED|||-NONE-|||0
+A 11 13|||U:OTHER||||||REQUIRED|||-NONE-|||0
 A 14 15|||R:VERB|||located|||REQUIRED|||-NONE-|||0
 A 46 46|||M:DET|||the|||REQUIRED|||-NONE-|||0
 
@@ -5497,7 +5614,7 @@ S Therefore, that 's the faster way of transport you can choose.
 A 1 3|||R:ORTH|||that's|||REQUIRED|||-NONE-|||0
 
 S The Conference will start at 9 am of 25 June and will finish about 6 pm in the same day.
-A 7 8|||R:PREP|||on|||REQUIRED|||-NONE-|||0
+A 13 13|||M:PREP|||at|||REQUIRED|||-NONE-|||0
 A 16 17|||R:PREP|||on|||REQUIRED|||-NONE-|||0
 
 S During the day is supposed having a break of half and hour at 12 p. m and finally, a party for all the people who will be there.
@@ -5505,12 +5622,13 @@ A 3 3|||M:PRON|||it|||REQUIRED|||-NONE-|||0
 A 5 6|||R:VERB:FORM|||to have|||REQUIRED|||-NONE-|||0
 
 S That will be a smart party and because of this, it will be required a well - dressed and immaculate presence.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 14 14|||M:VERB|||to have|||REQUIRED|||-NONE-|||0
 
 S Ladies should wear an evening dress and gentlman a dark suit.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S As I can see from your letter, you will have about three hours before you catch your plane, so, I would suggest to visit The Tate Modern Museum, where you will can find several interesting pictures such as Dali 's Warhols.
+A 18 19|||R:OTHER|||so|||REQUIRED|||-NONE-|||0
 A 22 24|||R:VERB:FORM|||visiting|||REQUIRED|||-NONE-|||0
 A 31 32|||U:VERB:TENSE||||||REQUIRED|||-NONE-|||0
 A 38 40|||R:ORTH|||Dali's|||REQUIRED|||-NONE-|||0
@@ -5534,10 +5652,12 @@ A 16 17|||R:VERB:SVA|||have|||REQUIRED|||-NONE-|||0
 S Rome is a big city where they can find several moments and important buildings, for this reason I would suggest them to visit
 A 13 14|||R:NOUN|||buildings.|||REQUIRED|||-NONE-|||0
 A 14 15|||R:ORTH|||For|||REQUIRED|||-NONE-|||0
-A 21 22|||R:VERB|||visit|||REQUIRED|||-NONE-|||0
-A 23 23|||M:OTHER|||the city.|||REQUIRED|||-NONE-|||0
+A 20 21|||U:PRON||||||REQUIRED|||-NONE-|||0
+A 21 23|||R:VERB:FORM|||visiting|||REQUIRED|||-NONE-|||0
+A 23 23|||M:NOUN|||them.|||REQUIRED|||-NONE-|||0
 
 S 1 )" Fontana di Trevi" sited in Trevis Square in the center of Rome.
+A 5 6|||R:VERB|||was built|||REQUIRED|||-NONE-|||0
 A 11 12|||R:SPELL|||centre|||REQUIRED|||-NONE-|||0
 
 S That 's a small square where there is a fountain very big.
@@ -5547,11 +5667,12 @@ S It was built by Canovas architect in 1638.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S That is the fountain which" Dolce Vita" film was taken place.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 4 4|||M:PREP|||in|||REQUIRED|||-NONE-|||0
 
 S 2 ) For other hand, there is Villa Borghese Building, That is a museum where they can find the most important sculptures and pictures of Antonio Canovas and, Bernini, who stayed for a long time working in Rome.
 A 2 3|||R:PREP|||On|||REQUIRED|||-NONE-|||0
 A 3 3|||M:DET|||the|||REQUIRED|||-NONE-|||0
+A 7 7|||M:DET|||the|||REQUIRED|||-NONE-|||0
 A 9 10|||R:PUNCT|||Building.|||REQUIRED|||-NONE-|||0
 
 S CONCLUSION
@@ -5592,7 +5713,7 @@ S That is the best option because it is placed less than 5 minutes walk from the
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S When you live a hotel you have to turn right and you bloun the street.
-A 2 3|||R:OTHER|||stay in|||REQUIRED|||-NONE-|||0
+A 3 3|||M:PREP|||in|||REQUIRED|||-NONE-|||0
 A 12 13|||R:VERB|||walk|||REQUIRED|||-NONE-|||0
 
 S At the first traffic lights turn right again and you should see a big blue building.
@@ -5606,9 +5727,11 @@ A 9 9|||M:PREP|||about|||REQUIRED|||-NONE-|||0
 
 S As you know at the end - of - conference there is a party.
 A 6 7|||U:PUNCT||||||REQUIRED|||-NONE-|||0
+A 8 9|||R:OTHER|||the|||REQUIRED|||-NONE-|||0
 
 S Party is due to start at 8 p. m until 3 a. m. There is 2hr break between end - of - conference and party.
 A 0 1|||M:DET|||The party|||REQUIRED|||-NONE-|||0
+A 15 15|||M:DET|||a|||REQUIRED|||-NONE-|||0
 A 18 18|||M:DET|||the|||REQUIRED|||-NONE-|||0
 A 19 20|||U:PUNCT||||||REQUIRED|||-NONE-|||0
 A 21 22|||R:OTHER|||the|||REQUIRED|||-NONE-|||0
@@ -5628,7 +5751,8 @@ S We prepared some special attraction like live dance music and hot or cold buff
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S About you 're the last question I can sugest to visit the Royal Castle.
-A 1 3|||R:ORTH|||you're|||REQUIRED|||-NONE-|||0
+A 1 2|||R:OTHER|||you,|||REQUIRED|||-NONE-|||0
+A 2 3|||R:OTHER|||it's|||REQUIRED|||-NONE-|||0
 A 8 9|||R:OTHER|||ask you|||REQUIRED|||-NONE-|||0
 
 S That will give you and your guests an impression about our country and history.
@@ -5652,7 +5776,7 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Actually it is a whole complex, the Old and the New Castle, Cathedrall and the most interesting undergroud part with it 's amazing crypts.
 A 12 13|||R:SPELL|||Cathedral|||REQUIRED|||-NONE-|||0
-A 20 22|||R:OTHER|||its|||REQUIRED|||-NONE-|||0
+A 20 22|||R:ORTH|||it's|||REQUIRED|||-NONE-|||0
 
 S And if you climb on the top of the main tower - the keep you will see unforgetable view on a white toun.
 A 13 14|||R:OTHER|||main tower -|||REQUIRED|||-NONE-|||0
@@ -5663,6 +5787,7 @@ S After that you can explore our great museum at the Old Castle.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S You will find there an amazing collection of old weapon, armores and, we are especially pround of it, the great collection of swords.
+A 3 4|||U:ADV||||||REQUIRED|||-NONE-|||0
 A 9 10|||R:NOUN|||weapons,|||REQUIRED|||-NONE-|||0
 A 15 16|||R:SPELL|||proud|||REQUIRED|||-NONE-|||0
 
@@ -5671,7 +5796,8 @@ A 13 14|||R:SPELL|||restaurants|||REQUIRED|||-NONE-|||0
 
 S I am sure that should be enought for one day trip.
 A 6 7|||R:SPELL|||enough|||REQUIRED|||-NONE-|||0
-A 9 10|||R:NOUN|||day's|||REQUIRED|||-NONE-|||0
+A 8 8|||M:DET|||a|||REQUIRED|||-NONE-|||0
+A 9 9|||M:PUNCT|||-|||REQUIRED|||-NONE-|||0
 
 S For you information I can say that at this time we have five weeks festival and this night there will be a great display.
 A 1 2|||R:DET|||your|||REQUIRED|||-NONE-|||0
@@ -5687,10 +5813,7 @@ S I am writing this letter in reply to your letter which arrived yesterday.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S I do welcome you and your group, and I am willing to help you by giving the informations that you have asked me.
-A 1 2|||U:VERB:TENSE||||||REQUIRED|||-NONE-|||0
 A 17 18|||R:NOUN:INFL|||information|||REQUIRED|||-NONE-|||0
-A 22 23|||R:OTHER|||me|||REQUIRED|||-NONE-|||0
-A 23 23|||M:ADJ|||for.|||REQUIRED|||-NONE-|||0
 
 S Firstly, let me explain the way from the PALACE HOTEL, where your group will be staying, to the conference.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -5714,6 +5837,8 @@ S The party is not very formal, so you can wear any kind of dress, as long as it
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Finally, I would like you to recommend the visit to a traditional Korean palace Kyong Bok for the last day 's free time.
+A 13 14|||R:NOUN|||palace,|||REQUIRED|||-NONE-|||0
+A 15 16|||R:SPELL|||Bok,|||REQUIRED|||-NONE-|||0
 A 19 21|||R:ORTH|||day's|||REQUIRED|||-NONE-|||0
 
 S It must be a very interesting visit for the students who has never experienced an oriental atmosphere.
@@ -5735,7 +5860,7 @@ S .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Report on Kyoung Bok Palace - the Glory of Chosun Kingdom.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 9 9|||M:DET|||the|||REQUIRED|||-NONE-|||0
 
 S .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -5747,7 +5872,6 @@ S This report provides the information about Kyong Bok Palace, which is highly r
 A 15 16|||U:PREP||||||REQUIRED|||-NONE-|||0
 
 S It highlights the background history and considers the interest of young peoples, and makes a final recommendation.
-A 8 9|||R:NOUN:NUM|||interests|||REQUIRED|||-NONE-|||0
 A 11 12|||R:OTHER|||people,|||REQUIRED|||-NONE-|||0
 
 S .
@@ -5764,6 +5888,7 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S As the kings of Chosun loved to be a part of the nature, the palace had a huge garden, however it was destroyed by the army of Japan, and now there remains only a part of the original palace.
 A 11 12|||U:DET||||||REQUIRED|||-NONE-|||0
+A 19 20|||R:OTHER|||however,|||REQUIRED|||-NONE-|||0
 A 25 25|||M:ADJ|||Japanese|||REQUIRED|||-NONE-|||0
 A 25 26|||R:NOUN|||army,|||REQUIRED|||-NONE-|||0
 A 26 28|||U:OTHER||||||REQUIRED|||-NONE-|||0
@@ -5778,6 +5903,7 @@ S Activity.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S The reason that this palace is also popular for the youngsters, who tends to dislike the historical visit, would be the various activity.
+A 12 13|||R:VERB:SVA|||tend|||REQUIRED|||-NONE-|||0
 A 22 23|||R:NOUN|||activities.|||REQUIRED|||-NONE-|||0
 
 S You can try the traditional games of Korea and there is a chance to wear the traditional clothes of the Royals.
@@ -5785,7 +5911,6 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Also there are performances which helds daily in the front gate of the palace.
 A 5 6|||R:VERB|||are held|||REQUIRED|||-NONE-|||0
-A 7 8|||R:PREP|||at|||REQUIRED|||-NONE-|||0
 
 S .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -5808,7 +5933,8 @@ A 18 18|||M:DET|||the|||REQUIRED|||-NONE-|||0
 A 27 28|||R:PREP|||about|||REQUIRED|||-NONE-|||0
 
 S The group has been booked into the Palace Hotel which is located in the central area of the city, so it will not take you and your students too much time to get to the town hall where the conference is supposed to be progressed.
-A 44 45|||R:OTHER|||organized.|||REQUIRED|||-NONE-|||0
+A 8 9|||R:NOUN|||Hotel,|||REQUIRED|||-NONE-|||0
+A 44 45|||R:OTHER|||held.|||REQUIRED|||-NONE-|||0
 
 S The easiest way to get there from your hotel is to take buses 461 or 176 ( the bus stop is opposite to the hotel ) or we can hire a minibus for you but there is an extra charge for it.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -5838,6 +5964,7 @@ A 14 15|||R:SPELL|||before|||REQUIRED|||-NONE-|||0
 A 18 19|||R:NOUN|||plane.|||REQUIRED|||-NONE-|||0
 A 29 33|||R:OTHER|||visit|||REQUIRED|||-NONE-|||0
 A 35 36|||R:SPELL|||before|||REQUIRED|||-NONE-|||0
+A 37 38|||U:VERB:TENSE||||||REQUIRED|||-NONE-|||0
 
 S Yours sincerely,
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -5854,9 +5981,12 @@ A 20 21|||R:SPELL|||usual|||REQUIRED|||-NONE-|||0
 S Hundred years before people could n't even use an electric lump not saying about a car or computer.
 A 2 3|||R:PREP|||ago|||REQUIRED|||-NONE-|||0
 A 4 6|||R:ORTH|||couldn't|||REQUIRED|||-NONE-|||0
-A 11 12|||U:ADV||||||REQUIRED|||-NONE-|||0
+A 10 11|||R:NOUN|||lump,|||REQUIRED|||-NONE-|||0
 
 S They have intentions improved our life a lot since they had appeared, but not every one beleives it is really so.
+A 2 3|||R:OTHER|||been a lot|||REQUIRED|||-NONE-|||0
+A 3 4|||R:OTHER|||happier in|||REQUIRED|||-NONE-|||0
+A 6 8|||U:OTHER||||||REQUIRED|||-NONE-|||0
 A 10 11|||R:VERB:TENSE|||have|||REQUIRED|||-NONE-|||0
 A 14 16|||R:ORTH|||everyone|||REQUIRED|||-NONE-|||0
 A 16 17|||R:SPELL|||believes|||REQUIRED|||-NONE-|||0
@@ -5867,7 +5997,8 @@ A 10 11|||R:MORPH|||lives|||REQUIRED|||-NONE-|||0
 A 23 24|||R:VERB:FORM|||seeing|||REQUIRED|||-NONE-|||0
 
 S First of all they say about enviroment pollution which cars and other vechicles make, overspending the electricity using electric equipment and some others.
-A 6 7|||R:SPELL|||environmental|||REQUIRED|||-NONE-|||0
+A 6 6|||M:DET|||the|||REQUIRED|||-NONE-|||0
+A 6 7|||R:SPELL|||environment|||REQUIRED|||-NONE-|||0
 A 12 13|||R:SPELL|||vehicles|||REQUIRED|||-NONE-|||0
 
 S But to my opinion if peoples inventions take a place in our lifes they are right then.
@@ -5899,8 +6030,10 @@ A 16 17|||R:SPELL|||undeniable|||REQUIRED|||-NONE-|||0
 A 17 18|||R:SPELL|||necessity|||REQUIRED|||-NONE-|||0
 
 S In case of all said I am more likely to think that the benefits of advantages of peopel 's inventions are much higre the all their disadvantages.
+A 4 5|||R:OTHER|||this|||REQUIRED|||-NONE-|||0
 A 15 15|||M:DET|||the|||REQUIRED|||-NONE-|||0
-A 17 19|||R:ORTH|||peopel's|||REQUIRED|||-NONE-|||0
+A 17 19|||R:OTHER|||the|||REQUIRED|||-NONE-|||0
+A 20 20|||M:OTHER|||of peopel|||REQUIRED|||-NONE-|||0
 A 22 23|||R:ADJ|||greater|||REQUIRED|||-NONE-|||0
 A 23 24|||R:SPELL|||than|||REQUIRED|||-NONE-|||0
 
@@ -5921,12 +6054,11 @@ S As you were informed, there will be a party for all attendants of the conferen
 A 11 11|||M:DET|||the|||REQUIRED|||-NONE-|||0
 
 S Minding the fact that it will be entirely sociable meeting I believe that casual clothes are the most suitable option for this event.
-A 9 10|||R:NOUN:NUM|||meetings|||REQUIRED|||-NONE-|||0
+A 7 7|||M:DET|||an|||REQUIRED|||-NONE-|||0
 
 S Finally, answering your last question about student 's day - out, I suggest visiting a local Lawn tennis Museums and Wimbledon Tennis Courts as it is one of the best international tourists attractions.
-A 6 8|||R:ORTH|||student's|||REQUIRED|||-NONE-|||0
-A 9 10|||U:PUNCT||||||REQUIRED|||-NONE-|||0
-A 18 19|||R:NOUN|||Museum|||REQUIRED|||-NONE-|||0
+A 7 8|||U:NOUN:POSS||||||REQUIRED|||-NONE-|||0
+A 18 19|||R:NOUN|||museum|||REQUIRED|||-NONE-|||0
 
 S If you have any further questione, please do not hesitate to contact me.
 A 5 6|||R:OTHER|||questions,|||REQUIRED|||-NONE-|||0
@@ -5948,6 +6080,7 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S SUBJECT: Recomnendations of a place to visit
 A 1 2|||R:SPELL|||Recommendations|||REQUIRED|||-NONE-|||0
+A 2 3|||R:PREP|||for|||REQUIRED|||-NONE-|||0
 
 S INTRODUCTION:
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -5986,8 +6119,7 @@ S .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S The Old Town is the best place for afternoon stroll with a great deal of restaurants, caffes and street performers.
-A 9 10|||R:NOUN:NUM|||strolls|||REQUIRED|||-NONE-|||0
-A 16 17|||R:SPELL|||cafés|||REQUIRED|||-NONE-|||0
+A 8 8|||M:DET|||an|||REQUIRED|||-NONE-|||0
 
 S .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -6036,7 +6168,7 @@ S CONCLUSION:
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Despite the few drawbacks, I would strongly recommend the Royal Palace as the most suitable place to visit for the foreign students.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 19 20|||U:DET||||||REQUIRED|||-NONE-|||0
 
 S Dear: Mrs Maria Smith
 A 0 1|||R:NOUN|||Dear|||REQUIRED|||-NONE-|||0
@@ -6048,8 +6180,8 @@ A 5 6|||R:PREP|||about|||REQUIRED|||-NONE-|||0
 A 8 10|||R:ORTH|||you're|||REQUIRED|||-NONE-|||0
 
 S I am plece to tell the information do you need for the group.
-A 2 3|||R:VERB|||writing|||REQUIRED|||-NONE-|||0
-A 4 5|||R:OTHER|||give you|||REQUIRED|||-NONE-|||0
+A 2 3|||R:VERB|||going|||REQUIRED|||-NONE-|||0
+A 5 5|||M:PRON|||you|||REQUIRED|||-NONE-|||0
 A 7 8|||U:VERB:TENSE||||||REQUIRED|||-NONE-|||0
 
 S The Hotel I was be booked is Palace Hotel wiche is in the center of London just tow blokes from Victoria stations.
@@ -6066,11 +6198,14 @@ A 6 6|||M:NOUN|||place|||REQUIRED|||-NONE-|||0
 A 9 10|||R:ORTH|||You|||REQUIRED|||-NONE-|||0
 A 11 11|||M:DET|||the|||REQUIRED|||-NONE-|||0
 A 25 26|||R:ORTH|||About|||REQUIRED|||-NONE-|||0
-A 32 33|||U:DET||||||REQUIRED|||-NONE-|||0
-A 34 35|||R:MORPH|||service|||REQUIRED|||-NONE-|||0
-A 42 52|||U:OTHER||||||REQUIRED|||-NONE-|||0
-A 54 55|||R:NOUN|||value.|||REQUIRED|||-NONE-|||0
-A 55 56|||R:ORTH|||And|||REQUIRED|||-NONE-|||0
+A 34 35|||R:NOUN|||service.|||REQUIRED|||-NONE-|||0
+A 35 36|||R:ORTH|||The|||REQUIRED|||-NONE-|||0
+A 42 43|||R:OTHER|||a good|||REQUIRED|||-NONE-|||0
+A 44 45|||U:ADJ||||||REQUIRED|||-NONE-|||0
+A 47 48|||R:NOUN|||name|||REQUIRED|||-NONE-|||0
+A 49 49|||M:DET|||the|||REQUIRED|||-NONE-|||0
+A 49 50|||R:NOUN|||student.|||REQUIRED|||-NONE-|||0
+A 50 56|||U:OTHER|||And|||REQUIRED|||-NONE-|||0
 A 71 72|||R:NOUN|||station.|||REQUIRED|||-NONE-|||0
 A 72 73|||R:ORTH|||Get|||REQUIRED|||-NONE-|||0
 A 83 85|||R:NOUN|||centre.|||REQUIRED|||-NONE-|||0
@@ -6079,6 +6214,7 @@ A 87 88|||R:VERB:FORM|||find|||REQUIRED|||-NONE-|||0
 
 S Howeve I am goign to make a plan for acche student with all of the diteil and adres.
 A 3 4|||R:SPELL|||going|||REQUIRED|||-NONE-|||0
+A 9 10|||R:DET|||a|||REQUIRED|||-NONE-|||0
 A 17 18|||R:NOUN|||address.|||REQUIRED|||-NONE-|||0
 
 S About the party in the end of conference we organise in the same hotel whict have a nice salon.
@@ -6087,40 +6223,43 @@ A 7 7|||M:DET|||the|||REQUIRED|||-NONE-|||0
 A 14 15|||R:CONJ|||and|||REQUIRED|||-NONE-|||0
 
 S Will b good for yor group you do n't need move to anoder place.
+A 2 2|||M:VERB|||be|||REQUIRED|||-NONE-|||0
 A 4 5|||R:SPELL|||your|||REQUIRED|||-NONE-|||0
-A 7 9|||R:ORTH|||don't|||REQUIRED|||-NONE-|||0
+A 5 6|||R:NOUN|||group?|||REQUIRED|||-NONE-|||0
+A 6 9|||R:ORTH|||You don't|||REQUIRED|||-NONE-|||0
 A 10 10|||M:VERB:FORM|||to|||REQUIRED|||-NONE-|||0
-A 12 13|||R:SPELL|||another|||REQUIRED|||-NONE-|||0
 
 S We 'll have drink and food and music for dance.
 A 3 4|||R:NOUN:NUM|||drinks|||REQUIRED|||-NONE-|||0
 
 S It is not a formal party so I thing is faind wear somethig no too formal.
-A 10 13|||R:OTHER|||that it is|||REQUIRED|||-NONE-|||0
-A 13 14|||R:OTHER|||not|||REQUIRED|||-NONE-|||0
+A 8 11|||R:OTHER|||have to|||REQUIRED|||-NONE-|||0
+A 12 13|||R:SPELL|||something|||REQUIRED|||-NONE-|||0
 
 S I whant to suggestions for the last day you and your group may be go to Green Park and visite the Queen House and the Parlamente this area is very nice and The group would engoin aftha the conference get Freche ear ore another obction could be The new tell galery I never been there but could be a good esxuse for visite It with you.
 A 1 2|||R:VERB|||would like|||REQUIRED|||-NONE-|||0
-A 3 4|||R:MORPH|||suggest|||REQUIRED|||-NONE-|||0
+A 3 3|||M:VERB|||give|||REQUIRED|||-NONE-|||0
 A 13 14|||U:VERB:TENSE||||||REQUIRED|||-NONE-|||0
 A 19 20|||R:SPELL|||visit|||REQUIRED|||-NONE-|||0
 A 25 26|||R:SPELL|||Parliament.|||REQUIRED|||-NONE-|||0
 A 26 27|||R:ORTH|||This|||REQUIRED|||-NONE-|||0
-A 35 36|||R:VERB|||go|||REQUIRED|||-NONE-|||0
-A 36 37|||R:PREP|||to|||REQUIRED|||-NONE-|||0
-A 39 40|||R:OTHER|||with|||REQUIRED|||-NONE-|||0
+A 32 33|||R:ORTH|||the|||REQUIRED|||-NONE-|||0
+A 35 37|||R:OTHER|||go in the evening|||REQUIRED|||-NONE-|||0
+A 39 39|||M:CONJ|||and|||REQUIRED|||-NONE-|||0
 A 44 45|||R:SPELL|||option|||REQUIRED|||-NONE-|||0
-A 49 50|||R:NOUN|||show|||REQUIRED|||-NONE-|||0
+A 49 51|||R:NOUN|||show.|||REQUIRED|||-NONE-|||0
 A 52 52|||M:VERB:TENSE|||have|||REQUIRED|||-NONE-|||0
 A 60 61|||R:NOUN|||opportunity|||REQUIRED|||-NONE-|||0
 A 61 62|||R:PART|||to|||REQUIRED|||-NONE-|||0
 A 62 63|||R:SPELL|||visit|||REQUIRED|||-NONE-|||0
 
 S I have been hearing about the Ave they have in Exivicuion is interesting.
-A 11 11|||M:DET|||which|||REQUIRED|||-NONE-|||0
+A 10 11|||R:OTHER|||the exhibition|||REQUIRED|||-NONE-|||0
 
 S I hope you found thes letter uselfuel and If you have nay question let my know.
+A 3 4|||R:VERB:TENSE|||find|||REQUIRED|||-NONE-|||0
 A 4 5|||R:MORPH|||the|||REQUIRED|||-NONE-|||0
+A 11 11|||M:DET|||a|||REQUIRED|||-NONE-|||0
 A 14 15|||R:PRON|||me|||REQUIRED|||-NONE-|||0
 
 S I am looking forway to see you soon.
@@ -6135,26 +6274,28 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S The Computer was invented 30 year or mor ago and estart lake a procesing information with a big cad was perfored and maked a smol hold and aeche hold mean something lake a Codig.
 A 5 6|||R:NOUN:NUM|||years|||REQUIRED|||-NONE-|||0
-A 10 11|||R:DET|||the|||REQUIRED|||-NONE-|||0
-A 20 21|||R:VERB|||delayed|||REQUIRED|||-NONE-|||0
+A 6 8|||U:OTHER||||||REQUIRED|||-NONE-|||0
+A 10 11|||R:OTHER|||it is|||REQUIRED|||-NONE-|||0
+A 11 12|||R:OTHER|||believed that|||REQUIRED|||-NONE-|||0
+A 20 21|||R:VERB|||needed|||REQUIRED|||-NONE-|||0
 A 22 23|||R:VERB:INFL|||made|||REQUIRED|||-NONE-|||0
 
 S The maching was used for read this cad was too big you use to need a room for our Computer.
 A 1 2|||R:SPELL|||machine|||REQUIRED|||-NONE-|||0
 A 5 6|||R:VERB:FORM|||reading|||REQUIRED|||-NONE-|||0
-A 12 13|||R:VERB:TENSE|||used|||REQUIRED|||-NONE-|||0
 
 S I remember when I had the fare lesson in the Univerty and the ticher took as to the Computer Center an I sow these machins all my College an my were lofing was very dificul Imagent how you Can work in these Kan of Computer.
 A 6 7|||U:ADJ||||||REQUIRED|||-NONE-|||0
 A 13 14|||R:SPELL|||teacher|||REQUIRED|||-NONE-|||0
+A 15 16|||R:OTHER|||me|||REQUIRED|||-NONE-|||0
 A 20 21|||R:SPELL|||and|||REQUIRED|||-NONE-|||0
-A 22 23|||R:VERB|||swam|||REQUIRED|||-NONE-|||0
-A 23 23|||M:DET|||all|||REQUIRED|||-NONE-|||0
-A 24 25|||R:SPELL|||machines|||REQUIRED|||-NONE-|||0
+A 22 25|||R:OTHER|||swam|||REQUIRED|||-NONE-|||0
 A 28 29|||R:SPELL|||and|||REQUIRED|||-NONE-|||0
-A 30 32|||R:OTHER|||knowledge|||REQUIRED|||-NONE-|||0
-A 34 35|||R:ADJ|||useful|||REQUIRED|||-NONE-|||0
+A 30 32|||R:OTHER|||school was very busy. It|||REQUIRED|||-NONE-|||0
+A 34 35|||R:ADJ|||interesting|||REQUIRED|||-NONE-|||0
+A 35 36|||R:OTHER|||to see|||REQUIRED|||-NONE-|||0
 A 38 39|||R:ORTH|||can|||REQUIRED|||-NONE-|||0
+A 44 45|||R:NOUN|||Computers.|||REQUIRED|||-NONE-|||0
 
 S In these days the Computer is part of the own life you use it all the time some time you do persona or anoder is Jost the thingh you need do like go to the bank, us the transpor, go for shoping etc. is a maching make the life easy and ibendow you can cari it every where is amaising the way as the fas the computer changes the programas are mor quicks and For useful and practicals
 A 8 9|||R:DET|||your|||REQUIRED|||-NONE-|||0
@@ -6163,25 +6304,32 @@ A 11 12|||R:ORTH|||You|||REQUIRED|||-NONE-|||0
 A 16 17|||R:NOUN|||time.|||REQUIRED|||-NONE-|||0
 A 17 18|||R:ORTH|||Some|||REQUIRED|||-NONE-|||0
 A 27 28|||R:SPELL|||thing|||REQUIRED|||-NONE-|||0
-A 40 41|||U:PREP||||||REQUIRED|||-NONE-|||0
 A 41 42|||R:SPELL|||shopping|||REQUIRED|||-NONE-|||0
 A 43 43|||M:PRON|||It|||REQUIRED|||-NONE-|||0
-A 44 45|||U:DET||||||REQUIRED|||-NONE-|||0
+A 45 46|||R:SPELL|||machine|||REQUIRED|||-NONE-|||0
+A 46 46|||M:DET|||that|||REQUIRED|||-NONE-|||0
+A 46 47|||R:VERB:SVA|||makes|||REQUIRED|||-NONE-|||0
+A 47 48|||U:DET||||||REQUIRED|||-NONE-|||0
 A 56 58|||R:ORTH|||everywhere|||REQUIRED|||-NONE-|||0
+A 59 60|||R:SPELL|||aising|||REQUIRED|||-NONE-|||0
 A 63 65|||U:OTHER||||||REQUIRED|||-NONE-|||0
-A 71 72|||U:ADJ||||||REQUIRED|||-NONE-|||0
-A 76 76|||M:NOUN|||practicals|||REQUIRED|||-NONE-|||0
+A 77 78|||R:MORPH|||practical|||REQUIRED|||-NONE-|||0
+A 78 78|||M:NOUN|||purposes.|||REQUIRED|||-NONE-|||0
 
 S But the Computer have the bad sead to I whand mean we life aeche day depende mor and mor for It.
+A 2 3|||R:ORTH|||computer|||REQUIRED|||-NONE-|||0
 A 3 4|||R:VERB:SVA|||has|||REQUIRED|||-NONE-|||0
 A 12 13|||R:SPELL|||live|||REQUIRED|||-NONE-|||0
-A 15 16|||R:SPELL|||depended|||REQUIRED|||-NONE-|||0
+A 13 14|||R:DET|||a|||REQUIRED|||-NONE-|||0
+A 15 15|||M:OTHER|||when we|||REQUIRED|||-NONE-|||0
+A 15 16|||R:SPELL|||depend|||REQUIRED|||-NONE-|||0
+A 16 16|||M:PREP|||on|||REQUIRED|||-NONE-|||0
 A 20 21|||R:ORTH|||it.|||REQUIRED|||-NONE-|||0
 
 S So I feel ascere when I thing about the consercuencias if some of the virus or mad prapoel make bad use lake hapen thise days with the sex or other.
 A 6 7|||R:VERB|||think|||REQUIRED|||-NONE-|||0
 A 21 21|||M:OTHER|||of the|||REQUIRED|||-NONE-|||0
-A 22 23|||R:PREP|||during|||REQUIRED|||-NONE-|||0
+A 22 23|||U:NOUN||||||REQUIRED|||-NONE-|||0
 A 23 24|||R:SPELL|||these|||REQUIRED|||-NONE-|||0
 
 S I work with children an the Computer help my Jop bat affeted to.
@@ -6192,7 +6340,6 @@ S So I hope the Wold meke Consense about and the Inguener in Compueter work have
 A 17 18|||R:DET|||this|||REQUIRED|||-NONE-|||0
 A 18 19|||R:SPELL|||problem|||REQUIRED|||-NONE-|||0
 A 25 26|||U:NOUN||||||REQUIRED|||-NONE-|||0
-A 27 27|||M:ADJ|||dangerous|||REQUIRED|||-NONE-|||0
 
 S Dear Mrs Maria Smith,
 A 2 3|||U:NOUN||||||REQUIRED|||-NONE-|||0
@@ -6205,7 +6352,6 @@ A 8 9|||R:PREP|||about|||REQUIRED|||-NONE-|||0
 
 S First of all, the name of hotel which we have been booked into is Palace Hotel.
 A 6 6|||M:DET|||the|||REQUIRED|||-NONE-|||0
-A 12 13|||U:PREP||||||REQUIRED|||-NONE-|||0
 
 S And we have two choices to get to the conference, a bus or a train.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -6214,7 +6360,7 @@ S Both of them are as convinience as getting there.
 A 5 6|||R:SPELL|||convenient|||REQUIRED|||-NONE-|||0
 
 S The day before we will leave there, we have a party which takes place in our hotel.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 4 5|||U:VERB:TENSE||||||REQUIRED|||-NONE-|||0
 
 S It is a kind of formal party, so we should be well - dressed.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -6253,20 +6399,19 @@ S Imagine our life without a telephone.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S If a telephone haven't been invented, we would n't have lived perfectly like nowadays.
-A 3 4|||R:VERB:TENSE|||hadn't|||REQUIRED|||-NONE-|||0
+A 3 4|||R:OTHER|||had not|||REQUIRED|||-NONE-|||0
 A 7 9|||R:ORTH|||wouldn't|||REQUIRED|||-NONE-|||0
 A 13 14|||R:NOUN|||today.|||REQUIRED|||-NONE-|||0
 
 S Would n't you think we rely on it more than we expect?
 A 0 2|||R:ORTH|||Wouldn't|||REQUIRED|||-NONE-|||0
-A 11 12|||R:OTHER|||expected?|||REQUIRED|||-NONE-|||0
 
 S A telephone is used when we need to contact with someone, and also an emergency situation and an internet.
 A 9 10|||U:PREP||||||REQUIRED|||-NONE-|||0
-A 18 19|||R:NOUN|||Internet connection.|||REQUIRED|||-NONE-|||0
+A 18 19|||R:ORTH|||Internet.|||REQUIRED|||-NONE-|||0
 
 S It has various way to use, however, nowadays it is not only used by these purpose, but also it keeps our company.
-A 3 4|||R:NOUN:NUM|||ways|||REQUIRED|||-NONE-|||0
+A 2 3|||R:OTHER|||a different|||REQUIRED|||-NONE-|||0
 A 13 14|||R:PREP|||for|||REQUIRED|||-NONE-|||0
 A 14 15|||R:DET|||this|||REQUIRED|||-NONE-|||0
 
@@ -6290,13 +6435,16 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S So that 's why they have invented a telephon.
 A 1 3|||R:ORTH|||that's|||REQUIRED|||-NONE-|||0
+A 8 9|||R:NOUN|||telephone.|||REQUIRED|||-NONE-|||0
 
 S Now we could feel the world closer and closer beaus of a telephone.
 A 2 3|||R:VERB:TENSE|||can|||REQUIRED|||-NONE-|||0
-A 9 10|||R:OTHER|||to the beauty|||REQUIRED|||-NONE-|||0
+A 9 9|||M:OTHER|||to the|||REQUIRED|||-NONE-|||0
+A 9 10|||R:NOUN|||beauties|||REQUIRED|||-NONE-|||0
 
 S Who would n't thank for this great invention?
 A 1 3|||R:ORTH|||wouldn't|||REQUIRED|||-NONE-|||0
+A 4 4|||M:PRON|||you|||REQUIRED|||-NONE-|||0
 
 S Dear Madam,
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -6308,7 +6456,7 @@ S M. Brown has booked rooms in the Palace Hotel.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S This is a first class hotel.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 4 4|||M:PUNCT|||-|||REQUIRED|||-NONE-|||0
 
 S The easiest way from the hotel to the conference is with the bus.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -6317,7 +6465,8 @@ S There is a bus stop in front of your hotel.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Take the bus in direction center town.
-A 5 5|||M:PREP|||of|||REQUIRED|||-NONE-|||0
+A 5 5|||M:OTHER|||of the|||REQUIRED|||-NONE-|||0
+A 5 6|||R:SPELL|||centre|||REQUIRED|||-NONE-|||0
 
 S After four stops get off the bus.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -6335,11 +6484,10 @@ S Afterwards we will eat together in a restaurant and we will go in a disco.
 A 12 13|||R:PREP|||to|||REQUIRED|||-NONE-|||0
 
 S For the disco you musn't wear blue jeans.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 4 5|||R:OTHER|||mustn't|||REQUIRED|||-NONE-|||0
 
 S Finally at your last day I propose you to do a sightseeing tour in our town.
 A 1 2|||R:PREP|||on|||REQUIRED|||-NONE-|||0
-A 8 9|||U:VERB:FORM||||||REQUIRED|||-NONE-|||0
 
 S It takes you two hours.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -6389,9 +6537,10 @@ S I have never work without a computer, but if we had n't any we would it find n
 A 3 4|||R:VERB:FORM|||worked|||REQUIRED|||-NONE-|||0
 A 10 12|||R:ORTH|||hadn't|||REQUIRED|||-NONE-|||0
 A 15 17|||R:WO|||find it|||REQUIRED|||-NONE-|||0
+A 17 18|||R:OTHER|||normal.|||REQUIRED|||-NONE-|||0
 
 S Mrs Maria Smith,
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 1 2|||U:NOUN||||||REQUIRED|||-NONE-|||0
 
 S I 'm pleased to be able to help you for the international student conference.
 A 0 2|||R:ORTH|||I'm|||REQUIRED|||-NONE-|||0
@@ -6423,7 +6572,7 @@ A 12 12|||M:NOUN|||museum,|||REQUIRED|||-NONE-|||0
 
 S I hope that these informations will help you
 A 4 5|||R:NOUN:INFL|||information|||REQUIRED|||-NONE-|||0
-A 8 8|||M:OTHER|||with this problem.|||REQUIRED|||-NONE-|||0
+A 7 8|||R:OTHER|||you.|||REQUIRED|||-NONE-|||0
 
 S Sincerely yours,
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -6432,13 +6581,15 @@ S The portable phone, a very useful invention!
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S During all mankind history, there were discovers who tried to make human life better, but it is in the last century that there were the most biggest discoveries made.
+A 1 2|||U:DET||||||REQUIRED|||-NONE-|||0
+A 2 3|||R:OTHER|||mankind's|||REQUIRED|||-NONE-|||0
 A 6 7|||R:NOUN|||discoveries|||REQUIRED|||-NONE-|||0
 
 S When the phone without cable was invented, one was n't sure if it would be a success or not.
 A 8 10|||R:ORTH|||wasn't|||REQUIRED|||-NONE-|||0
 
 S But the research went on, and the portable phone is getting always smaller and more useful.
-A 11 12|||U:ADV||||||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S The portable phone is an important invention, because nearly everybody has one, and so one can always call somebody if there is a problem.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -6487,7 +6638,7 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Befor leav from England I suggest you to visit the cannals and small villages around Basingstoke. You could find the opportunaty to see the country life.
 A 0 1|||R:VERB|||Regarding|||REQUIRED|||-NONE-|||0
-A 1 4|||R:OTHER|||the English|||REQUIRED|||-NONE-|||0
+A 1 4|||R:OTHER|||the country,|||REQUIRED|||-NONE-|||0
 A 7 8|||U:VERB:FORM||||||REQUIRED|||-NONE-|||0
 A 20 21|||R:SPELL|||opportunity|||REQUIRED|||-NONE-|||0
 A 24 25|||R:NOUN|||country's|||REQUIRED|||-NONE-|||0
@@ -6502,10 +6653,10 @@ S I have to admit that whoever invented the cars and transportation vehicles did
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S I say that it must be the most important thing for us because they save our times passing so fast.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 16 17|||R:NOUN:NUM|||time|||REQUIRED|||-NONE-|||0
 
 S Can you deny how quickly we get somewhere by car or by bus.
-A 12 13|||R:OTHER|||bus?|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S May be 10 times as quick as getting somewhere on foot.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -6531,7 +6682,6 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 S Even comeing to Basingstoke seems like a international journey to me.
 A 1 2|||R:VERB:INFL|||coming|||REQUIRED|||-NONE-|||0
 A 6 7|||R:DET|||an|||REQUIRED|||-NONE-|||0
-A 9 10|||R:PREP|||for|||REQUIRED|||-NONE-|||0
 
 S And ofcause this stops me everytime to live sociable life.
 A 1 2|||R:OTHER|||of course|||REQUIRED|||-NONE-|||0
@@ -6558,7 +6708,7 @@ S I was delighted to receive your letter and to know that a group of students fr
 A 22 23|||U:DET||||||REQUIRED|||-NONE-|||0
 
 S As you need more information, I answer all your questions with plesuare.
-A 11 12|||R:NOUN|||ease.|||REQUIRED|||-NONE-|||0
+A 11 12|||R:NOUN|||pleasure.|||REQUIRED|||-NONE-|||0
 
 S Firstly, the Palace Hotel has been booked for your group.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -6596,12 +6746,13 @@ A 6 7|||R:NOUN:NUM|||others|||REQUIRED|||-NONE-|||0
 S I thing, that one of the most importent and affecting our life inventions is the telephone.
 A 1 2|||R:VERB|||think|||REQUIRED|||-NONE-|||0
 A 7 8|||R:SPELL|||important|||REQUIRED|||-NONE-|||0
+A 11 12|||R:NOUN:NUM|||lives|||REQUIRED|||-NONE-|||0
 
 S Imagine life without phone.
 A 3 3|||M:DET|||a|||REQUIRED|||-NONE-|||0
 
 S You are on the road, you have car accident.
-A 7 7|||M:DET|||a|||REQUIRED|||-NONE-|||0
+A 7 8|||R:OTHER|||an|||REQUIRED|||-NONE-|||0
 
 S What are you going to do without phone?
 A 7 7|||M:DET|||the|||REQUIRED|||-NONE-|||0
@@ -6626,8 +6777,6 @@ A 8 8|||M:DET|||the|||REQUIRED|||-NONE-|||0
 A 9 11|||R:ORTH|||can't|||REQUIRED|||-NONE-|||0
 
 S So I am very grateful to man, who invented it, unfornutely, I have forgotten his name.
-A 6 6|||M:DET|||the|||REQUIRED|||-NONE-|||0
-A 6 7|||R:NOUN|||man|||REQUIRED|||-NONE-|||0
 A 9 10|||R:NOUN|||it.|||REQUIRED|||-NONE-|||0
 A 10 11|||R:PUNCT|||Unfortunately,|||REQUIRED|||-NONE-|||0
 
@@ -6645,7 +6794,6 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S it is with great regret that I hear of Mr Brown 's illness, and hope to see him soon in an excellent health.
 A 0 1|||R:ORTH|||It|||REQUIRED|||-NONE-|||0
-A 8 9|||R:PREP|||about|||REQUIRED|||-NONE-|||0
 A 10 12|||R:ORTH|||Brown's|||REQUIRED|||-NONE-|||0
 A 20 21|||U:DET||||||REQUIRED|||-NONE-|||0
 
@@ -6666,6 +6814,7 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S As for the three hours of free time, I strongly suggest you to check - in your lugages at the airport and then, after a five - minutes bus ride, spend your time in the marvellous ' Old City '.
 A 12 13|||U:VERB:FORM||||||REQUIRED|||-NONE-|||0
+A 14 15|||U:PUNCT||||||REQUIRED|||-NONE-|||0
 A 17 18|||R:SPELL|||luggage|||REQUIRED|||-NONE-|||0
 A 27 28|||R:NOUN:NUM|||minute|||REQUIRED|||-NONE-|||0
 A 35 38|||R:ORTH|||marvellous'Old|||REQUIRED|||-NONE-|||0
@@ -6689,7 +6838,7 @@ S Trades, politicians and taxi drivers are but a few examples of such needs.
 A 6 7|||R:SPELL|||just|||REQUIRED|||-NONE-|||0
 
 S However, the common man seems to ignore how important and useful a mobile phone becomes, when in the hands of a high - school student.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 22 23|||U:PUNCT||||||REQUIRED|||-NONE-|||0
 
 S It becomes then a real obsession for the average students, as e uses it before the lessons, during the lessons, during lunch and, especially, during examinations. ..
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -6722,8 +6871,8 @@ S As I 've just checked the group has been booked into The Palace Hotel.
 A 1 3|||R:ORTH|||I've|||REQUIRED|||-NONE-|||0
 
 S The best way to get from there to the conference is by coache, that I have arranged for you.
+A 12 13|||R:OTHER|||coach,|||REQUIRED|||-NONE-|||0
 A 13 14|||R:OTHER|||which|||REQUIRED|||-NONE-|||0
-A 16 17|||R:VERB|||organised|||REQUIRED|||-NONE-|||0
 
 S The driver Mr. Olsson works for us since.
 A 4 5|||R:VERB:TENSE|||has worked|||REQUIRED|||-NONE-|||0
@@ -6740,7 +6889,8 @@ S Then we can have a rest in the caffee and talk before your flight home.
 A 8 9|||R:NOUN|||café|||REQUIRED|||-NONE-|||0
 
 S I think I gave you all importen informations.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 6 6|||M:DET|||the|||REQUIRED|||-NONE-|||0
+A 7 8|||R:NOUN|||information.|||REQUIRED|||-NONE-|||0
 
 S I hope to see you all soon,
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -6756,7 +6906,7 @@ A 3 4|||R:PREP|||at|||REQUIRED|||-NONE-|||0
 
 S No matter that people started worred more about polution in the world.
 A 2 3|||R:OTHER|||how much|||REQUIRED|||-NONE-|||0
-A 5 6|||R:VERB|||worrying|||REQUIRED|||-NONE-|||0
+A 5 6|||R:VERB|||to worry|||REQUIRED|||-NONE-|||0
 A 8 9|||R:SPELL|||pollution|||REQUIRED|||-NONE-|||0
 
 S Let me to tell you, how invention of motorcycle has affected my life.
@@ -6771,6 +6921,8 @@ A 5 7|||R:ORTH|||don't|||REQUIRED|||-NONE-|||0
 
 S I drive motocycle since I was 16 year old.
 A 1 2|||R:VERB|||have been riding|||REQUIRED|||-NONE-|||0
+A 2 2|||M:DET|||a|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||motorcycle|||REQUIRED|||-NONE-|||0
 A 7 8|||R:NOUN:NUM|||years|||REQUIRED|||-NONE-|||0
 
 S Me and my brother we used to go to the rock concerts.
@@ -6778,7 +6930,7 @@ A 4 5|||U:PRON||||||REQUIRED|||-NONE-|||0
 
 S We have met a lot of people there same mad about motorcycle as we were.
 A 8 8|||M:OTHER|||who are the|||REQUIRED|||-NONE-|||0
-A 11 11|||M:DET|||the|||REQUIRED|||-NONE-|||0
+A 11 12|||R:NOUN:NUM|||motorcycles|||REQUIRED|||-NONE-|||0
 
 S We were avenging races and trips.
 A 2 3|||R:VERB|||organising|||REQUIRED|||-NONE-|||0
@@ -6786,11 +6938,12 @@ A 2 3|||R:VERB|||organising|||REQUIRED|||-NONE-|||0
 S We were driving motocycles few day befour we finally had got to mitting points.
 A 4 4|||M:DET|||a|||REQUIRED|||-NONE-|||0
 A 5 6|||R:NOUN:NUM|||days|||REQUIRED|||-NONE-|||0
-A 6 7|||R:SPELL|||before|||REQUIRED|||-NONE-|||0
-A 12 13|||R:SPELL|||fixing|||REQUIRED|||-NONE-|||0
+A 6 7|||R:NOUN|||ago,|||REQUIRED|||-NONE-|||0
+A 7 9|||R:WO|||finally we|||REQUIRED|||-NONE-|||0
+A 12 13|||R:NOUN|||bike|||REQUIRED|||-NONE-|||0
 
 S I really enjoy driving motocycle.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 4 4|||M:DET|||a|||REQUIRED|||-NONE-|||0
 
 S People say that is dangerous, I do n't think so.
 A 6 8|||R:ORTH|||don't|||REQUIRED|||-NONE-|||0
@@ -6802,7 +6955,8 @@ S Before me and after are my friends that I like and trust.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S And around me nature that I can watch and enjoy while we shop fore camp.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 13 14|||R:SPELL|||for|||REQUIRED|||-NONE-|||0
+A 14 14|||M:DET|||a|||REQUIRED|||-NONE-|||0
 
 S We can go to any place we like, avoid traffic and to full buses, trains, etc.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -6811,12 +6965,18 @@ S I am really greatful for people who invented the first motocycle in the world.
 A 3 4|||R:SPELL|||grateful|||REQUIRED|||-NONE-|||0
 
 S I feel very bad about that I do n't know who was it.
+A 5 6|||R:OTHER|||that.|||REQUIRED|||-NONE-|||0
 A 7 9|||R:ORTH|||don't|||REQUIRED|||-NONE-|||0
+A 11 11|||M:PRON|||it|||REQUIRED|||-NONE-|||0
+A 11 12|||R:VERB|||was.|||REQUIRED|||-NONE-|||0
+A 12 13|||U:ADJ||||||REQUIRED|||-NONE-|||0
 
 S On the other hand no matter that I feel very good about that because that invention has changed and affected my life end people I care about, has affected my life in a very best way.
+A 3 4|||R:NOUN|||hand,|||REQUIRED|||-NONE-|||0
 A 6 7|||R:PRON|||what|||REQUIRED|||-NONE-|||0
 A 21 22|||R:NOUN|||life,|||REQUIRED|||-NONE-|||0
 A 22 23|||R:OTHER|||the|||REQUIRED|||-NONE-|||0
+A 26 27|||R:OTHER|||about|||REQUIRED|||-NONE-|||0
 A 27 28|||R:VERB:SVA|||have|||REQUIRED|||-NONE-|||0
 
 S Dear Mrs Maria Smith,
@@ -6832,7 +6992,7 @@ S The hotel that your group will be staying at is Palace Hotel.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S It is reasonably near to the college, so it may be very good to walk from the hotel along River Thames following yellow signs on sunny days.
-A 5 6|||U:DET||||||REQUIRED|||-NONE-|||0
+A 19 19|||M:DET|||the|||REQUIRED|||-NONE-|||0
 
 S If it rains, you can take bus 54 that stops in front of the college.
 A 6 6|||M:DET|||the|||REQUIRED|||-NONE-|||0
@@ -6865,9 +7025,10 @@ S Well, I am sure that you can hardly do this unless you are living deep in a fo
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S If you think about how many computers we use every day and how dependent we are on them, it must be clear that invention of computers has certainly had a significant impact on all our lives.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 23 23|||M:DET|||the|||REQUIRED|||-NONE-|||0
 
 S For example, all infrastructures such as transports and power stations are ran using computers government uses them to organise all sorts of things in a country, and all kids of services and businesses such as hospitals and supermarkets use them as essential capitals.
+A 3 3|||M:DET|||the|||REQUIRED|||-NONE-|||0
 A 6 7|||R:NOUN:NUM|||transport|||REQUIRED|||-NONE-|||0
 A 11 12|||R:VERB:FORM|||run|||REQUIRED|||-NONE-|||0
 A 13 14|||R:NOUN|||computers.|||REQUIRED|||-NONE-|||0
@@ -6878,7 +7039,7 @@ S In other words, almost all aspects of our lives today rely on computers.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S So I am sure from this that it is convincing enough to say that invention of computers is really important.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 14 14|||M:DET|||the|||REQUIRED|||-NONE-|||0
 
 S From my personal experience, I can also say that a personal computer is also an amazing tool.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -6894,7 +7055,10 @@ A 5 6|||R:ORTH|||Internet|||REQUIRED|||-NONE-|||0
 A 17 18|||R:ORTH|||best friend|||REQUIRED|||-NONE-|||0
 
 S To sum up, I can say that the greatest ever invention is the invention of computers that has affected both indivisuals and a society as a whole.
-A 20 21|||R:OTHER|||the visual arts|||REQUIRED|||-NONE-|||0
+A 9 11|||R:WO|||invention ever|||REQUIRED|||-NONE-|||0
+A 17 18|||R:VERB:SVA|||have|||REQUIRED|||-NONE-|||0
+A 20 20|||M:DET|||the|||REQUIRED|||-NONE-|||0
+A 20 21|||R:SPELL|||visuals|||REQUIRED|||-NONE-|||0
 
 S Dear Mrs. Smith,
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -6909,7 +7073,8 @@ S There will be signs to follow from Central train station.
 A 7 7|||M:DET|||the|||REQUIRED|||-NONE-|||0
 
 S The conference is commensing on 31st June 2001 from 10. 00 - 15. 00.
-A 3 4|||R:VERB|||starting|||REQUIRED|||-NONE-|||0
+A 3 4|||R:VERB|||scheduled|||REQUIRED|||-NONE-|||0
+A 4 5|||R:PREP|||for|||REQUIRED|||-NONE-|||0
 
 S Light lunch will be provided.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -6967,7 +7132,6 @@ A 11 11|||M:DET|||a|||REQUIRED|||-NONE-|||0
 A 11 12|||R:MORPH|||touch|||REQUIRED|||-NONE-|||0
 
 S It is also very well linked into the old underground station which it is such a contrast in transformation.
-A 5 6|||R:VERB|||connected|||REQUIRED|||-NONE-|||0
 A 6 7|||R:PREP|||to|||REQUIRED|||-NONE-|||0
 A 10 11|||R:NOUN|||station,|||REQUIRED|||-NONE-|||0
 A 12 13|||U:PRON||||||REQUIRED|||-NONE-|||0
@@ -7014,6 +7178,8 @@ S The Palace Hotel is situated in the town centre next to the railway station.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S A free shuttel - bus gets you to the conference - center.
+A 2 3|||R:NOUN|||telephone|||REQUIRED|||-NONE-|||0
+A 5 6|||R:VERB|||takes|||REQUIRED|||-NONE-|||0
 A 10 11|||U:PUNCT||||||REQUIRED|||-NONE-|||0
 A 11 12|||R:NOUN|||centre.|||REQUIRED|||-NONE-|||0
 
@@ -7021,8 +7187,7 @@ S The bus leavs at 8 a. m. at the front entrance of the hotel.
 A 2 3|||R:VERB|||starts|||REQUIRED|||-NONE-|||0
 
 S The end - of - conference party is playing in a rent and in the greenground.
-A 9 10|||R:PREP|||on|||REQUIRED|||-NONE-|||0
-A 13 14|||R:PREP|||on|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S There will be a barbecue, a place to dance and many more.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -7034,7 +7199,6 @@ S I suggest to wear leisure - clothes to the party.
 A 2 4|||R:VERB:FORM|||wearing|||REQUIRED|||-NONE-|||0
 
 S The last afternoon you could go on a city - tour, visite the museum of Fine Arts or enjoy the beautiful flower garden next to the common park.
-A 0 2|||U:DET|||Last|||REQUIRED|||-NONE-|||0
 A 9 10|||U:PUNCT||||||REQUIRED|||-NONE-|||0
 A 11 12|||R:SPELL|||visit|||REQUIRED|||-NONE-|||0
 
@@ -7063,8 +7227,6 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S In the business world you use the phone all the time to speak with your clients, to make appointments, to order an article e. c. ; then, time is money!
 A 22 23|||R:NOUN|||item|||REQUIRED|||-NONE-|||0
-A 24 25|||R:NOUN|||c;|||REQUIRED|||-NONE-|||0
-A 25 26|||U:PUNCT||||||REQUIRED|||-NONE-|||0
 
 S How has the phone affected my own life? I think, that is a good question to think about. I could not call my friends from an other city and just say" hello" .
 A 9 10|||R:OTHER|||think|||REQUIRED|||-NONE-|||0
@@ -7126,7 +7288,6 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 S I 'm writing in reply to your letter in which you asked me information on an interesting building to visit.
 A 0 2|||R:ORTH|||I'm|||REQUIRED|||-NONE-|||0
 A 13 13|||M:PREP|||for|||REQUIRED|||-NONE-|||0
-A 14 15|||R:PREP|||about|||REQUIRED|||-NONE-|||0
 
 S There is so many places of interest in Lausanne, but I think that the Olympic Museum is the most notable for the following reasons:
 A 1 2|||R:VERB:SVA|||are|||REQUIRED|||-NONE-|||0
@@ -7152,11 +7313,10 @@ A 6 7|||R:SPELL|||centre|||REQUIRED|||-NONE-|||0
 
 S It will takes you an afternoon to visit it and then you can enjoy a drink or a meal in the restaurant on the third floor, well - known for being one of the best establishment in Lausanne.
 A 2 3|||R:VERB:FORM|||take|||REQUIRED|||-NONE-|||0
-A 27 28|||U:PUNCT||||||REQUIRED|||-NONE-|||0
 A 35 36|||R:NOUN:NUM|||establishments|||REQUIRED|||-NONE-|||0
 
 S I hope my recommendations will help you in the choice of a building to visit.
-A 7 8|||R:PREP|||with|||REQUIRED|||-NONE-|||0
+A 8 11|||R:OTHER|||choosing|||REQUIRED|||-NONE-|||0
 
 S Yours faithfully,
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -7168,7 +7328,7 @@ S I 'm writing in response to the letter we have received from you, in order to 
 A 0 2|||R:ORTH|||I'm|||REQUIRED|||-NONE-|||0
 
 S First of all, your group has been booked into the Palace Hotel, Main - Road 21, which is situated not far from our college.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 13 14|||U:PUNCT||||||REQUIRED|||-NONE-|||0
 
 S I 'd suggest you to walk, it will only take you about seven minutes.
 A 4 5|||U:PREP||||||REQUIRED|||-NONE-|||0
@@ -7176,7 +7336,7 @@ A 5 6|||R:OTHER|||walk.|||REQUIRED|||-NONE-|||0
 A 6 7|||R:ORTH|||It|||REQUIRED|||-NONE-|||0
 
 S Just follow Main - Road until to reach a junction, where you turn right and then walk along Denl - a - Lion Road.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 6 7|||R:OTHER|||you|||REQUIRED|||-NONE-|||0
 
 S The college is a huge, yellow building - you ca n't miss it.
 A 9 11|||R:ORTH|||can't|||REQUIRED|||-NONE-|||0
@@ -7195,12 +7355,10 @@ A 5 7|||R:ORTH|||isn't|||REQUIRED|||-NONE-|||0
 
 S There is no need putting on special clothes for the party, casual ones should do it as well, for we want everyone to feel comfortable.
 A 4 5|||R:VERB:FORM|||to put|||REQUIRED|||-NONE-|||0
-A 10 11|||R:NOUN|||party.|||REQUIRED|||-NONE-|||0
-A 11 12|||R:ORTH|||Casual|||REQUIRED|||-NONE-|||0
 A 18 19|||R:PREP|||because|||REQUIRED|||-NONE-|||0
 
 S Last but not least I will give you some ideas of where to spend your free afternoon.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 10 11|||R:PREP|||about|||REQUIRED|||-NONE-|||0
 
 S I 'd suggest you to visit our local museum, as there is a marvellous exhibition there at the moment.
 A 4 5|||U:VERB:FORM||||||REQUIRED|||-NONE-|||0
@@ -7236,7 +7394,7 @@ S When Alexander Graham Bell first invented the telephone, he had no idea of how
 A 12 13|||U:PREP||||||REQUIRED|||-NONE-|||0
 
 S Its first appliance was in order to listen to a concert if you were not able to attend it in person.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 4 6|||U:OTHER||||||REQUIRED|||-NONE-|||0
 
 S Nowadays, however, the whole world is connected by a telephone system and no one could imagine life without it.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -7271,7 +7429,7 @@ S I am sorry to learn that Richard Brown can not attend the conference.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Please transmit him my best wishes for his recovery.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 1 2|||R:VERB|||send|||REQUIRED|||-NONE-|||0
 
 S We have booked rooms for all members of your group at the Palace Hotel.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -7292,24 +7450,23 @@ S There are a lot of activities you can do during your free afternoon.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S I would like to suggest visiting the" Ethnographic Museum, , which is kind of unique in the world.
-A 7 9|||R:ORTH|||ethnographic museum,|||REQUIRED|||-NONE-|||0
+A 7 9|||R:NOUN|||ethnomuseum,|||REQUIRED|||-NONE-|||0
 
 S Looking forward to meeting you soon
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S I remain, yours sincerely.
-A 1 2|||R:VERB|||remain|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S The car:
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S I think that the car is one of the human inventions that has the most affected the way of life of people from industrial countries.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 12 13|||R:VERB:SVA|||have|||REQUIRED|||-NONE-|||0
 
 S Nowadays more than the percents of the world industry is related to the automotive business: car manufacturing, gasoline extracting and refining, tyres recycling, and so on.
 A 4 5|||R:NOUN:NUM|||percent|||REQUIRED|||-NONE-|||0
 A 7 8|||R:NOUN|||world's|||REQUIRED|||-NONE-|||0
-A 14 15|||R:OTHER|||industry:|||REQUIRED|||-NONE-|||0
 A 21 22|||R:ADJ|||pneumatic|||REQUIRED|||-NONE-|||0
 
 S The industrial countries have encountered deep evolution of their strictures since the car has been made available to everyone.
@@ -7329,7 +7486,7 @@ S The increasing number of cars related and infrastructure are now creeting prob
 A 10 11|||R:SPELL|||creating|||REQUIRED|||-NONE-|||0
 
 S A lot of roads and motorways are overcrowded, and enviromment issues are more and more related to the intensive use of cars and lorries.
-A 9 10|||R:OTHER|||the development|||REQUIRED|||-NONE-|||0
+A 9 10|||R:ADJ|||educational|||REQUIRED|||-NONE-|||0
 
 S People and governments are concerned about how to limit the effects of cars on the enviromment without impacting their mobility.
 A 15 16|||R:SPELL|||environment|||REQUIRED|||-NONE-|||0
@@ -7348,19 +7505,22 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S The group has been booked into Palace Hotel which is not very far from the place where the conference will be held.
 A 6 6|||M:DET|||the|||REQUIRED|||-NONE-|||0
+A 7 8|||R:NOUN|||Hotel,|||REQUIRED|||-NONE-|||0
 
 S You can take the No. 41 bus from the hotel to the conference, it only takes ten minutes approximately.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 12 13|||R:NOUN|||conference.|||REQUIRED|||-NONE-|||0
+A 13 14|||R:ORTH|||It|||REQUIRED|||-NONE-|||0
 
 S As for the end - of - conference party, it will be on the morning of the last day starting at 9: 00.
 A 4 5|||U:PUNCT||||||REQUIRED|||-NONE-|||0
 A 6 7|||R:OTHER|||the|||REQUIRED|||-NONE-|||0
 
 S All the students and staffs will join together in the hall.
+A 4 5|||R:NOUN:NUM|||staff|||REQUIRED|||-NONE-|||0
 A 7 8|||R:OTHER|||in|||REQUIRED|||-NONE-|||0
 
 S They can play games and talk about personal experience.
-A 8 9|||R:NOUN|||experiences.|||REQUIRED|||-NONE-|||0
+A 7 7|||M:DET|||their|||REQUIRED|||-NONE-|||0
 
 S The main aim of it is to deepen the friendship among all these pupils coming from all over the world.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -7418,6 +7578,7 @@ S It shows a large number of valuable things.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Almost each one tells you a story or gives you a picture about British history.
+A 1 2|||R:DET|||every|||REQUIRED|||-NONE-|||0
 A 12 13|||R:PREP|||of|||REQUIRED|||-NONE-|||0
 
 S I 'm sure all the students will gain a wonderful lesson!
@@ -7427,7 +7588,7 @@ S Apart from the national history, there are more content about the past of the 
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S You can go to many sections such as Asia Hall, Egypt Hall, Europe Hall and so on.
-A 5 6|||R:NOUN|||sections,|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Countless fascinating things will definely take you the whole day to appreciate.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -7503,6 +7664,7 @@ A 9 11|||R:ORTH|||I'm|||REQUIRED|||-NONE-|||0
 S It does n't matter in what kind of mood I am, I can do it all the time and it makes me feel good.
 A 1 3|||R:ORTH|||doesn't|||REQUIRED|||-NONE-|||0
 A 4 5|||U:PREP||||||REQUIRED|||-NONE-|||0
+A 10 11|||R:VERB|||am.|||REQUIRED|||-NONE-|||0
 
 S But I could n't bake without an oven.
 A 2 4|||R:ORTH|||couldn't|||REQUIRED|||-NONE-|||0
@@ -7544,13 +7706,14 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 S Firstly, the hotel which ha been booked for you is Palace Hotel that is located close to the conference.
 A 4 5|||R:SPELL|||has|||REQUIRED|||-NONE-|||0
 A 10 10|||M:DET|||the|||REQUIRED|||-NONE-|||0
+A 11 12|||R:NOUN|||Hotel,|||REQUIRED|||-NONE-|||0
 A 12 13|||R:DET|||which|||REQUIRED|||-NONE-|||0
 
 S In order to get from the hotel to the conference, you just need to take the bus we will offer.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Secondly, the end - of - conference party will take place in the same hall as the conference at 6 p. m. , which includes dinner and an announcement by the president of the conference.
-A 31 35|||R:OTHER|||conference president.|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S The party is arranged as a casual party, therefore, you can wear comfortable clothes. You can expect to meet many students from other schools as well.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -7562,8 +7725,9 @@ S As you may hear, our city is well known for the musicals.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Or, If you want to relax, you can take a walk in the park situated in ten minutes distance on foot from the hotel.
-A 15 16|||U:PREP||||||REQUIRED|||-NONE-|||0
-A 18 21|||U:OTHER||||||REQUIRED|||-NONE-|||0
+A 13 14|||R:NOUN|||park,|||REQUIRED|||-NONE-|||0
+A 17 19|||R:NOUN|||minutes'walk|||REQUIRED|||-NONE-|||0
+A 19 21|||U:OTHER||||||REQUIRED|||-NONE-|||0
 
 S Whatever you choose, you will be satisfied with your choice.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -7575,10 +7739,11 @@ S Yours sincerely,
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Some inventions are not regarded as great things even though the life without them can not be imagined.
+A 4 6|||R:OTHER|||considered|||REQUIRED|||-NONE-|||0
 A 10 11|||U:DET||||||REQUIRED|||-NONE-|||0
 
 S People do not have the impression on important inventions any more, because they have been getting more popular and common.
-A 15 16|||R:VERB|||becoming|||REQUIRED|||-NONE-|||0
+A 6 7|||R:PREP|||of|||REQUIRED|||-NONE-|||0
 
 S However, there is something which is still believed that it was an extreamly important invention.
 A 12 13|||R:SPELL|||extremely|||REQUIRED|||-NONE-|||0
@@ -7589,7 +7754,6 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 S From my point of view, the reason why electricity is such an important invention is that most of machines, appliances and equipments which are used in modern times can be operated with only electricity, which makes people not to too much phisical labour.
 A 18 18|||M:DET|||the|||REQUIRED|||-NONE-|||0
 A 21 22|||R:NOUN:NUM|||equipment|||REQUIRED|||-NONE-|||0
-A 39 39|||M:VERB|||get|||REQUIRED|||-NONE-|||0
 
 S What is more, many inventions have been accelerated by electricity.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -7614,14 +7778,14 @@ S Dar Mrs. Maria Smith,
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S I am very glad to help you about the International Student Conference.
-A 7 8|||R:PREP|||with|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S I hope that our friend Richard Brown does n't have any serious willness.
 A 7 9|||R:ORTH|||doesn't|||REQUIRED|||-NONE-|||0
-A 11 13|||R:OTHER|||seriousness.|||REQUIRED|||-NONE-|||0
+A 12 13|||R:NOUN|||willence.|||REQUIRED|||-NONE-|||0
 
 S Referent, where is the conference.
-A 4 5|||R:NOUN|||conference?|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S This will be in the Casino Hotel and we do n't need to worry for the best way because in all the main routes in Devonport have signs with correct way to the popular hotel.
 A 9 11|||R:ORTH|||don't|||REQUIRED|||-NONE-|||0
@@ -7630,6 +7794,7 @@ A 19 20|||U:PREP||||||REQUIRED|||-NONE-|||0
 A 29 29|||M:DET|||the|||REQUIRED|||-NONE-|||0
 
 S After finish the conference, there is a party in same hotel.
+A 1 2|||R:VERB:FORM|||finishing|||REQUIRED|||-NONE-|||0
 A 9 9|||M:DET|||the|||REQUIRED|||-NONE-|||0
 
 S In this party there are; some foods, soft drinks, music and a special place for dancing.
@@ -7637,11 +7802,11 @@ A 0 1|||R:PREP|||At|||REQUIRED|||-NONE-|||0
 A 4 5|||R:VERB|||are|||REQUIRED|||-NONE-|||0
 
 S This party is for the students so the kinds of clouthes wo n't be so formal.
-A 10 11|||R:NOUN|||clubs|||REQUIRED|||-NONE-|||0
+A 10 11|||R:SPELL|||clothes|||REQUIRED|||-NONE-|||0
 A 11 13|||R:ORTH|||won't|||REQUIRED|||-NONE-|||0
 
 S On the day free before catch our plane.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 5 5|||M:PRON|||we|||REQUIRED|||-NONE-|||0
 
 S We could chouse two options for spending our free time.
 A 2 3|||R:SPELL|||choose|||REQUIRED|||-NONE-|||0
@@ -7665,6 +7830,8 @@ A 0 2|||R:ORTH|||It's|||REQUIRED|||-NONE-|||0
 
 S In our lifes, may be, could n't be without electricity.
 A 2 3|||R:NOUN|||lives,|||REQUIRED|||-NONE-|||0
+A 3 4|||R:OTHER|||maybe|||REQUIRED|||-NONE-|||0
+A 4 5|||R:OTHER|||we|||REQUIRED|||-NONE-|||0
 A 5 7|||R:ORTH|||couldn't|||REQUIRED|||-NONE-|||0
 
 S Some people can live without this, but I am sure that the world would be very different.
@@ -7672,7 +7839,6 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S When we are using different equipments in our houses, we are using the electricity.
 A 5 6|||R:NOUN:NUM|||equipment|||REQUIRED|||-NONE-|||0
-A 10 12|||R:VERB:TENSE|||use|||REQUIRED|||-NONE-|||0
 A 12 13|||U:DET||||||REQUIRED|||-NONE-|||0
 
 S Small things but very importants in our lifes.
@@ -7680,17 +7846,21 @@ A 4 5|||R:MORPH|||important|||REQUIRED|||-NONE-|||0
 A 7 8|||R:NOUN|||lives.|||REQUIRED|||-NONE-|||0
 
 S For example: T. V. , computer, just light and a long list that now I can not write.
+A 2 4|||R:NOUN|||TV,|||REQUIRED|||-NONE-|||0
+A 4 5|||U:PUNCT||||||REQUIRED|||-NONE-|||0
 A 13 16|||R:WO|||I can now|||REQUIRED|||-NONE-|||0
 
 S I do n't like tinking, my house of my life, without all this facilities.
 A 1 3|||R:ORTH|||don't|||REQUIRED|||-NONE-|||0
-A 4 5|||R:OTHER|||to tinker,|||REQUIRED|||-NONE-|||0
+A 4 5|||R:OTHER|||to decorate|||REQUIRED|||-NONE-|||0
+A 6 7|||R:NOUN|||house,|||REQUIRED|||-NONE-|||0
+A 7 10|||U:OTHER||||||REQUIRED|||-NONE-|||0
 A 12 13|||R:DET|||these|||REQUIRED|||-NONE-|||0
 
 S In winter when is dark very early, and after, I need to spent my free time in home.
 A 3 3|||M:PRON|||it|||REQUIRED|||-NONE-|||0
 A 8 9|||R:OTHER|||after|||REQUIRED|||-NONE-|||0
-A 9 9|||M:NOUN|||that,|||REQUIRED|||-NONE-|||0
+A 9 9|||M:DET|||that|||REQUIRED|||-NONE-|||0
 A 12 13|||R:VERB:FORM|||spend|||REQUIRED|||-NONE-|||0
 A 16 17|||R:PREP|||at|||REQUIRED|||-NONE-|||0
 
@@ -7703,12 +7873,15 @@ A 20 21|||R:NOUN|||aeroplanes,|||REQUIRED|||-NONE-|||0
 S Finally. I think that everybody know that the electricity is very important invent and for me it is the best.
 A 0 1|||R:OTHER|||Finally,|||REQUIRED|||-NONE-|||0
 A 5 6|||R:VERB:SVA|||knows|||REQUIRED|||-NONE-|||0
+A 10 10|||M:DET|||a|||REQUIRED|||-NONE-|||0
+A 12 13|||R:MORPH|||invention|||REQUIRED|||-NONE-|||0
 
 S Dear Mrs Smith,
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Thanks for your last letter and I am sorry for not giving you enough information.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 9 10|||R:PART|||to|||REQUIRED|||-NONE-|||0
+A 11 12|||R:VERB:FORM|||give|||REQUIRED|||-NONE-|||0
 
 S We have already booked a 4 stars hotel - Palace Hotel, which is near the River Thames, in Walton - on - Thames.
 A 6 6|||M:PUNCT|||-|||REQUIRED|||-NONE-|||0
@@ -7722,7 +7895,7 @@ A 12 13|||R:MORPH|||Indian|||REQUIRED|||-NONE-|||0
 A 14 15|||R:DET|||which|||REQUIRED|||-NONE-|||0
 
 S It is surposed to be held during 7 pm to 11 pm.
-A 2 3|||R:VERB|||planned|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||supposed|||REQUIRED|||-NONE-|||0
 A 6 7|||R:PREP|||from|||REQUIRED|||-NONE-|||0
 
 S Also there are some competitions and exciting games after dinner and disco is also provided.
@@ -7761,7 +7934,7 @@ A 4 5|||R:VERB:SVA|||have|||REQUIRED|||-NONE-|||0
 A 13 14|||R:NOUN|||comfortably.|||REQUIRED|||-NONE-|||0
 
 S If you ask me which is the greatest invention of all, I will say that it is the television.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 3 4|||R:OTHER|||me,|||REQUIRED|||-NONE-|||0
 
 S " Televisions is just an amazing invention. " My good friend said that. I agree with her.
 A 2 3|||R:VERB:SVA|||are|||REQUIRED|||-NONE-|||0
@@ -7830,8 +8003,10 @@ S I think everybody can enjoy it.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S By the way the end - of - conference party is a kind of fairwell party.
-A 2 3|||R:NOUN|||way,|||REQUIRED|||-NONE-|||0
-A 5 5|||M:PREP|||of|||REQUIRED|||-NONE-|||0
+A 1 3|||U:OTHER||||||REQUIRED|||-NONE-|||0
+A 5 6|||U:PUNCT||||||REQUIRED|||-NONE-|||0
+A 7 7|||M:OTHER|||the day,|||REQUIRED|||-NONE-|||0
+A 7 8|||R:OTHER|||a|||REQUIRED|||-NONE-|||0
 
 S There will be three parts.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -7842,7 +8017,7 @@ A 23 24|||U:DET||||||REQUIRED|||-NONE-|||0
 A 27 28|||U:PRON||||||REQUIRED|||-NONE-|||0
 
 S It will be not too formal party.
-A 6 6|||M:DET|||a|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S So you can wear what you like.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -7873,10 +8048,10 @@ S Moreover we can not live without them.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S For example: electricity, computer, telephon, boat, and car ( wheel ), etc.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOUN|||telephony,|||REQUIRED|||-NONE-|||0
 
 S None of them are unimportant for us.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 4 5|||R:ADJ|||important|||REQUIRED|||-NONE-|||0
 
 S But I think the invention of electricity is the most important thing among them.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -7891,19 +8066,18 @@ S It also gave us more free time, especially for women.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S It has abosolutly reduced women 's our house working time.
-A 2 3|||R:ADV|||drastically|||REQUIRED|||-NONE-|||0
+A 2 3|||R:ADV|||greatly|||REQUIRED|||-NONE-|||0
 A 4 5|||R:NOUN|||women's working|||REQUIRED|||-NONE-|||0
-A 5 6|||R:OTHER|||time at|||REQUIRED|||-NONE-|||0
+A 5 6|||R:OTHER|||time in|||REQUIRED|||-NONE-|||0
 A 7 8|||R:NOUN|||house.|||REQUIRED|||-NONE-|||0
 A 8 10|||U:OTHER||||||REQUIRED|||-NONE-|||0
 
 S Evenmore we can enjoy our night with lights.
-A 0 1|||R:ORTH|||Even more|||REQUIRED|||-NONE-|||0
+A 0 1|||R:OTHER|||Even so|||REQUIRED|||-NONE-|||0
 
 S If we want do something, we can do it at night same as day.
 A 3 3|||M:VERB:FORM|||to|||REQUIRED|||-NONE-|||0
 A 11 11|||M:DET|||the|||REQUIRED|||-NONE-|||0
-A 12 13|||U:PREP||||||REQUIRED|||-NONE-|||0
 
 S Finally the quality of our life is changed by electricity.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -7982,6 +8156,7 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Inside of the castle is always dark even in daytime.
 A 1 2|||U:PREP||||||REQUIRED|||-NONE-|||0
+A 9 9|||M:DET|||the|||REQUIRED|||-NONE-|||0
 
 S Story
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -7990,7 +8165,7 @@ S It is 500 years old, and it is said to be haunted by a lady ghost.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S She appears occationaly and opens every window in the castle.
-A 2 3|||R:ADV|||openly|||REQUIRED|||-NONE-|||0
+A 2 3|||R:ADV|||regularly|||REQUIRED|||-NONE-|||0
 
 S It is believed that she was a nanny who worked there and fell out of the window.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -8002,6 +8177,7 @@ S Conclusion
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S The ghost story may not be true, but it has good furniture of 16th century, and the castle itself is very beautiful.
+A 12 13|||R:PREP|||from|||REQUIRED|||-NONE-|||0
 A 13 13|||M:DET|||the|||REQUIRED|||-NONE-|||0
 
 S I think it is worth while to see.
@@ -8020,9 +8196,10 @@ S I am sorry to hear that Richard is ill and is unable to attempt the conference
 A 13 14|||R:VERB|||attend|||REQUIRED|||-NONE-|||0
 
 S I hope that these informations below are very useful to you, during your attempt of conference.
+A 4 5|||R:NOUN:INFL|||information|||REQUIRED|||-NONE-|||0
 A 10 11|||R:OTHER|||you|||REQUIRED|||-NONE-|||0
-A 13 15|||U:OTHER||||||REQUIRED|||-NONE-|||0
-A 15 16|||R:NOUN|||conference attempt.|||REQUIRED|||-NONE-|||0
+A 14 15|||R:PART|||to|||REQUIRED|||-NONE-|||0
+A 15 16|||R:OTHER|||attend.|||REQUIRED|||-NONE-|||0
 
 S I have booked a hotel not far off from our school.
 A 7 8|||U:ADV||||||REQUIRED|||-NONE-|||0
@@ -8049,6 +8226,7 @@ A 16 16|||M:DET|||the|||REQUIRED|||-NONE-|||0
 S The best way to get to the conference is to follow along the collage road and turn left toward the end, you than keep going straight, you will eventually see the main entrance of the collage.
 A 20 21|||R:NOUN|||end.|||REQUIRED|||-NONE-|||0
 A 21 22|||R:ORTH|||You|||REQUIRED|||-NONE-|||0
+A 22 23|||R:SPELL|||then|||REQUIRED|||-NONE-|||0
 A 25 26|||R:OTHER|||straight.|||REQUIRED|||-NONE-|||0
 A 26 27|||R:ORTH|||You|||REQUIRED|||-NONE-|||0
 A 33 34|||R:PREP|||to|||REQUIRED|||-NONE-|||0
@@ -8069,7 +8247,7 @@ S The party will be in the dance hall next to the conference room.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S I will suggust them to wear formal clothing, as in tie, trousers and blaser.
-A 2 3|||R:SPELL|||suggestion|||REQUIRED|||-NONE-|||0
+A 2 3|||R:SPELL|||suggest|||REQUIRED|||-NONE-|||0
 A 13 14|||R:NOUN|||trousers.|||REQUIRED|||-NONE-|||0
 
 S For the afternoon free time on the last day.
@@ -8081,8 +8259,6 @@ A 10 11|||R:VERB|||make.|||REQUIRED|||-NONE-|||0
 S They can play tennis, do athletics, swimming. .. and many other sports event in our school, if they want to.
 A 6 7|||R:NOUN|||swim.|||REQUIRED|||-NONE-|||0
 A 12 13|||R:NOUN:NUM|||events|||REQUIRED|||-NONE-|||0
-A 18 19|||R:VERB|||want.|||REQUIRED|||-NONE-|||0
-A 19 20|||U:NOUN||||||REQUIRED|||-NONE-|||0
 
 S Or they can also visit the Epsom Town.
 A 5 6|||U:DET||||||REQUIRED|||-NONE-|||0
@@ -8090,12 +8266,11 @@ A 5 6|||U:DET||||||REQUIRED|||-NONE-|||0
 S There are shops which sales cloths, foods, and books. .. They can decide what they want to do, it 's entirely up to them.
 A 4 5|||R:OTHER|||sell|||REQUIRED|||-NONE-|||0
 A 5 6|||R:NOUN|||clothes,|||REQUIRED|||-NONE-|||0
-A 6 7|||R:OTHER|||food,|||REQUIRED|||-NONE-|||0
 A 17 18|||R:OTHER|||do.|||REQUIRED|||-NONE-|||0
 A 18 20|||R:ORTH|||It's|||REQUIRED|||-NONE-|||0
 
 S I am looking forward to seeing you and hop you have a safe flight over to England.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 8 9|||R:MORPH|||hoping|||REQUIRED|||-NONE-|||0
 
 S Your sincerely,
 A 0 1|||R:PRON|||Yours|||REQUIRED|||-NONE-|||0
@@ -8132,9 +8307,11 @@ S Next to the statue is protected by the guards, the guards will change every fo
 A 7 8|||U:DET||||||REQUIRED|||-NONE-|||0
 
 S Apart from the main Hall, there are also lots of other gallaries.
+A 4 5|||R:ORTH|||hall,|||REQUIRED|||-NONE-|||0
 A 11 12|||R:NOUN|||galleries.|||REQUIRED|||-NONE-|||0
 
 S In these gallaries there are Historical paintings, antique furnitures which Chiang used.
+A 2 3|||R:SPELL|||galleries|||REQUIRED|||-NONE-|||0
 A 8 9|||R:NOUN:INFL|||furniture|||REQUIRED|||-NONE-|||0
 
 S These treasure are very old, even older than the history of America.
@@ -8151,12 +8328,10 @@ S As well as all the treasures, statue and historical paintings. ..
 A 6 7|||R:NOUN:NUM|||statues|||REQUIRED|||-NONE-|||0
 
 S There are also restaurent 's and modern gallaries.
-A 3 5|||R:NOUN:POSS|||restaurents|||REQUIRED|||-NONE-|||0
+A 3 5|||R:OTHER|||restaurant's|||REQUIRED|||-NONE-|||0
 
 S When you are tired after looking around you might want to buy drinks or something to eat, or if you are fed up with historical thing, you migh as well just pop into the modern gallery to see things which are more modern.
 A 25 26|||R:OTHER|||things,|||REQUIRED|||-NONE-|||0
-A 27 28|||R:VERB|||can|||REQUIRED|||-NONE-|||0
-A 28 30|||R:ADV|||also|||REQUIRED|||-NONE-|||0
 
 S Finally, if you went to visit this building I will recommend you to stay at a hotel not far from the momerial Hall called Hyatt Hotel.
 A 12 13|||U:VERB:FORM||||||REQUIRED|||-NONE-|||0
@@ -8180,7 +8355,7 @@ A 12 13|||R:NOUN|||information|||REQUIRED|||-NONE-|||0
 A 19 20|||R:OTHER|||you|||REQUIRED|||-NONE-|||0
 
 S The international student conference will be in the Palace Hotel in Lausanne.
-A 6 7|||R:PREP|||at|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S The Hotel is a big building in the middle of the town near the place" St - François" .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -8204,7 +8379,7 @@ S If you want to stay in Lausanne during your afternoon free, the best thing to 
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S There, you can enjoy the Landscape and have a sunbath.
-A 5 6|||R:ORTH|||landscape|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Your sincerely,
 A 0 1|||R:PRON|||Yours|||REQUIRED|||-NONE-|||0
@@ -8219,7 +8394,7 @@ S It is based on my own experience.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S WHY THE OLYMPIC MUSEUM.
-A 3 4|||R:OTHER|||MUSEUM?|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S The Olympique Museum is situated near the lake and offer, for the tourist, an unbelievable view on the mountains and the lake.
 A 9 10|||R:VERB|||offers,|||REQUIRED|||-NONE-|||0
@@ -8270,7 +8445,7 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S I 'm so happy to help you for this international student conference.
 A 0 2|||R:ORTH|||I'm|||REQUIRED|||-NONE-|||0
-A 7 8|||R:PREP|||at|||REQUIRED|||-NONE-|||0
+A 7 8|||R:PREP|||with|||REQUIRED|||-NONE-|||0
 
 S I 'm afraid for Richard.
 A 0 2|||R:ORTH|||I'm|||REQUIRED|||-NONE-|||0
@@ -8284,6 +8459,8 @@ A 0 2|||R:ORTH|||I'm|||REQUIRED|||-NONE-|||0
 
 S At first, you should know that you are booked into the Palace Hotel that is one of the best in the town.
 A 0 2|||U:PREP|||First,|||REQUIRED|||-NONE-|||0
+A 12 13|||R:NOUN|||Hotel,|||REQUIRED|||-NONE-|||0
+A 13 14|||R:DET|||which|||REQUIRED|||-NONE-|||0
 
 S The access to the conference place is very easy.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -8298,8 +8475,9 @@ S It starts at twenty o'clock until the end of the night, so be ready!
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S There is no special thema for the wearing style but it should be more fun if you wear something crazy. ..
-A 4 5|||R:NOUN|||style|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||theme|||REQUIRED|||-NONE-|||0
 A 7 8|||U:VERB||||||REQUIRED|||-NONE-|||0
+A 9 9|||M:OTHER|||of wearing|||REQUIRED|||-NONE-|||0
 
 S Finally, I propose you to go to the new college swimmingpool on the last day afternoon.
 A 4 5|||U:VERB:FORM||||||REQUIRED|||-NONE-|||0
@@ -8320,9 +8498,8 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 S I will give you some informations on the yverdon 's castle.
 A 5 6|||R:NOUN:INFL|||information|||REQUIRED|||-NONE-|||0
 A 6 7|||R:PREP|||about|||REQUIRED|||-NONE-|||0
-A 8 9|||U:NOUN||||||REQUIRED|||-NONE-|||0
-A 9 10|||R:OTHER|||castle of|||REQUIRED|||-NONE-|||0
-A 10 11|||R:ORTH|||Castle.|||REQUIRED|||-NONE-|||0
+A 8 10|||R:OTHER|||castle|||REQUIRED|||-NONE-|||0
+A 10 10|||M:OTHER|||of the|||REQUIRED|||-NONE-|||0
 
 S This building is one of the oldest that stays in the landscape of the town.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -8334,8 +8511,7 @@ A 18 19|||R:VERB:TENSE|||has|||REQUIRED|||-NONE-|||0
 A 20 21|||R:SPELL|||developed|||REQUIRED|||-NONE-|||0
 
 S Those days, the castle is being remade, so there is a lot of construction engines around it.
-A 4 5|||R:VERB:TENSE|||was|||REQUIRED|||-NONE-|||0
-A 6 7|||R:NOUN|||renovated,|||REQUIRED|||-NONE-|||0
+A 6 7|||R:OTHER|||rebuilt,|||REQUIRED|||-NONE-|||0
 A 9 10|||R:VERB:SVA|||are|||REQUIRED|||-NONE-|||0
 
 S That 's not a big problem because there is a complete museum in it where you can see old pictures of the castle during the centuries.
@@ -8370,10 +8546,9 @@ S First of all, we have already booked the Five - Stars Hotel for your group.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S It is a modern hotel, near our college, and it is also very convenent to come from the airport. You can take both by buses or taxies.
-A 4 5|||R:NOUN|||hotel|||REQUIRED|||-NONE-|||0
 A 13 14|||R:SPELL|||convenient|||REQUIRED|||-NONE-|||0
 A 24 25|||R:NOUN:NUM|||bus|||REQUIRED|||-NONE-|||0
-A 26 27|||R:NOUN|||taxis.|||REQUIRED|||-NONE-|||0
+A 26 27|||R:NOUN|||taxi.|||REQUIRED|||-NONE-|||0
 
 S The nember 101 bus starts from the airport, than you can get off from" city college" stop.
 A 8 9|||R:SPELL|||then|||REQUIRED|||-NONE-|||0
@@ -8381,7 +8556,7 @@ A 13 14|||R:OTHER|||from|||REQUIRED|||-NONE-|||0
 A 14 14|||M:NOUN|||the"|||REQUIRED|||-NONE-|||0
 
 S It would be a great chance to tark part in the party for everyone.
-A 7 8|||R:VERB|||throw|||REQUIRED|||-NONE-|||0
+A 7 8|||R:VERB|||get|||REQUIRED|||-NONE-|||0
 A 8 8|||M:DET|||a|||REQUIRED|||-NONE-|||0
 
 S This is just a relaxing party, just for the members have a chance to relax and make friends.
@@ -8391,7 +8566,7 @@ S So I think you 'd better to wear a dress.
 A 6 7|||U:VERB:FORM||||||REQUIRED|||-NONE-|||0
 
 S Finally, about the free three hours, my personal prefer to go shopping.
-A 8 9|||R:MORPH|||prefers|||REQUIRED|||-NONE-|||0
+A 8 9|||R:OTHER|||preference is|||REQUIRED|||-NONE-|||0
 
 S Our city has got the biggest shoping centre in South England, there gathers so many shops.
 A 6 7|||R:SPELL|||shopping|||REQUIRED|||-NONE-|||0
@@ -8413,12 +8588,11 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Nowdays people have become used to watching televesion 's programs everyday.
 A 0 1|||R:SPELL|||Nowadays|||REQUIRED|||-NONE-|||0
-A 7 9|||R:OTHER|||television televised|||REQUIRED|||-NONE-|||0
-A 9 10|||R:MORPH|||programmes|||REQUIRED|||-NONE-|||0
+A 7 9|||R:OTHER|||television's|||REQUIRED|||-NONE-|||0
 A 10 11|||R:ORTH|||every day.|||REQUIRED|||-NONE-|||0
 
 S The TV is so important that you can see it in every family, and it is a essential equipment for everyone.
-A 16 17|||R:DET|||an|||REQUIRED|||-NONE-|||0
+A 16 17|||U:DET||||||REQUIRED|||-NONE-|||0
 
 S First of al, in my opinion, TV has a great education functions, and also makes the world become small.
 A 2 3|||R:NOUN|||all,|||REQUIRED|||-NONE-|||0
@@ -8431,7 +8605,7 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 S I would rather watching the news on TV in stead of reading in newspaper or hearing on radio because the news on TV are vivid.
 A 3 4|||R:VERB:FORM|||watch|||REQUIRED|||-NONE-|||0
 A 8 10|||R:ORTH|||instead|||REQUIRED|||-NONE-|||0
-A 13 13|||M:DET|||a|||REQUIRED|||-NONE-|||0
+A 13 13|||M:DET|||the|||REQUIRED|||-NONE-|||0
 A 23 24|||R:VERB:SVA|||is|||REQUIRED|||-NONE-|||0
 
 S Moreover, the TV is a great company for the people who live alone or feel alone. I would like to open TV when I stay at home.
@@ -8440,6 +8614,7 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 S Someone are talking, laughting, crying on there, so join them, you will feel much better than just yourself.
 A 1 2|||R:VERB:SVA|||is|||REQUIRED|||-NONE-|||0
 A 3 4|||R:NOUN|||laughing,|||REQUIRED|||-NONE-|||0
+A 5 6|||U:PREP||||||REQUIRED|||-NONE-|||0
 
 S Some TV programs are enjouable!
 A 4 5|||R:ADJ|||enjoyable!|||REQUIRED|||-NONE-|||0
@@ -8470,7 +8645,6 @@ S I am writing to you to give you more informations about an international stude
 A 9 10|||R:NOUN:INFL|||information|||REQUIRED|||-NONE-|||0
 
 S The group has been booked into King Hotel at High Street which is very easy to find.
-A 6 6|||M:DET|||the|||REQUIRED|||-NONE-|||0
 A 10 11|||R:OTHER|||Street,|||REQUIRED|||-NONE-|||0
 
 S And the best way to get from there to the conference is following the rod in front of the hotel to the right, then cross the zebra crossing to the opposite side.
@@ -8499,21 +8673,21 @@ S Dear Mr. Bill,
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S I am writing to give an information on a very interesting building to visit.
+A 5 6|||R:OTHER|||you|||REQUIRED|||-NONE-|||0
 A 7 8|||R:PREP|||about|||REQUIRED|||-NONE-|||0
 
 S It is called Penrhyh Castle, as the building will tell you all about Wales.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S On the positive side, you and the group will be abe to learn more about Welsh art works which are presented on the wall, on the door and some furnitures.
-A 10 11|||U:ADJ||||||REQUIRED|||-NONE-|||0
-A 11 13|||R:VERB:FORM|||learning|||REQUIRED|||-NONE-|||0
+A 10 11|||R:SPELL|||able|||REQUIRED|||-NONE-|||0
 A 29 30|||R:OTHER|||furniture.|||REQUIRED|||-NONE-|||0
 
 S The building itself looks splendid and beautiful.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S On the other hand, you might find something which is very boring such as walking along the old wooden floor which causes some noise.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 19 20|||R:NOUN|||floor,|||REQUIRED|||-NONE-|||0
 
 S And some old toilets might look awlful.
 A 6 7|||R:ADJ|||awful.|||REQUIRED|||-NONE-|||0
@@ -8548,16 +8722,15 @@ A 7 8|||R:OTHER|||give you|||REQUIRED|||-NONE-|||0
 
 S Firstly, we 've booked Palace Hotel, which is located in Central.
 A 2 3|||U:CONTR||||||REQUIRED|||-NONE-|||0
-A 4 4|||M:DET|||the|||REQUIRED|||-NONE-|||0
 
 S The best way to get from the hotel to the conference its using tube because it takes only 20 mininute.
 A 11 12|||R:SPELL|||is|||REQUIRED|||-NONE-|||0
+A 12 12|||M:PREP|||by|||REQUIRED|||-NONE-|||0
 A 13 13|||M:DET|||a|||REQUIRED|||-NONE-|||0
 A 19 20|||R:NOUN|||minutes.|||REQUIRED|||-NONE-|||0
 
 S The tube is 2 line which is red colour.
-A 4 5|||R:NOUN:NUM|||lines|||REQUIRED|||-NONE-|||0
-A 6 7|||R:VERB:SVA|||are|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOUN|||lines,|||REQUIRED|||-NONE-|||0
 
 S And your speach would be better for the end of conference party.
 A 2 3|||R:NOUN|||particularity|||REQUIRED|||-NONE-|||0
@@ -8592,7 +8765,6 @@ A 0 2|||R:ORTH|||It's|||REQUIRED|||-NONE-|||0
 
 S However, I 'd say computer is more amazing invention rather than another inventions such as the telephone, the car.
 A 4 4|||M:DET|||the|||REQUIRED|||-NONE-|||0
-A 9 10|||U:ADV||||||REQUIRED|||-NONE-|||0
 A 11 12|||R:DET|||other|||REQUIRED|||-NONE-|||0
 
 S Recently computer is really necessary and we ca n't manage to work without them.
@@ -8602,7 +8774,7 @@ A 7 9|||R:ORTH|||can't|||REQUIRED|||-NONE-|||0
 S Not only is for bussiness, but also in for my life.
 A 3 3|||M:PRON|||it|||REQUIRED|||-NONE-|||0
 A 4 5|||R:OTHER|||convenience,|||REQUIRED|||-NONE-|||0
-A 8 9|||U:PREP||||||REQUIRED|||-NONE-|||0
+A 7 8|||U:PREP||||||REQUIRED|||-NONE-|||0
 
 S For instance, when I want to contanct with to my friend, it 's quite helpful by using e - mail.
 A 6 7|||R:VERB|||communicate|||REQUIRED|||-NONE-|||0
@@ -8618,6 +8790,7 @@ A 19 21|||U:PREP||||||REQUIRED|||-NONE-|||0
 S And also it 's time to make new system which makes us use easier and more simple, so far more people can enjoy computer more than before.
 A 2 4|||R:ORTH|||it's|||REQUIRED|||-NONE-|||0
 A 7 7|||M:DET|||a|||REQUIRED|||-NONE-|||0
+A 8 9|||R:NOUN|||system,|||REQUIRED|||-NONE-|||0
 A 23 23|||M:DET|||the|||REQUIRED|||-NONE-|||0
 
 S Despite amazing invention, some times computer makes big problem, such as millennium bug ( some people called" 2000 problem" ), because computer not flexible enough like a human 's brain.
@@ -8625,13 +8798,16 @@ A 3 5|||R:ORTH|||sometimes|||REQUIRED|||-NONE-|||0
 A 5 6|||R:NOUN:NUM|||computers|||REQUIRED|||-NONE-|||0
 A 6 7|||R:VERB|||have|||REQUIRED|||-NONE-|||0
 A 8 9|||R:NOUN|||problems,|||REQUIRED|||-NONE-|||0
+A 11 11|||M:DET|||the|||REQUIRED|||-NONE-|||0
 A 16 17|||R:VERB|||call"|||REQUIRED|||-NONE-|||0
 A 21 22|||R:NOUN:NUM|||computers|||REQUIRED|||-NONE-|||0
 A 22 22|||M:VERB|||are|||REQUIRED|||-NONE-|||0
-A 27 29|||R:ORTH|||human's|||REQUIRED|||-NONE-|||0
+A 26 27|||U:DET||||||REQUIRED|||-NONE-|||0
+A 28 29|||U:NOUN:POSS||||||REQUIRED|||-NONE-|||0
+A 29 30|||R:NOUN|||brains.|||REQUIRED|||-NONE-|||0
 
 S However, computer is worth to use in our life until more coveniance machine will be invented.
-A 1 1|||M:DET|||the|||REQUIRED|||-NONE-|||0
+A 1 1|||M:DET|||a|||REQUIRED|||-NONE-|||0
 A 10 10|||M:DET|||a|||REQUIRED|||-NONE-|||0
 A 11 12|||R:SPELL|||convenient|||REQUIRED|||-NONE-|||0
 
@@ -8670,7 +8846,7 @@ A 4 6|||R:VERB:FORM|||wears|||REQUIRED|||-NONE-|||0
 A 6 7|||U:DET||||||REQUIRED|||-NONE-|||0
 
 S Finally, I would recommend you and your group to enjoy shopping and sightseeing around Oxford Street and nearby.
-A 8 9|||U:VERB:FORM||||||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S I look forward to see you and your group soon.
 A 4 5|||R:VERB:FORM|||seeing|||REQUIRED|||-NONE-|||0
@@ -8689,7 +8865,7 @@ S Re: The Barbican Centre.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S As you requested which is the interesting building to visit. I would strongly recommend the Barbican Centre building in the city.
-A 9 10|||R:OTHER|||visit,|||REQUIRED|||-NONE-|||0
+A 2 3|||R:VERB|||requested,|||REQUIRED|||-NONE-|||0
 
 S It located in the city and the nearest tube station is Moorgate Station.
 A 1 1|||M:VERB:TENSE|||is|||REQUIRED|||-NONE-|||0
@@ -8704,10 +8880,11 @@ S There are also world stock market exchange, an opera theatre, shopping arcades
 A 3 3|||M:DET|||the|||REQUIRED|||-NONE-|||0
 
 S It also held an internation exhibition all year round.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 4 5|||R:SPELL|||internship|||REQUIRED|||-NONE-|||0
 
 S Recently, the exhibition of africa just finished.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 2 2|||M:ADJ|||african|||REQUIRED|||-NONE-|||0
+A 3 5|||U:OTHER||||||REQUIRED|||-NONE-|||0
 
 S The opening time starts from 7. 30 AM. till late at night when the theatre is closed.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -8731,7 +8908,7 @@ S Dear Mrs Maria Smith
 A 2 3|||U:NOUN||||||REQUIRED|||-NONE-|||0
 
 S Thank you for your letter which arrived me this morning.
-A 7 7|||M:PREP|||at|||REQUIRED|||-NONE-|||0
+A 7 7|||M:PREP|||to|||REQUIRED|||-NONE-|||0
 
 S Of course it is a pity that Mr. Brown has been ill, but we are happy that you are comeing now.
 A 19 20|||R:VERB:INFL|||coming|||REQUIRED|||-NONE-|||0
@@ -8752,13 +8929,14 @@ S You will leave the bus at, , Royal gardens" .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Turn left and go straight to, , Baker street" At the need of this street there is the house number 18.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 5 6|||R:OTHER|||to|||REQUIRED|||-NONE-|||0
+A 6 7|||U:PUNCT||||||REQUIRED|||-NONE-|||0
 
 S This is our college.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S You wish to know all about, , the end - of - conference party.
-A 9 10|||U:PUNCT||||||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S As far as I can see there will be only a little dinner and a group of young singers will surprise us by their songs.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -8767,7 +8945,7 @@ S Moreover you asked what to wear. Do not bother.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S I would recommend you wearing some casual clothes, like a jeans, a blouse or a skirt and a jacket.
-A 9 10|||U:DET||||||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Donnot forget to wear a pair of comfortable shoes, because you will not have chance to change it.
 A 0 1|||R:SPELL|||Don't|||REQUIRED|||-NONE-|||0
@@ -8782,6 +8960,7 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Furthemore there is the zoo with a lot of different animals, located to walk within five minutes.
 A 0 1|||R:SPELL|||Furthermore|||REQUIRED|||-NONE-|||0
+A 11 11|||M:OTHER|||which are|||REQUIRED|||-NONE-|||0
 
 S Lastly there is also a very old and famous church, with many coloured windows.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -8800,7 +8979,6 @@ A 2 2|||M:VERB|||is|||REQUIRED|||-NONE-|||0
 
 S In my early childhood my mother said to me that when she has been a litte girl there has been only one telephone in the house where she had lived.
 A 12 14|||R:VERB:TENSE|||was|||REQUIRED|||-NONE-|||0
-A 15 16|||R:ADJ|||young|||REQUIRED|||-NONE-|||0
 A 18 20|||R:VERB:TENSE|||was|||REQUIRED|||-NONE-|||0
 
 S It has been in her parents ' appartement.
@@ -8821,6 +8999,10 @@ A 6 7|||R:PART|||to|||REQUIRED|||-NONE-|||0
 
 S Firstly people are able to talk to person on every time. Be it: just for fun or also to discuss some important and relevant thins.
 A 7 9|||R:OTHER|||people|||REQUIRED|||-NONE-|||0
+A 10 11|||R:NOUN|||time,|||REQUIRED|||-NONE-|||0
+A 11 12|||R:OTHER|||whether|||REQUIRED|||-NONE-|||0
+A 12 13|||R:OTHER|||it|||REQUIRED|||-NONE-|||0
+A 13 13|||M:VERB|||is|||REQUIRED|||-NONE-|||0
 
 S Moreover we always can call for help to the police, to the hospital or to a doctor.
 A 7 8|||R:PREP|||from|||REQUIRED|||-NONE-|||0
@@ -8848,7 +9030,7 @@ S Another point of disadvantage is that the mobile phones are ringing. everywher
 A 10 11|||R:OTHER|||ringing|||REQUIRED|||-NONE-|||0
 
 S Especially youngsters misuse this kind of invention.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 0 1|||R:OTHER|||In particular|||REQUIRED|||-NONE-|||0
 
 S To sum up this invention is one of the most useful things.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -8861,7 +9043,6 @@ A 2 3|||U:NOUN||||||REQUIRED|||-NONE-|||0
 
 S thankyou for your letter, wich arrived yesterday.
 A 0 1|||R:ORTH|||thank you|||REQUIRED|||-NONE-|||0
-A 3 4|||R:NOUN|||letter|||REQUIRED|||-NONE-|||0
 A 4 5|||R:SPELL|||which|||REQUIRED|||-NONE-|||0
 
 S I hope to give you, all the information need and please, if you want more information or somenthing is not clear, please do n't esitate to contact me again.
@@ -8900,17 +9081,21 @@ A 22 22|||M:DET|||the|||REQUIRED|||-NONE-|||0
 A 22 23|||R:NOUN|||world|||REQUIRED|||-NONE-|||0
 
 S I suggest for that conference to wear somenthing very confortable but elegant, the organisation want for all boys wear jacket, the tie is not necessary.
+A 2 3|||R:PREP|||that|||REQUIRED|||-NONE-|||0
+A 3 3|||M:PREP|||at|||REQUIRED|||-NONE-|||0
+A 5 6|||R:OTHER|||you|||REQUIRED|||-NONE-|||0
 A 7 8|||R:SPELL|||something|||REQUIRED|||-NONE-|||0
 A 9 10|||R:SPELL|||comfortable|||REQUIRED|||-NONE-|||0
 A 11 12|||R:OTHER|||elegant.|||REQUIRED|||-NONE-|||0
 A 12 13|||R:ORTH|||The|||REQUIRED|||-NONE-|||0
-A 15 16|||U:PREP||||||REQUIRED|||-NONE-|||0
 A 18 18|||M:VERB:FORM|||to|||REQUIRED|||-NONE-|||0
 A 19 19|||M:DET|||a|||REQUIRED|||-NONE-|||0
+A 19 20|||R:NOUN|||jacket.|||REQUIRED|||-NONE-|||0
+A 20 21|||R:ORTH|||The|||REQUIRED|||-NONE-|||0
 
 S I do n't know rely what you can see, three hours I think is not enough but near the station there is a beautiful garden popular for its variety of flowers.
 A 1 3|||R:ORTH|||don't|||REQUIRED|||-NONE-|||0
-A 5 5|||M:PREP|||on|||REQUIRED|||-NONE-|||0
+A 4 5|||U:VERB||||||REQUIRED|||-NONE-|||0
 A 8 9|||R:VERB|||see.|||REQUIRED|||-NONE-|||0
 A 9 10|||R:ORTH|||Three|||REQUIRED|||-NONE-|||0
 
@@ -8938,7 +9123,7 @@ A 11 12|||R:NOUN|||architecture.|||REQUIRED|||-NONE-|||0
 
 S It is somenthing very particular, its paviment made from many small pecis of wood, its windows with many colours, it is fantastic.
 A 2 3|||R:SPELL|||something|||REQUIRED|||-NONE-|||0
-A 6 7|||R:NOUN|||plight|||REQUIRED|||-NONE-|||0
+A 6 7|||R:NOUN|||design|||REQUIRED|||-NONE-|||0
 A 11 12|||R:SPELL|||pieces|||REQUIRED|||-NONE-|||0
 
 S It was built on the top of the hill and around there is only a huge field.
@@ -8947,12 +9132,14 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 S You can arrive here wolking because the bus stop just on the bottom of the hill.
 A 3 4|||R:OTHER|||here,|||REQUIRED|||-NONE-|||0
 A 9 9|||M:VERB|||is|||REQUIRED|||-NONE-|||0
-A 10 11|||R:PREP|||at|||REQUIRED|||-NONE-|||0
 
 S But really you must see it, the position of the cathedral give you a somenthing special a big tranquility.
+A 5 6|||R:NOUN|||it.|||REQUIRED|||-NONE-|||0
+A 6 7|||R:ORTH|||The|||REQUIRED|||-NONE-|||0
 A 11 12|||R:VERB:SVA|||gives|||REQUIRED|||-NONE-|||0
-A 13 14|||R:DET|||some|||REQUIRED|||-NONE-|||0
-A 14 15|||R:OTHER|||kind of|||REQUIRED|||-NONE-|||0
+A 13 14|||U:DET||||||REQUIRED|||-NONE-|||0
+A 14 15|||R:SPELL|||something|||REQUIRED|||-NONE-|||0
+A 16 16|||M:CONJ|||and|||REQUIRED|||-NONE-|||0
 
 S I hope you like it.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -8991,6 +9178,7 @@ S Finaly, concerning your free afternoon, there are plenty of activities, but I 
 A 0 1|||R:OTHER|||Finally,|||REQUIRED|||-NONE-|||0
 A 13 14|||R:OTHER|||you|||REQUIRED|||-NONE-|||0
 A 14 15|||U:VERB:FORM||||||REQUIRED|||-NONE-|||0
+A 18 19|||R:SPELL|||center,|||REQUIRED|||-NONE-|||0
 A 19 20|||R:SPELL|||which|||REQUIRED|||-NONE-|||0
 A 25 26|||R:NOUN|||centre.|||REQUIRED|||-NONE-|||0
 
@@ -9007,7 +9195,6 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 S In your previous letter you asked information about interesting building to visit in my country.
 A 6 6|||M:PREP|||for|||REQUIRED|||-NONE-|||0
 A 8 8|||M:DET|||an|||REQUIRED|||-NONE-|||0
-A 12 13|||U:PREP||||||REQUIRED|||-NONE-|||0
 
 S There are plenty of churchs, cathedrals, and olds cotages.
 A 4 5|||R:NOUN|||churches,|||REQUIRED|||-NONE-|||0
@@ -9016,9 +9203,9 @@ A 8 8|||M:OTHER|||- age|||REQUIRED|||-NONE-|||0
 
 S The churchs and the cathedral are very intesting because of their differents romanics styles.
 A 1 2|||R:NOUN:INFL|||churches|||REQUIRED|||-NONE-|||0
-A 7 8|||R:SPELL|||inspiring|||REQUIRED|||-NONE-|||0
+A 7 8|||R:SPELL|||interesting|||REQUIRED|||-NONE-|||0
 A 11 12|||R:MORPH|||different|||REQUIRED|||-NONE-|||0
-A 12 13|||R:MORPH|||Romanic|||REQUIRED|||-NONE-|||0
+A 12 13|||R:SPELL|||Romantic|||REQUIRED|||-NONE-|||0
 
 S I suggest you visit first the cathedral of" Le Seu d'Mrgell" because it is the most emblematic building in the area.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -9056,12 +9243,13 @@ S The conference will take place not far from the hotel so you will see indicati
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S For the conference, I suggest you to wear a beautiful dress, because there will be important persons of others colleges.
+A 0 1|||R:PREP|||Regarding|||REQUIRED|||-NONE-|||0
 A 6 7|||U:VERB:FORM||||||REQUIRED|||-NONE-|||0
 A 16 17|||R:NOUN|||people|||REQUIRED|||-NONE-|||0
 A 18 19|||R:MORPH|||other|||REQUIRED|||-NONE-|||0
 
 S At the end of the conference, all students and leader will have a drink.
-A 9 9|||M:DET|||the|||REQUIRED|||-NONE-|||0
+A 9 10|||R:NOUN:NUM|||leaders|||REQUIRED|||-NONE-|||0
 
 S To finish, if you have spare time, you could walk on the center of Poitiers which is very beautiful.
 A 10 11|||R:PREP|||in|||REQUIRED|||-NONE-|||0
@@ -9069,7 +9257,7 @@ A 12 13|||R:SPELL|||centre|||REQUIRED|||-NONE-|||0
 A 14 15|||R:NOUN|||Poitiers,|||REQUIRED|||-NONE-|||0
 
 S I hope I give you enough details.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 3 3|||M:VERB:TENSE|||will|||REQUIRED|||-NONE-|||0
 
 S I look forward to meeting you on the conference.
 A 6 7|||R:PREP|||at|||REQUIRED|||-NONE-|||0
@@ -9104,7 +9292,7 @@ S Another good point, if you go there you will have an extraordinary view on the
 A 13 14|||R:PREP|||of|||REQUIRED|||-NONE-|||0
 
 S So if you visit Paris, the Pompidou 's center is a very interesting building to visit, even if in Paris there are many others buildings.
-A 7 8|||U:NOUN:POSS||||||REQUIRED|||-NONE-|||0
+A 6 8|||R:ORTH|||Pompidou's|||REQUIRED|||-NONE-|||0
 A 8 9|||R:SPELL|||centre|||REQUIRED|||-NONE-|||0
 A 23 24|||R:MORPH|||other|||REQUIRED|||-NONE-|||0
 
@@ -9149,12 +9337,13 @@ S Yours sincerely
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S As it is widely known, lots of different and important things were invented during the 20th century, nevertheless I believe that the most important one is the computer.
-A 17 18|||R:ADV|||nevertheless,|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S It is a fact, that the modern society have created the demand for the ability to cope with the vast amounts of information.
 A 3 4|||R:NOUN|||fact|||REQUIRED|||-NONE-|||0
 A 5 6|||U:DET||||||REQUIRED|||-NONE-|||0
 A 8 9|||R:VERB:SVA|||has|||REQUIRED|||-NONE-|||0
+A 10 11|||R:DET|||a|||REQUIRED|||-NONE-|||0
 
 S Taking it into consideration I would like to say that the computer is the priceless invention for an accountants, designers, engineers and so on and on.
 A 13 14|||R:DET|||a|||REQUIRED|||-NONE-|||0
@@ -9164,7 +9353,7 @@ S Another point in favour is the possibility to connect to the Internet.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S It allows you to have all the necessary information" on your fingertips" .
-A 9 10|||R:PREP|||at|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Also not least importantly is the role of computers in the process of production in factories around the world.
 A 3 4|||R:MORPH|||important|||REQUIRED|||-NONE-|||0
@@ -9210,7 +9399,7 @@ S Your group is staying at the Palace Hotel, which is located directly in front 
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S To go to the conference from your hotel is really easy.
-A 0 2|||R:VERB:FORM|||Going|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S You have to take the bus number 1 and get off at" Black House" , which is the third stop.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -9247,7 +9436,7 @@ S In order to write this report, I spent hours in this wonderful museum.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S There, I saw the exibitions and admired the building itself.
-A 4 5|||R:SPELL|||exhibitions|||REQUIRED|||-NONE-|||0
+A 4 5|||R:NOUN|||objects|||REQUIRED|||-NONE-|||0
 
 S I walked around the garden too.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -9259,7 +9448,7 @@ S The museum is located in Ouchy, in front of the" Delamuraz Hotel" .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S It is close to the main road, and at 300 meters of the station.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 11 12|||R:PREP|||from|||REQUIRED|||-NONE-|||0
 
 S Outside
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -9271,7 +9460,7 @@ S It has two floors.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Before going inside, you have to pas through the huge garden.
-A 6 7|||R:VERB|||walk|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S There, ponds, pools, trees, flowers and ducks can be admired.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -9287,7 +9476,7 @@ S When you are inside the museum, you will be impressed by the paintings on the 
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S There were all painting during the war by nurses.
-A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
+A 3 4|||R:MORPH|||paintings|||REQUIRED|||-NONE-|||0
 
 S If you go down a few steps, you will discover the ceilar.
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
