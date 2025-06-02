@@ -18,4 +18,4 @@ MEDICAL_PROMPT_PATH = os.path.join(os.getcwd(), "config/prompt_medical.txt")
 GENERAL_PROMPT_PATH = os.path.join(os.getcwd(), "config/prompt_general.txt")
 LLAMA3_ENDPOINT = "http://127.0.0.1:11434/api/generate"
 TEXT_TO_REPLACE_IN_PROMPT = "<text_to_replace>"
-FINAL_MODEL_DIR = os.path.join(os.getcwd(), "models/finished")
+FINAL_MODEL_DIR = os.path.join(os.getcwd(), "models/improved")
